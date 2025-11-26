@@ -1,4 +1,4 @@
-# MCP工具使用与交互规则指南
+﻿# MCP工具使用与交互规则指南
 # 本规则文件与spec-kit框架规则配合使用，不替代原有spec-kit工作流程，而是增强交互质量和工具使用效率
 ## AI PROCESSING INSTRUCTIONS
 这是MCP（Model Context Protocol）工具使用的专门规则文件。作为AI助手，你必须：
