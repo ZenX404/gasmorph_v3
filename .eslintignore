@@ -1,0 +1,14 @@
+# Dependencies and build artifacts
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+
+# Generated/compiled
+*.min.js
+*.tsbuildinfo
+
+# Env/config
+.env*

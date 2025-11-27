@@ -7,19 +7,6 @@
 
 ## User Scenarios & Testing *(mandatory)*
 
-<!--
-  IMPORTANT: User stories should be PRIORITIZED as user journeys ordered by importance.
-  Each user story/journey must be INDEPENDENTLY TESTABLE - meaning if you implement just ONE of them,
-  you should still have a viable MVP (Minimum Viable Product) that delivers value.
-  
-  Assign priorities (P1, P2, P3, etc.) to each story, where P1 is the most critical.
-  Think of each story as a standalone slice of functionality that can be:
-  - Developed independently
-  - Tested independently
-  - Deployed independently
-  - Demonstrated to users independently
--->
-
 ### User Story 1 - 首屏展示与钱包登录 (Priority: P1)
 
 访客打开项目落地页，看到项目价值主张和“连接钱包”入口，完成钱包授权后看到已登录状态和钱包标识。
@@ -65,14 +52,7 @@
 
 ---
 
-[Add more user stories as needed, each with an assigned priority]
-
 ### Edge Cases
-
-<!--
-  ACTION REQUIRED: The content in this section represents placeholders.
-  Fill them out with the right edge cases.
--->
 
 - 用户无可用钱包或未安装钱包扩展时的提示与引导。
 - 用户拒绝授权、关闭钱包弹窗或授权超时时的反馈。
@@ -80,11 +60,6 @@
 - 移动端访问或深链到钱包 App 时的兼容提示。
 
 ## Requirements *(mandatory)*
-
-<!--
-  ACTION REQUIRED: The content in this section represents placeholders.
-  Fill them out with the right functional requirements.
--->
 
 ### Functional Requirements
 
@@ -104,11 +79,6 @@
 - **钱包身份**：用户授权后可读取的公开地址及简要标识，用于展示与后续操作入口。
 
 ## Success Criteria *(mandatory)*
-
-<!--
-  ACTION REQUIRED: Define measurable success criteria.
-  These must be technology-agnostic and measurable.
--->
 
 ### Measurable Outcomes
 

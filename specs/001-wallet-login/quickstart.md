@@ -4,10 +4,10 @@
 1) Node.js 20+，npm/pnpm 任一。  
 2) 安装依赖：`npm install`。  
 3) 复制 `.env.example` -> `.env.local`，填写：
-   - `NEXT_PUBLIC_SEPOLIA_RPC_URL`（公开测试网 RPC，可使用公共节点）  
-   - `NEXT_PUBLIC_MONAD_TESTNET_RPC_URL`（测试网 RPC，若未定可留空并暂不启用）  
+   - `NEXT_PUBLIC_SEPOLIA_RPC_URL`（公开测试网 RPC，可使用公共节点）
+   - `NEXT_PUBLIC_MONAD_TESTNET_RPC_URL`（测试网 RPC，若未定可留空并暂不启用）
    - `NEXT_PUBLIC_APP_NAME`、`NEXT_PUBLIC_APP_DESC`（展示文案）
-4) 可选：本地链 `anvil`（Foundry）用于 E2E/模拟，命令：`anvil --chain-id 31337`.
+4) 可选：本地链 `anvil`（Foundry）用于 E2E/模拟，命令：`anvil --chain-id 31337 --port 8545`。
 
 ## 运行开发环境
 ```bash
@@ -22,10 +22,14 @@ npm run dev
 - 合约（若有）：`forge test --gas-report`
 
 ## 钱包/网络说明
-- 默认支持：Sepolia (11155111)、Monad 测试网 (20143 待确认)、本地 anvil (31337)。
-- 不支持网络时，会提示切换；拒绝授权会保持未登录状态并提示错误。
+- 默认支持：Sepolia (chainId 11155111)、Monad 测试网 (chainId 20143，若官方有更新请同步)、本地 anvil (chainId 31337)。
+- 不支持网络时，会提示切换；拒绝授权会保持未登录并提示错误。
+
+## 隐私与安全提示
+- 前端不会收集或存储私钥；仅在用户授权后读取公开账户信息。
+- 请勿将任何私钥/助记词/RPC 机密写入仓库，环境变量仅存放公开 RPC/文案。
 
 ## 预期体验
 - 首屏展示项目/简历摘要 + 连接钱包按钮。
 - 连接成功后显示钱包地址/标识；刷新后自动恢复或提示重连。
-- 账户/网络切换实时更新状态；可随时断开。
+- 账户/网络切换实时更新状态；可随时断开。***

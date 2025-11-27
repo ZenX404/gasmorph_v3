@@ -8,7 +8,7 @@
 ## Summary
 
 - 目标：搭建首屏落地页，完成钱包连接/断开与状态保持（刷新、账户/网络切换），展示项目/简历摘要与后续行动入口。
-- 技术路径：Next.js App Router + 全仓 TypeScript；RainbowKit + wagmi/viem（支持 Sepolia、Monad 测试网、Foundry 本地 anvil）；UI 采用简洁现代的暗色渐变 + 玻璃拟态卡片；测试覆盖组件、Playwright E2E、Foundry 本地链模拟。
+-, 技术路径：Next.js App Router + 全仓 TypeScript；RainbowKit + wagmi/viem（支持 Sepolia、Monad 测试网、Foundry 本地 anvil）；UI 采用简洁现代的暗色渐变 + 玻璃拟态卡片；测试覆盖组件、Playwright E2E、Foundry 本地链模拟。
 
 ## Technical Context
 
@@ -26,7 +26,7 @@
 
 - 密钥与安全：禁止私钥/助记词/RPC Key 入仓；`.env.example` 同步；前端不持有生产私钥，测试使用独立账户；RainbowKit/wagmi 配置中不写死敏感信息。  
 - 类型与质量：全仓库 TypeScript，无 `any/unknown` 漏洞；`npm run lint`、`npm run typecheck`、`npm test`、`forge test --gas-report`（合约存在时）为合并门禁。  
-- 链上交互：固定 chainId 校验（Sepolia 11155111；Monad 测试网暂定 20143，若官方更新再调整）；使用类型安全 ABI；连接/断开/错误需有状态提示。  
+- 链上交互：固定 chainId 校验（Sepolia 11155111；Monad 测试网 20143，若官方更新再调整，可通过环境变量覆盖）；使用类型安全 ABI；连接/断开/错误需有状态提示。  
 - 合约与测试：Foundry 作为唯一合约框架；交易生命周期与复现记录在补贴阶段落实。  
 - 观测与版本：结构化日志记录连接状态/链 ID/账户（公开信息）；遵循 SemVer。
 

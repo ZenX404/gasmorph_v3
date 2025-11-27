@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GasMorph v3 Dapp（Wallet 登录与初始落地页）
 
-## Getting Started
+基于 Next.js App Router 的 Web3 展示项目，当前阶段聚焦测试网钱包登录与落地页体验（Sepolia、Monad 测试网、本地 anvil）。
 
-First, run the development server:
+## 快速开始
 
 ```bash
+npm install
+cp .env.example .env.local  # 填写公开 RPC 与文案
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 打开 http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+环境变量（仅放公开信息）：
+- `NEXT_PUBLIC_SEPOLIA_RPC_URL`
+- `NEXT_PUBLIC_MONAD_TESTNET_RPC_URL`（可留空，未定时不启用）
+- `NEXT_PUBLIC_APP_NAME`、`NEXT_PUBLIC_APP_DESC`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 测试
+- 单元/组件：`npm test`
+- 类型检查：`npm run typecheck`
+- E2E：`npx playwright test`（需运行 dev，或用 Playwright MCP 远程驱动）
+- 合约（若有）：`forge test --gas-report`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 钱包与网络
+- 支持链：Sepolia (11155111)、Monad 测试网 (20143，若官方更新请同步)、本地 anvil (31337)。
+- 不支持网络会提示切换；拒绝授权保持未登录并提示错误。
 
-## Learn More
+## 隐私与安全
+- 前端不会收集或存储私钥，仅在用户授权后读取公开账户信息。
+- 禁止将私钥/助记词/RPC 机密提交到仓库；`.env.example` 仅含公开项。
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 贡献
+修改入口：`app/page.tsx`、`app/components/*`。执行 `npm run lint && npm run typecheck && npm test` 确认无报错；合约存在时执行 `forge test --gas-report`。***
