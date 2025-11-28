@@ -1,4 +1,4 @@
-# Implementation Plan: Wallet 登录与初始落地页
+﻿# Implementation Plan: Wallet 登录与初始落地页
 
 **Branch**: `001-wallet-login` | **Date**: 2025-11-26 | **Spec**: specs/001-wallet-login/spec.md  
 **Input**: Feature specification from `/specs/001-wallet-login/spec.md`
@@ -7,8 +7,8 @@
 
 ## Summary
 
-- 目标：搭建首屏落地页，完成钱包连接/断开与状态保持（刷新、账户/网络切换），展示项目/简历摘要与后续行动入口。
--, 技术路径：Next.js App Router + 全仓 TypeScript；RainbowKit + wagmi/viem（支持 Sepolia、Monad 测试网、Foundry 本地 anvil）；UI 采用简洁现代的暗色渐变 + 玻璃拟态卡片；测试覆盖组件、Playwright E2E、Foundry 本地链模拟。
+- 目标：搭建首屏落地页，完成钱包连接/断开与状态保持（刷新、账户/网络切换），展示项目摘要与后续行动入口。
+- 技术路径：Next.js App Router + 全仓 TypeScript；RainbowKit + wagmi/viem（支持 Sepolia、Monad 测试网、Foundry 本地 anvil）；UI 采用简洁现代的暗色渐变 + 玻璃拟态卡片；测试覆盖组件、Playwright E2E、Foundry 本地链模拟。
 
 ## Technical Context
 

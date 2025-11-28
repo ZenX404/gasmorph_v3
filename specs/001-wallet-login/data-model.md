@@ -33,7 +33,7 @@
 
 ### 展示摘要 (ShowcaseSummary)
 - **字段**：
-  - `headline`：项目/简历主标题。
+  - `headline`：项目主标题。
   - `bullets`：3-5 条卖点/能力点。
   - `ctaLinks`：如“查看详情”“联系”。
 - **规则**：
