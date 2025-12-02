@@ -1,35 +1,40 @@
-# GasMorph v3 Dapp（Wallet 登录与初始落地页）
+# GasMorph v3 Dapp（Gas 补贴演示）
 
-基于 Next.js App Router 的 Web3 展示项目，当前阶段聚焦测试网钱包登录与落地页体验（Sepolia、Monad 测试网、本地 anvil）。
+基于 Next.js App Router 的 Web3 演示项目，聚焦测试网钱包登录与 Gas 补贴体验（Sepolia、Monad 测试网、本地 anvil）。
 
 ## 快速开始
-
 ```bash
 npm install
-cp .env.example .env.local  # 填写公开 RPC 与文案
+cp .env.example .env.local   # 填写公开 RPC，占位留空，真实私钥仅放 .env.local（不入库）
 npm run dev
-# 打开 http://localhost:3000
+# 访问 http://localhost:3000/subsidy
 ```
+更多细节见 `specs/001-gas-subsidy/quickstart.md`。
 
-环境变量（仅放公开信息）：
+## 环境变量（仅放公开信息）
+- `NEXT_PUBLIC_ANVIL_RPC_URL`
 - `NEXT_PUBLIC_SEPOLIA_RPC_URL`
-- `NEXT_PUBLIC_MONAD_TESTNET_RPC_URL`（可留空，未定时不启用）
+- `NEXT_PUBLIC_MONAD_TESTNET_RPC_URL`（可留空，未配则不启用）
 - `NEXT_PUBLIC_APP_NAME`、`NEXT_PUBLIC_APP_DESC`
+- `BUNDLER_RPC_URL`、`PAYMASTER_RPC_URL`、`SPONSOR_PRIVATE_KEY`（仅本地/测试网，勿提交）
+
+> 推荐使用 `scripts/set-env.ps1` 生成/更新 `.env.local`（仅本地保存，勿入库）。
+
+## 链与钱包
+- 支持链：Sepolia (11155111)、Monad 测试网 (20143)、本地 anvil (1337)
+- 本地 anvil 示例：`anvil --chain-id 1337 --port 8545 --accounts 10 --balance 10000 --mnemonic "test test ... junk"`
+- 不支持的网络会提示切换；拒绝授权保持未登录并提示错误
 
 ## 测试
-- 单元/组件：`npm test`
 - 类型检查：`npm run typecheck`
-- E2E：`npx playwright test`（需运行 dev，或用 Playwright MCP 远程驱动）
-- 合约（若有）：`forge test --gas-report`
-
-## 钱包与网络
-- 支持链：Sepolia (11155111)、Monad 测试网 (20143，若官方更新请同步)、本地 anvil (31337)。
-- 本地 anvil 示例：`anvil --chain-id 31337 --port 8545`，默认预置账户（如 `0xf39f...`）仅供测试，请勿用于真实网络。
-- 不支持网络会提示切换；拒绝授权保持未登录并提示错误。
+- Lint：`npm run lint`
+- 单元/组件：`npm test`
+- E2E：`npm run playwright`（需 dev 运行，或用 Playwright MCP 远程驱动；默认 skip，需真实钱包与支持网络后开启）
+- 合约：`forge test --gas-report`
 
 ## 隐私与安全
-- 前端不会收集或存储私钥，仅在用户授权后读取公开账户信息。
-- 禁止将私钥/助记词/RPC 机密提交到仓库；`.env.example` 仅含公开项。
+- 前端不收集或存储私钥，仅在授权后读取公开账户信息
+- 禁止将私钥/助记词/RPC 凭据提交到仓库；`.env.example` 仅含公开项
 
 ## 贡献
-修改入口：`app/page.tsx`、`app/components/*`。执行 `npm run lint && npm run typecheck && npm test` 确认无报错；合约存在时执行 `forge test --gas-report`。***
+主要入口：`app/(marketing)/subsidy/page.tsx`、`app/components/*`、`app/api/*`。提交前请跑 `npm run lint && npm run typecheck`，如涉及合约请跑 `forge test --gas-report`。

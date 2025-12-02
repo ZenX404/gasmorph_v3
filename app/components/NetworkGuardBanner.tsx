@@ -1,6 +1,6 @@
 "use client";
 
-import { sepolia, monadTestnet } from "../lib/chains";
+import { monadTestnet, sepolia } from "../lib/chains";
 import { useWalletEvents } from "../lib/useWalletEvents";
 
 export default function NetworkGuardBanner() {
@@ -10,12 +10,18 @@ export default function NetworkGuardBanner() {
   if (isSupported) return null;
 
   return (
-    <div className="glass-card glow flex flex-col gap-2 rounded-xl border-amber-200/40 bg-amber-100/10 px-4 py-3 text-amber-50 md:flex-row md:items-center md:justify-between" role="alert">
+    <div
+      className="glass-card glow flex flex-col gap-2 rounded-xl border-amber-200/40 bg-amber-100/10 px-4 py-3 text-amber-50 md:flex-row md:items-center md:justify-between"
+      role="alert"
+      aria-live="polite"
+    >
       <div className="flex items-center gap-2">
-        <span>⚠</span>
+        <span role="img" aria-label="warning">
+          ⚠️
+        </span>
         <div className="text-sm">
           <div>当前网络不受支持：{chainId ?? "未知"}</div>
-          <div className="text-amber-100/80">请切换到 {recommended?.name ?? "受支持的测试网"} 继续。</div>
+          <div className="text-amber-100/80">请切换到 {recommended?.name ?? "受支持的测试网"} 继续体验</div>
         </div>
       </div>
       <button

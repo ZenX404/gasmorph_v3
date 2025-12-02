@@ -15,7 +15,6 @@ export function useWalletEvents() {
     logWalletState("wallet/status", { status, address, chainId, supported: guard.isSupported });
   }, [status, address, chainId, guard.isSupported]);
 
-  // 若网络不兼容且已连接，可选择自动切换（保持手动，以提示为主）
   const ensureSupportedNetwork = async (targetChainId?: number) => {
     if (!isConnected) return;
     const target = targetChainId ?? guard.recommended?.id;
@@ -28,7 +27,6 @@ export function useWalletEvents() {
     }
   };
 
-  // 提供断开包装，方便调用
   const safeDisconnect = () => {
     disconnect();
     logWalletState("wallet/disconnect", {});

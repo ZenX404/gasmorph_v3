@@ -2,7 +2,7 @@ import { QueryClient } from "@tanstack/react-query";
 import { getDefaultConfig } from "@rainbow-me/rainbowkit";
 import type { Chain } from "viem";
 import { http } from "wagmi";
-import { getSupportedChains, sepolia } from "./chains";
+import { getSupportedChains } from "./chains";
 
 export const queryClient = new QueryClient();
 

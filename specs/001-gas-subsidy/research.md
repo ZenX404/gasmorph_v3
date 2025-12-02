@@ -2,7 +2,7 @@
 
 ## Decisions
 
-1) 代付方案：采用 ERC-4337 账户抽象路径（bundler + paymaster）为主线，确保演示能展示“项目方代付”。本地/离线场景提供 EOA 直接代付脚本作为 fallback，保证可演示与可测试。  
+1) 代付方案：采用 ERC-4337 账户抽象路径（EntryPoint v0.6 + bundler + paymaster）为主线；本地首选开源 bundler（eth-infinitism 参考实现）+ 最小 paymaster，测试网可切换外部 bundler。提供 EOA sponsor 直接代付脚本作为 fallback，保证离线/不可用时可演示。  
 2) 网络策略：开发测试使用 Foundry (anvil) 本地链；支持一键切换至 Sepolia / Monad 测试网部署与演示。固定 chainId 校验，默认首选 Sepolia 公共 RPC，Monad 需配置 RPC。  
 3) 交易路径展示：前端在操作完成后显示交易哈希、链 ID、区块号，并提供直达区块浏览器链接（测试网：Etherscan Sepolia / Monad explorer），同时在 UI 展示代付状态与费用承担方。  
 4) 钱包与密钥：本地测试账户仅写入 `.env.local`（不入仓）供 anvil 启动和浏览器插件导入；`.env.example` 仅放占位符。演示/测试网使用独立账户，RPC/私钥不入仓。  
@@ -24,6 +24,6 @@
 
 ## Follow-ups / Open Items
 
-- 选择具体 ERC-4337 开源实现（如 Stackup、Biconomy、Candide）或自部署 bundler/paymaster：在 Phase 1 设计时结合可用性与许可评估，若外部依赖不可用则使用最小可自部署 paymaster。  
+- 选择具体 ERC-4337 开源实现（如 Stackup、Biconomy、Candide）或自部署 bundler/paymaster：在 Phase 1 设计时结合可用性与许可评估，若外部依赖不可用则使用 eth-infinitism 本地 bundler + 最小 paymaster。  
 - 区块浏览器链接：Monad 测试网需确认可用 explorer 基础 URL（计划在部署前确定并配置化）。  
 - Playwright MCP 测试：需要可写 test-results 路径；在运行 E2E 前清理旧的只读目录或指定输出目录。

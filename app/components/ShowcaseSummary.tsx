@@ -1,6 +1,5 @@
 "use client";
 
-import DisconnectButton from "./DisconnectButton";
 import StatusToast from "./StatusToast";
 
 export default function ShowcaseSummary() {
@@ -10,27 +9,27 @@ export default function ShowcaseSummary() {
         <div>
           <h2 className="text-2xl font-semibold">项目摘要</h2>
           <p className="mt-2 text-sky-100/85">
-            • Gas 赞助体验 · 链上交互预览
+            · Gas 补贴体验 · 链上交互预览
             <br />
-            • Next.js + RainbowKit + wagmi + viem 全链路
+            · Next.js + RainbowKit + wagmi + viem 全链路
             <br />
-            • 可扩展的 Foundry 合约与本地链集成
+            · 可扩展的 Foundry 合约与本地链集成
           </p>
         </div>
         <div className="flex flex-wrap gap-3">
           <a
-            href="#"
+            href="#action"
             className="rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm font-semibold text-white transition hover:border-white/60"
-            aria-label="查看详情"
+            aria-label="查看演示操作"
           >
-            查看详情
+            查看演示操作
           </a>
           <a
-            href="#"
+            href="mailto:team@gasmorph.example"
             className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-black transition hover:-translate-y-0.5 hover:shadow-md"
-            aria-label="联系"
+            aria-label="联系团队"
           >
-            联系
+            联系团队
           </a>
         </div>
       </div>

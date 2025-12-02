@@ -1,0 +1,12 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = []
+solc_version = "0.8.24"
+ffi = false
+
+[fmt]
+line_length = 120
+tab_width = 2
+bracket_spacing = true
+wrap_comments = true

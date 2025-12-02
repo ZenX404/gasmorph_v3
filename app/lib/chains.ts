@@ -1,7 +1,7 @@
 import type { Chain } from "viem";
 import { defineChain } from "viem";
 
-// 说明：所有链均为测试网络，RPC 通过环境变量注入，避免硬编码私有节点。
+// 说明：全部链均为测试网，RPC 通过环境变量注入，避免硬编码私有节点。
 const sepoliaRpc = process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL || "https://rpc.sepolia.org";
 const monadRpc = process.env.NEXT_PUBLIC_MONAD_TESTNET_RPC_URL;
 
@@ -34,7 +34,7 @@ export const monadTestnet: Chain = defineChain({
 });
 
 export const anvil: Chain = defineChain({
-  id: 31337,
+  id: 1337,
   name: "Foundry Anvil",
   nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
   rpcUrls: {
@@ -44,10 +44,20 @@ export const anvil: Chain = defineChain({
   testnet: true,
 });
 
+function reorderByDefault(chains: Chain[]): Chain[] {
+  const envDefault = process.env.DEFAULT_CHAIN_ID;
+  const preferredId = envDefault ? Number(envDefault) : undefined;
+  if (!preferredId) return chains;
+  const found = chains.find((c) => c.id === preferredId);
+  if (!found) return chains;
+  const rest = chains.filter((c) => c.id !== preferredId);
+  return [found, ...rest];
+}
+
 export function getSupportedChains(): Chain[] {
-  // 默认优先真实测试网，其次可选 Monad，再保留本地 anvil。
-  const chains: Chain[] = [sepolia];
-  if (monadRpc) chains.push(monadTestnet);
-  chains.push(anvil);
-  return chains;
+  // 默认优先真实测试网，其次可选 Monad，最后保留本地 anvil。若设置 DEFAULT_CHAIN_ID，则按其排序优先。
+  const base: Chain[] = [sepolia];
+  if (monadRpc) base.push(monadTestnet);
+  base.push(anvil);
+  return reorderByDefault(base);
 }
