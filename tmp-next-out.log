@@ -1,0 +1,25 @@
+
+> gasmorph_v3@0.1.0 dev
+> next dev
+
+   ▲ Next.js 16.0.4 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://172.18.224.1:3000
+   - Environments: .env.local, .env
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 1669ms
+ ○ Compiling /subsidy ...
+ GET /subsidy 200 in 13.0s (compile: 12.5s, render: 521ms)
+ HEAD /subsidy 200 in 410ms (compile: 350ms, render: 60ms)
+ GET /subsidy 200 in 256ms (compile: 226ms, render: 30ms)
+   Reload env: .env.local
+ GET /subsidy 200 in 243ms (compile: 213ms, render: 30ms)
+ ✓ Compiled in 84ms
+ GET /subsidy 200 in 759ms (compile: 326ms, render: 433ms)
+ HEAD /subsidy 200 in 212ms (compile: 172ms, render: 41ms)

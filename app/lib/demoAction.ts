@@ -74,7 +74,7 @@ export async function executeDemoAction(params: {
     const sponsorPk =
       process.env.NEXT_PUBLIC_SPONSOR_PRIVATE_KEY ??
       // anvil 默认账户 #1（与用户分离，便于看出补贴扣费）
-      "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603c9a21c087";
+      "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d";
     const sponsor = privateKeyToAccount(sponsorPk as `0x${string}`);
     const sponsorClient = createWalletClient({
       account: sponsor,
