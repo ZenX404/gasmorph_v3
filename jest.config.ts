@@ -8,6 +8,7 @@ const config: Config = {
     "^.+\\.(ts|tsx)$": ["ts-jest", { tsconfig: "tsconfig.json" }],
   },
   moduleNameMapper: {
+    "^@/(.*)$": "<rootDir>/$1",
     "\\.(css|less|sass|scss)$": "<rootDir>/tests/utils/styleMock.ts",
   },
   testMatch: ["**/tests/**/*.spec.tsx"],

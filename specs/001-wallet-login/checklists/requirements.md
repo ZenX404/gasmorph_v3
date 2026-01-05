@@ -1,4 +1,4 @@
-# Specification Quality Checklist: Wallet 登录与初始落地页
+﻿# Specification Quality Checklist: Wallet 登录与初始落地页
 
 **Purpose**: Validate specification completeness and quality before proceeding to planning  
 **Created**: 2025-11-26  

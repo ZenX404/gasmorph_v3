@@ -1,4 +1,4 @@
-# Feature Specification: Wallet 登录与初始落地页
+﻿# Feature Specification: Wallet 登录与初始落地页
 
 **Feature Branch**: `001-wallet-login`  
 **Created**: 2025-11-26  

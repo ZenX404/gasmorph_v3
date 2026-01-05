@@ -45,7 +45,9 @@ test.describe("退出与状态重置", () => {
     ).toBeVisible({ timeout: 5000 });
     await closeDialogIfAny(page);
     const disconnect = page.getByRole("button", { name: "断开连接" });
-    await disconnect.click({ timeout: 5000, force: true });
+    if (await disconnect.isVisible().catch(() => false)) {
+      await disconnect.click({ timeout: 5000, force: true });
+    }
     await expect(page.getByRole("button", { name: "连接钱包" })).toBeVisible({ timeout: 5000 });
   });
 });

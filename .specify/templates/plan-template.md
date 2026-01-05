@@ -1,4 +1,4 @@
-# Implementation Plan: [FEATURE]
+﻿# Implementation Plan: [FEATURE]
 
 **Branch**: `[###-feature-name]` | **Date**: [DATE] | **Spec**: [link]
 **Input**: Feature specification from `/specs/[###-feature-name]/spec.md`
@@ -31,7 +31,11 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+必须覆盖以下宪法门禁（依据最新宪法补全具体条目）：
+- 中文页面要求（前端文案中文，错误提示英文）
+- 新功能强制单元测试 + 页面级 E2E
+- TypeScript 严格模式 + ESLint+Prettier（或 Biome）
+- 提交前必须通过 lint 与 typecheck
 
 ## Project Structure
 

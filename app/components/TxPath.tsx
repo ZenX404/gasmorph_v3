@@ -1,6 +1,6 @@
-"use client";
+﻿"use client";
 
-import { Chain } from "viem";
+import { formatEther, type Chain } from "viem";
 import { getSupportedChains } from "../lib/chains";
 
 type Item = {
@@ -20,45 +20,75 @@ function getExplorer(chainId?: number | null): string | null {
   return chain?.blockExplorers?.default?.url ?? null;
 }
 
+function payerLabel(value?: string | null) {
+  if (value === "voucher") return "消费券";
+  if (value === "sponsor") return "补贴账户";
+  if (value === "user") return "钱包";
+  return "未知";
+}
+
+function statusLabel(value: string) {
+  if (value === "pending") return "进行中";
+  if (value === "confirmed") return "已确认";
+  if (value === "failed") return "失败";
+  return value;
+}
+
+function formatEth(wei: string | null | undefined, decimals = 6) {
+  if (!wei) return null;
+  try {
+    const raw = formatEther(BigInt(wei));
+    const sign = raw.startsWith("-") ? "-" : "";
+    const value = sign ? raw.slice(1) : raw;
+    const [whole, frac = ""] = value.split(".");
+    const padded = frac.slice(0, decimals).padEnd(decimals, "0");
+    return `${sign}${whole}.${padded}`;
+  } catch {
+    return null;
+  }
+}
+
 export default function TxPath({ records }: { records: Item[] }) {
   if (!records.length) return null;
   const list = records.slice(0, 5);
 
   return (
-    <div className="glass-card rounded-2xl border border-white/15 p-6 text-white">
-      <h3 className="text-lg font-semibold mb-3">交易路径</h3>
-      <div className="space-y-2 text-sm text-sky-100/85">
+    <div className="glass-card rounded-2xl border border-[var(--app-border)] p-6 text-[var(--app-fg)]">
+      <h3 className="mb-3 text-lg font-semibold">交易轨迹</h3>
+      <div className="space-y-2 text-sm text-[var(--app-muted)]">
         {list.map((item, idx) => {
           const base = item.explorerUrl ?? (item.networkId ? getExplorer(item.networkId) : null);
           const link = base && item.txHash ? `${base}/tx/${item.txHash}` : null;
-          const gasEth =
-            item.gasUsed && !Number.isNaN(Number(item.gasUsed))
-              ? Number(BigInt(item.gasUsed)) / 1e18
-              : null;
+          const gasEth = formatEth(item.gasUsed);
           return (
-            <div key={`${item.txHash ?? "local"}-${idx}`} className="rounded-lg border border-white/10 p-3">
+            <div key={`${item.txHash ?? "local"}-${idx}`} className="rounded-lg border border-[var(--app-border)] p-3">
               <div className="flex items-center justify-between">
-                <span className="text-xs text-sky-100/70">
-                  {new Date(item.createdAt).toLocaleTimeString()} · {item.status}
+                <span className="text-xs text-[var(--app-muted)]">
+                  {new Date(item.createdAt).toLocaleTimeString()} - {statusLabel(item.status)}
                 </span>
-                {item.gasPayer && <span className="text-xs">费用承担方：{item.gasPayer}</span>}
+                <span className="text-xs">费用来源：{payerLabel(item.gasPayer)}</span>
               </div>
               <div className="break-all">
-                Tx Hash：{link ? <a href={link}>{item.txHash}</a> : item.txHash ?? "本地模拟"}
+                交易哈希：{link ? (
+                  <a className="underline underline-offset-4" href={link} target="_blank" rel="noreferrer">
+                    {item.txHash}
+                  </a>
+                ) : (
+                  item.txHash ?? "本地模拟"
+                )}
               </div>
               {gasEth !== null && (
-                <div className="text-sky-100/80">
-                  Gas 消耗：{gasEth.toFixed(6)} ETH · 补贴金额：{item.isSubsidized ? gasEth.toFixed(6) : "0.000000"} ETH
+                <div className="text-[var(--app-muted)]">
+                  Gas 使用：{gasEth} ETH - 已抵扣：{item.isSubsidized ? gasEth : "0.000000"} ETH
                 </div>
               )}
-              <div className="text-sky-100/70">
-                链接：
-                {link ? (
+              <div className="text-[var(--app-muted)]">
+                区块浏览器：{link ? (
                   <a className="underline underline-offset-4" href={link} target="_blank" rel="noreferrer">
                     {link}
                   </a>
                 ) : (
-                  "本地模式（可复制哈希后 cast 查询）"
+                  "本地模式"
                 )}
               </div>
             </div>

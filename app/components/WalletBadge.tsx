@@ -8,19 +8,14 @@ export default function WalletBadge() {
 
   if (!isConnected || !address) return null;
 
-  const short =
-    address.slice(0, 6) +
-    "…" +
-    address.slice(address.length - 4);
+  const short = `${address.slice(0, 6)}...${address.slice(address.length - 4)}`;
 
   return (
-    <div className="glass-card inline-flex items-center gap-3 rounded-xl px-4 py-3 text-sm text-sky-50">
-      <div className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_0_6px_rgba(16,185,129,0.35)]" />
+    <div className="glass-card inline-flex items-center gap-3 rounded-xl px-4 py-3 text-sm text-[var(--app-fg)]">
+      <div className="h-2 w-2 rounded-full bg-emerald-500 shadow-[0_0_0_6px_rgba(16,185,129,0.25)]" />
       <div className="flex flex-col">
-        <span className="text-xs text-sky-100/80">已连接</span>
-        <span className="font-semibold">
-          {ens ?? short}
-        </span>
+        <span className="text-xs text-[var(--app-muted)]">已连接</span>
+        <span className="font-semibold">{ens ?? short}</span>
       </div>
     </div>
   );

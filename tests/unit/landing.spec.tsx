@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+﻿import { render, screen } from "@testing-library/react";
 import Home from "../../app/page";
 
 jest.mock("@rainbow-me/rainbowkit", () => ({
@@ -19,6 +19,8 @@ jest.mock("wagmi", () => ({
   useAccount: () => ({ isConnected: false }),
   useEnsName: () => ({ data: null }),
   useChainId: () => undefined,
+  useWalletClient: () => ({ data: null }),
+  usePublicClient: () => null,
   useDisconnect: () => ({ disconnect: jest.fn() }),
   useConnect: () => ({ error: null, isLoading: false }),
 }));
@@ -42,16 +44,12 @@ jest.mock("../../app/lib/useWalletEvents", () => ({
 describe("Home landing", () => {
   it("renders hero and connect CTA", () => {
     render(<Home />);
-    expect(
-      screen.getByText(/GasMorph · Web3 Gas 赞助体验/i),
-    ).toBeInTheDocument();
+    expect(screen.getByText(/GasMorph 补贴演示/i)).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /连接钱包/i })).toBeInTheDocument();
   });
 
   it("shows privacy notice", () => {
     render(<Home />);
-    expect(
-      screen.getByText(/不会收集或存储私钥/i),
-    ).toBeInTheDocument();
+    expect(screen.getByText(/不会存储私钥或敏感数据/i)).toBeInTheDocument();
   });
 });

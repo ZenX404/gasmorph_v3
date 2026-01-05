@@ -1,4 +1,4 @@
-# Feature Specification: [FEATURE NAME]
+﻿# Feature Specification: [FEATURE NAME]
 
 **Feature Branch**: `[###-feature-name]`  
 **Created**: [DATE]  
@@ -18,6 +18,10 @@
   - Tested independently
   - Deployed independently
   - Demonstrated to users independently
+
+  宪法约束补充：
+  - 所有新功能必须包含单元测试与页面级 E2E
+  - 前端页面文案必须为中文，错误提示为英文
 -->
 
 ### User Story 1 - [Brief Title] (Priority: P1)

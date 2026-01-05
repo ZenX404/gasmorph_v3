@@ -18,7 +18,7 @@ const transports = Object.fromEntries(
 const walletConnectProjectId = process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "demo";
 
 export const wagmiConfig = getDefaultConfig({
-  appName: process.env.NEXT_PUBLIC_APP_NAME || "GasMorph Dapp",
+  appName: process.env.NEXT_PUBLIC_APP_NAME || "GasMorph 补贴演示",
   projectId: walletConnectProjectId,
   chains: wagmiChains,
   ssr: true,

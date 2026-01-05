@@ -1,17 +1,15 @@
-import { test, expect } from "@playwright/test";
+﻿import { test, expect } from "@playwright/test";
 
 test.skip("subsidy on/off flows (requires real wallet + supported network)", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("/console");
 
-  // 连接按钮存在
-  await expect(page.getByRole("button", { name: "连接钱包" })).toBeVisible();
-
-  // 补贴开关存在
-  const toggle = page.getByRole("button", { name: "Gas 补贴开关" });
+  const toggle = page.getByRole("button", { name: "补贴开关" });
   await expect(toggle).toBeVisible();
 
-  // 示范操作按钮存在
-  await expect(page.getByRole("button", { name: "执行操作" })).toBeVisible();
+  await page.goto("/subsidy");
+  await expect(page.getByRole("button", { name: "运行演示动作" })).toBeVisible();
 
-  // 说明：完整链上验证需在已连接的钱包与受支持网络下执行，人工或 CI 配置后再移除 skip。
+  // 手工验证说明：
+  // 1) 在控制台打开/关闭补贴开关。
+  // 2) 回到演示页执行交易，观察支付方与提示变化。
 });

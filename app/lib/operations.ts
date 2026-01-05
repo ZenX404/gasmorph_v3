@@ -14,36 +14,37 @@
 };
 
 export type CostSummary = {
-  subsidized: number;
-  unsubsidized: number;
+  subsidizedWei: bigint;
+  unsubsidizedWei: bigint;
   savedPercent: number;
 };
 
 export function computeCostSummary(records: OperationRecord[]): CostSummary {
   if (!records.length) {
-    return { subsidized: 0, unsubsidized: 0, savedPercent: 0 };
+    return { subsidizedWei: BigInt(0), unsubsidizedWei: BigInt(0), savedPercent: 0 };
   }
   // Use the latest 10 records to accumulate subsidized vs non-subsidized gas fees (wei)
   const latest = records.slice(0, 10);
   const subsidizedGas = latest
     .filter((r) => r.isSubsidized)
-    .reduce((acc, r) => acc + safeGas(r.gasUsed), 0);
+    .reduce((acc, r) => acc + safeGasWei(r.gasUsed), BigInt(0));
   const unsubsidizedGas = latest
     .filter((r) => !r.isSubsidized)
-    .reduce((acc, r) => acc + safeGas(r.gasUsed), 0);
+    .reduce((acc, r) => acc + safeGasWei(r.gasUsed), BigInt(0));
 
-  const unsubsidized = unsubsidizedGas / 1e18;
-  const subsidized = subsidizedGas / 1e18;
-  const total = subsidized + unsubsidized;
-  const savedPercent = total > 0 ? Math.min(100, Math.max(0, (subsidized / total) * 100)) : 0;
-  return { subsidized, unsubsidized, savedPercent };
+  const total = subsidizedGas + unsubsidizedGas;
+  const savedPercent =
+    total > BigInt(0)
+      ? Math.min(100, Math.max(0, (Number(subsidizedGas) / Number(total)) * 100))
+      : 0;
+  return { subsidizedWei: subsidizedGas, unsubsidizedWei: unsubsidizedGas, savedPercent };
 }
 
-function safeGas(gasUsed: string | null): number {
-  if (!gasUsed) return 0;
+function safeGasWei(gasUsed: string | null): bigint {
+  if (!gasUsed) return BigInt(0);
   try {
-    return Number(BigInt(gasUsed));
+    return BigInt(gasUsed);
   } catch {
-    return 0;
+    return BigInt(0);
   }
 }

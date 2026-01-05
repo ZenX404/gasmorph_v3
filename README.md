@@ -1,4 +1,4 @@
-# GasMorph v3 Dapp（Gas 补贴演示）
+﻿# GasMorph v3 Dapp（Gas 补贴演示）
 
 基于 Next.js App Router 的 Web3 演示项目，聚焦测试网钱包登录与 Gas 补贴体验（Sepolia、Monad 测试网、本地 anvil）。
 
@@ -8,6 +8,7 @@ npm install
 cp .env.example .env.local   # 填写公开 RPC，占位留空，真实私钥仅放 .env.local（不入库）
 npm run dev
 # 访问 http://localhost:3000/subsidy
+# 控制台 http://localhost:3000/console
 ```
 更多细节见 `specs/001-gas-subsidy/quickstart.md`。
 
@@ -15,7 +16,9 @@ npm run dev
 - `NEXT_PUBLIC_ANVIL_RPC_URL`
 - `NEXT_PUBLIC_SEPOLIA_RPC_URL`
 - `NEXT_PUBLIC_MONAD_TESTNET_RPC_URL`（可留空，未配则不启用）
+- `NEXT_PUBLIC_VOUCHER_CONTRACT_ADDRESS`（仅本地/测试网，券 NFT 地址）
 - `NEXT_PUBLIC_APP_NAME`、`NEXT_PUBLIC_APP_DESC`
+- `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID`
 - `BUNDLER_RPC_URL`、`PAYMASTER_RPC_URL`、`SPONSOR_PRIVATE_KEY`（仅本地/测试网，勿提交）
 
 > 推荐使用 `scripts/set-env.ps1` 生成/更新 `.env.local`（仅本地保存，勿入库）。
@@ -38,3 +41,8 @@ npm run dev
 
 ## 贡献
 主要入口：`app/(marketing)/subsidy/page.tsx`、`app/components/*`、`app/api/*`。提交前请跑 `npm run lint && npm run typecheck`，如涉及合约请跑 `forge test --gas-report`。
+
+
+## 质量门禁
+- 新功能必须包含单元测试与页面级 E2E
+- 提交前必须通过 `npm run lint` 与 `npm run typecheck`

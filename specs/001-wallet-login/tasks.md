@@ -1,4 +1,4 @@
----
+﻿---
 
 description: "Task list for Wallet 登录与初始落地页"
 
@@ -23,7 +23,7 @@ description: "Task list for Wallet 登录与初始落地页"
 
 ## Phase 2: Foundational (Blocking Prerequisites)
 
-- [X] T005 建立链配置与常量：Sepolia(11155111)、Monad 测试网(20143 待确认，可用环境变量覆盖)、anvil(31337)（app/lib/chains.ts）
+- [X] T005 建立链配置与常量：Sepolia(11155111)、Monad 测试网(20143 待确认，可用环境变量覆盖)、anvil(1337)（app/lib/chains.ts）
 - [X] T006 初始化 wagmi + RainbowKit Provider，封装根级 providers（app/providers.tsx）
 - [X] T007 注入链 ID 校验与不兼容网络提示的通用 hook（app/lib/useNetworkGuard.ts）
 - [X] T008 设置结构化日志/埋点占位，记录连接状态/链 ID/账户（app/lib/logging.ts）
@@ -110,3 +110,4 @@ Independent Test: 登录后可查看摘要与 CTA；点击退出恢复未登录�
 3. 扩展 US2：持久化与账户/网络变更提示。  
 4. 完成 US3：退出与摘要/CTA。  
 5. Polish：a11y、移动端、CI/Playwright、anvil 文档与脚本完善。
+

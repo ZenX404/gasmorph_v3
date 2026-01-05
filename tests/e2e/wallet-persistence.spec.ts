@@ -45,7 +45,7 @@ test.describe("连接状态保持与账号/网络变更提示", () => {
     ).toBeVisible({ timeout: 5000 });
     await closeDialogIfAny(page);
     await page.reload();
-    await expect(page.getByText(/GasMorph · Web3 Gas 赞助体验/)).toBeVisible();
+    await expect(page.getByRole("heading", { name: "GasMorph 补贴演示" })).toBeVisible();
     await expect(page.getByRole("button", { name: /Sepolia|连接钱包/ })).toBeVisible({ timeout: 5000 });
   });
 });

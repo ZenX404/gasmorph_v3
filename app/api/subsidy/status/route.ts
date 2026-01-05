@@ -16,7 +16,7 @@ export async function GET(req: NextRequest) {
   }
 
   const fakeHash = `0x${opId.replace(/-/g, "").padEnd(64, "0").slice(0, 64)}`;
-  const gasPayer = isSubsidized ? "项目方" : "用户";
+  const gasPayer = isSubsidized ? "sponsor" : "user";
 
   return Response.json(
     {

@@ -1,41 +1,68 @@
 @import "tailwindcss";
 
 :root {
-  --background: #05080f;
-  --foreground: #e9ecf5;
-  --card: rgba(255, 255, 255, 0.06);
-  --card-border: rgba(255, 255, 255, 0.12);
-  --accent: #7dd3fc;
-  --glow: #60a5fa;
+  --app-bg: #fbfaf6;
+  --app-fg: #1c1915;
+  --app-muted: rgba(28, 25, 21, 0.62);
+  --app-accent: #ffb347;
+  --app-accent-strong: #ff8f2f;
+  --app-cool: #4aa39a;
+  --app-panel: rgba(255, 255, 255, 0.9);
+  --app-border: rgba(31, 27, 23, 0.12);
+  --app-shadow: 0 22px 60px rgba(30, 24, 20, 0.12);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--app-bg);
+  --color-foreground: var(--app-fg);
+  --font-sans: var(--font-bricolage);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
 body {
-  background: radial-gradient(circle at 20% 20%, #0f172a 0, rgba(15, 23, 42, 0) 25%),
-    radial-gradient(circle at 80% 0%, #1e3a8a 0, rgba(30, 58, 138, 0) 30%),
-    radial-gradient(circle at 50% 80%, #0ea5e9 0, rgba(14, 165, 233, 0) 30%),
-    var(--background);
-  color: var(--foreground);
+  background:
+    radial-gradient(circle at 12% 10%, rgba(255, 179, 71, 0.22), transparent 40%),
+    radial-gradient(circle at 78% 18%, rgba(74, 163, 154, 0.2), transparent 42%),
+    radial-gradient(circle at 20% 82%, rgba(255, 214, 170, 0.32), transparent 45%),
+    linear-gradient(160deg, #fffaf2 0%, #f7f2e8 55%, #fff7f0 100%),
+    repeating-linear-gradient(
+      0deg,
+      rgba(30, 24, 20, 0.035) 0px,
+      rgba(30, 24, 20, 0.035) 1px,
+      transparent 1px,
+      transparent 8px
+    );
+  background-attachment: fixed;
+  color: var(--app-fg);
 }
 
 .glass-card {
-  background: var(--card);
-  border: 1px solid var(--card-border);
-  backdrop-filter: blur(16px);
-  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(140deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.74));
+  border: 1px solid var(--app-border);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--app-shadow);
 }
 
 .glow {
-  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.25), 0 20px 70px rgba(96, 165, 250, 0.2);
+  box-shadow: 0 0 0 1px rgba(255, 179, 71, 0.22), 0 20px 55px rgba(255, 143, 47, 0.18);
+}
+
+.fade-up {
+  animation: fade-up 0.6s ease-out both;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 :focus-visible {
-  outline: 2px solid #7dd3fc;
+  outline: 2px solid var(--app-accent);
   outline-offset: 2px;
 }

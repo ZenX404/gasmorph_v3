@@ -12,6 +12,8 @@ import {
 } from "viem";
 import { privateKeyToAccount } from "viem/accounts";
 import { demoAbi } from "./contracts/demo";
+import { voucherAbi, voucherAddress } from "./contracts/voucher";
+import type { VoucherKind } from "./voucher/types";
 import { logTxPhase } from "./telemetry";
 
 type StatusResponse = {
@@ -45,6 +47,9 @@ export async function executeDemoAction(params: {
   mode: "erc4337" | "sponsor-eoa" | "simulated";
   walletClient?: WalletClient;
   demoAddress?: Address;
+  voucherApplied?: boolean;
+  voucherId?: string | null;
+  voucherKind?: VoucherKind | null;
 }): Promise<StatusResponse> {
   const opId = crypto.randomUUID();
   const data = encodeFunctionData({
@@ -61,7 +66,7 @@ export async function executeDemoAction(params: {
         : process.env.NEXT_PUBLIC_MONAD_TESTNET_RPC_URL;
 
   if (!rpcFromEnv) {
-    throw new Error(`未找到链 ${params.networkId} 的 RPC，请检查环境变量`);
+    throw new Error(`RPC not configured for chain ${params.networkId}`);
   }
 
   const demoAddress =
@@ -69,41 +74,101 @@ export async function executeDemoAction(params: {
     (process.env.DEMO_CONTRACT_ADDRESS as Address | undefined) ??
     ("0x5FbDB2315678afecb367f032d93F642f64180aa3" as Address);
 
-  // Subsidy mode: real on-chain tx paid by sponsor account (no user popup)
-  if (params.isSubsidized) {
-    const sponsorPk =
-      process.env.NEXT_PUBLIC_SPONSOR_PRIVATE_KEY ??
-      // anvil 默认账户 #1（与用户分离，便于看出补贴扣费）
-      "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d";
-    const sponsor = privateKeyToAccount(sponsorPk as `0x${string}`);
-    const sponsorClient = createWalletClient({
-      account: sponsor,
-      chain: {
-        id: params.networkId,
-        name: "anvil-subsidy",
-        nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
-        rpcUrls: { default: { http: [rpcFromEnv] } },
-      },
-      transport: http(rpcFromEnv),
+  const sponsorPk =
+    process.env.NEXT_PUBLIC_SPONSOR_PRIVATE_KEY ??
+    "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603c9a21c087";
+  const sponsor = privateKeyToAccount(sponsorPk as `0x${string}`);
+  const sponsorClient = createWalletClient({
+    account: sponsor,
+    chain: {
+      id: params.networkId,
+      name: "anvil-subsidy",
+      nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
+      rpcUrls: { default: { http: [rpcFromEnv] } },
+    },
+    transport: http(rpcFromEnv),
+  });
+
+  const usingVoucher = Boolean(params.voucherApplied && params.voucherId && !params.isSubsidized);
+
+  if (usingVoucher) {
+    if (!voucherAddress) {
+      throw new Error("Voucher contract address missing.");
+    }
+
+    await ensureSponsorBalance(rpcFromEnv, sponsor.address);
+
+    if (params.voucherKind === "single") {
+      const consumeHash = await sponsorClient.writeContract({
+        address: voucherAddress,
+        abi: voucherAbi,
+        functionName: "consume",
+        args: [BigInt(params.voucherId as string)],
+      });
+      await waitForReceipt(rpcFromEnv, consumeHash);
+    }
+
+    const txHash = await sponsorClient.sendTransaction({
+      to: demoAddress,
+      data,
+      value: BigInt(0),
+      gas: BigInt(500000),
+      gasPrice: BigInt(1_000_000_000),
     });
 
-    // Ensure sponsor有足够余额（本地链场景），不足则用 faucet 账户注资
+    logTxPhase("demo-action", "submit", { networkId: params.networkId, subsidized: false, voucher: true, txHash });
+
+    const receipt = await waitForReceipt(rpcFromEnv, txHash);
+    const gasUsed = receipt.gasUsed ?? BigInt(0);
+    const gasPrice = receipt.effectiveGasPrice ?? BigInt(1_000_000_000);
+    const gasFeeWei = gasUsed * gasPrice;
+
+    const explorerBase =
+      params.networkId === 1337 || params.networkId === 31337
+        ? null
+        : params.networkId === 11155111
+          ? "https://sepolia.etherscan.io"
+          : "https://explorer.monad.xyz";
+    const explorerUrl = explorerBase ? `${explorerBase}/tx/${txHash}` : null;
+
+    logTxPhase("demo-action", "confirmed", {
+      txHash,
+      blockNumber: receipt.blockNumber,
+      gasUsed: gasFeeWei,
+      subsidized: false,
+      voucher: true,
+    });
+
+    return {
+      opId,
+      networkId: params.networkId,
+      status: "confirmed",
+      txHash,
+      blockNumber: Number(receipt.blockNumber),
+      gasUsed: gasFeeWei.toString(),
+      gasPayer: "voucher",
+      explorerUrl,
+      failureReason: null,
+    };
+  }
+
+  // Subsidy mode: real on-chain tx paid by sponsor account (no user popup)
+  if (params.isSubsidized) {
     await ensureSponsorBalance(rpcFromEnv, sponsor.address);
 
     const txHash = await sponsorClient.sendTransaction({
       to: demoAddress,
       data,
-      value: 0n,
-      gas: 500_000n,
-      // 强制 legacy gasPrice，避免 0 gasPrice
-      gasPrice: 1_000_000_000n, // 1 gwei
+      value: BigInt(0),
+      gas: BigInt(500000),
+      gasPrice: BigInt(1_000_000_000), // 1 gwei
     });
 
     logTxPhase("demo-action", "submit", { networkId: params.networkId, subsidized: true, txHash });
 
     const receipt = await waitForReceipt(rpcFromEnv, txHash);
-    const gasUsed = receipt.gasUsed ?? 0n;
-    const gasPrice = receipt.effectiveGasPrice ?? 1_000_000_000n;
+    const gasUsed = receipt.gasUsed ?? BigInt(0);
+    const gasPrice = receipt.effectiveGasPrice ?? BigInt(1_000_000_000);
     const gasFeeWei = gasUsed * gasPrice;
 
     const explorerBase =
@@ -123,7 +188,7 @@ export async function executeDemoAction(params: {
       txHash,
       blockNumber: Number(receipt.blockNumber),
       gasUsed: gasFeeWei.toString(),
-      gasPayer: "项目方",
+      gasPayer: "sponsor",
       explorerUrl,
       failureReason: null,
     };
@@ -138,7 +203,7 @@ export async function executeDemoAction(params: {
       to: demoAddress,
       data,
       value: BigInt(0),
-      gasPrice: 1_000_000_000n,
+      gasPrice: BigInt(1_000_000_000),
       chain: {
         id: params.networkId,
         name: "custom",
@@ -173,7 +238,7 @@ export async function executeDemoAction(params: {
       txHash: fakeTxHash(crypto.randomUUID()),
       blockNumber: null,
       gasUsed: null,
-      gasPayer: params.isSubsidized ? "项目方" : "用户自付",
+      gasPayer: params.isSubsidized ? "sponsor" : params.voucherApplied ? "voucher" : "user",
       explorerUrl: null,
     };
   }
@@ -188,8 +253,8 @@ export async function executeDemoAction(params: {
         : "https://explorer.monad.xyz";
   const explorerUrl = explorerBase ? `${explorerBase}/tx/${txHash}` : null;
 
-  const gasUsed = receipt.gasUsed ?? 0n;
-  const gasPrice = receipt.effectiveGasPrice ?? 1_000_000_000n; // default 1 gwei if missing
+  const gasUsed = receipt.gasUsed ?? BigInt(0);
+  const gasPrice = receipt.effectiveGasPrice ?? BigInt(1_000_000_000); // default 1 gwei if missing
   const gasFeeWei = gasUsed * gasPrice;
 
   logTxPhase("demo-action", "confirmed", { txHash, blockNumber: receipt.blockNumber, gasUsed: gasFeeWei, subsidized: false });
@@ -201,7 +266,7 @@ export async function executeDemoAction(params: {
     txHash,
     blockNumber: Number(receipt.blockNumber),
     gasUsed: gasFeeWei.toString(),
-    gasPayer: "用户自付",
+    gasPayer: params.voucherApplied ? "voucher" : "user",
     explorerUrl,
   };
 }
@@ -214,7 +279,6 @@ async function ensureSponsorBalance(rpcUrl: string, sponsor: Address) {
 
   const faucetPk =
     process.env.NEXT_PUBLIC_FAUCET_PRIVATE_KEY ??
-    // anvil 默认账户 #0
     "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80";
   const faucet = privateKeyToAccount(faucetPk as `0x${string}`);
   const faucetClient = createWalletClient({

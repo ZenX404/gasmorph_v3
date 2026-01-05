@@ -1,4 +1,4 @@
-import { computeCostSummary, OperationRecord } from "../../../app/lib/operations";
+﻿import { computeCostSummary, OperationRecord } from "../../../app/lib/operations";
 
 describe("CostComparison summary", () => {
   it("computes savings when both subsidized and unsubsidized exist", () => {
@@ -11,8 +11,8 @@ describe("CostComparison summary", () => {
         isSubsidized: true,
         txHash: "0xabc",
         blockNumber: 1,
-        gasUsed: null,
-        gasPayer: "项目方",
+        gasUsed: "1000000000000000",
+        gasPayer: "sponsor",
         explorerUrl: null,
         status: "confirmed",
         failureReason: null,
@@ -25,8 +25,8 @@ describe("CostComparison summary", () => {
         isSubsidized: false,
         txHash: "0xdef",
         blockNumber: 2,
-        gasUsed: null,
-        gasPayer: "用户",
+        gasUsed: "2000000000000000",
+        gasPayer: "user",
         explorerUrl: null,
         status: "confirmed",
         failureReason: null,
@@ -34,8 +34,8 @@ describe("CostComparison summary", () => {
       },
     ];
     const summary = computeCostSummary(records);
-    expect(summary.unsubsidized).toBeGreaterThan(0);
-    expect(summary.subsidized).toBe(0);
+    expect(summary.unsubsidizedWei).toBeGreaterThan(BigInt(0));
+    expect(summary.subsidizedWei).toBeGreaterThan(BigInt(0));
     expect(summary.savedPercent).toBeGreaterThan(0);
   });
 });

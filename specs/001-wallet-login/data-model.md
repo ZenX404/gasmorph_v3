@@ -1,4 +1,4 @@
-# data-model.md - Wallet 登录与初始落地页
+﻿# data-model.md - Wallet 登录与初始落地页
 
 ## 实体概览
 
@@ -24,7 +24,7 @@
 
 ### 网络配置 (NetworkConfig)
 - **字段**：
-  - `chainId`：11155111（Sepolia），20143（Monad 测试网，待确认），31337（本地 anvil）。
+  - `chainId`：11155111（Sepolia），20143（Monad 测试网，待确认），1337（本地 anvil）。
   - `rpcUrl`：从环境变量注入；不入仓。
   - `blockExplorer`：可选，仅用于显示。
   - `supported`：是否允许连接。
@@ -43,3 +43,4 @@
 - VisitorSession 关联 WalletIdentity 与 NetworkConfig；ShowcaseSummary 独立但依赖 session 状态做文案调整。
 - 账户/网络变更 -> 更新 VisitorSession 与 WalletIdentity/NetworkConfig。
 - 退出 -> 清理 VisitorSession/WalletIdentity 状态，恢复未登录视图。
+

@@ -1,4 +1,3 @@
-// Placeholder ERC-4337 client; replace with real bundler/paymaster调用
 export type Mode = "erc4337" | "sponsor-eoa" | "simulated";
 
 export type ExecuteRequest = {
@@ -24,7 +23,7 @@ export async function submitUserOperation(req: ExecuteRequest): Promise<ExecuteR
     opId: crypto.randomUUID(),
     txHash: fakeHash,
     status: "confirmed",
-    gasPayer: req.isSubsidized ? "项目方" : "用户",
+    gasPayer: req.isSubsidized ? "sponsor" : "user",
     explorerUrl: null,
     failureReason: null,
   };

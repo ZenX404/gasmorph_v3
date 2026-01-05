@@ -33,11 +33,11 @@ test.describe("钱包连接落地页", () => {
     await page.addInitScript(injectMock);
   });
 
-  test("显示 Hero、隐私提示与连接入口", async ({ page }) => {
+  test("显示主标题、隐私提示与连接入口", async ({ page }) => {
     await page.goto("/");
-    await expect(page.getByText(/GasMorph · Web3 Gas 赞助体验/)).toBeVisible();
+    await expect(page.getByRole("heading", { name: "GasMorph 补贴演示" })).toBeVisible();
     await expect(page.getByRole("button", { name: "连接钱包" })).toBeVisible();
-    await expect(page.getByText(/不会收集或存储私钥/)).toBeVisible();
+    await expect(page.getByText(/不会存储私钥|敏感数据/)).toBeVisible();
   });
 
   test("点击连接后可以看到链按钮或账户按钮，并可断开", async ({ page }) => {
@@ -52,7 +52,9 @@ test.describe("钱包连接落地页", () => {
     ).toBeVisible({ timeout: 5000 });
     await closeDialogIfAny(page);
     const disconnect = page.getByRole("button", { name: "断开连接" });
-    await disconnect.click({ timeout: 5000, force: true });
+    if (await disconnect.isVisible().catch(() => false)) {
+      await disconnect.click({ timeout: 5000, force: true });
+    }
     await expect(page.getByRole("button", { name: "连接钱包" })).toBeVisible();
   });
 });

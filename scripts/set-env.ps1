@@ -8,6 +8,7 @@ param(
   [string]$BundlerRpc = "",
   [string]$PaymasterRpc = "",
   [string]$SponsorPk = "",
+  [string]$VoucherAddress = "",
   [string]$DemoAddress = "",
   [string]$EntryPoint = "",
   [string]$PaymasterAddress = "",
@@ -21,6 +22,7 @@ NEXT_PUBLIC_MONAD_TESTNET_RPC_URL=$MonadRpc
 BUNDLER_RPC_URL=$BundlerRpc
 PAYMASTER_RPC_URL=$PaymasterRpc
 SPONSOR_PRIVATE_KEY=$SponsorPk
+NEXT_PUBLIC_VOUCHER_CONTRACT_ADDRESS=$VoucherAddress
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=demo
 DEMO_CONTRACT_ADDRESS=$DemoAddress
 ENTRYPOINT_ADDRESS=$EntryPoint

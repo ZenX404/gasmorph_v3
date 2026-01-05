@@ -4,29 +4,30 @@ import StatusToast from "./StatusToast";
 
 export default function ShowcaseSummary() {
   return (
-    <section className="glass-card rounded-2xl border border-white/15 p-8 text-sky-50">
-      <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+    <section className="glass-card rounded-2xl border border-[var(--app-border)] p-8 text-[var(--app-fg)]">
+      <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <div>
-          <h2 className="text-2xl font-semibold">项目摘要</h2>
-          <p className="mt-2 text-sky-100/85">
-            · Gas 补贴体验 · 链上交互预览
-            <br />
-            · Next.js + RainbowKit + wagmi + viem 全链路
-            <br />
-            · 可扩展的 Foundry 合约与本地链集成
+          <h2 className="text-2xl font-semibold">GasMorph 演示概览</h2>
+          <p className="mt-2 text-[var(--app-muted)]">
+            一次性体验补贴流程、消费券 NFT 与交易可视化。
           </p>
+          <div className="mt-4 flex flex-wrap gap-2 text-xs text-[var(--app-muted)]">
+            <span className="rounded-full border border-[var(--app-border)] bg-white/70 px-3 py-1">消费券 NFT 铸造</span>
+            <span className="rounded-full border border-[var(--app-border)] bg-white/70 px-3 py-1">转赠与销毁</span>
+            <span className="rounded-full border border-[var(--app-border)] bg-white/70 px-3 py-1">补贴路由</span>
+          </div>
         </div>
         <div className="flex flex-wrap gap-3">
           <a
             href="#action"
-            className="rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm font-semibold text-white transition hover:border-white/60"
-            aria-label="查看演示操作"
+            className="rounded-full border border-[var(--app-border)] bg-white/70 px-4 py-2 text-sm font-semibold text-[var(--app-fg)] transition hover:border-[rgba(35,30,28,0.3)]"
+            aria-label="跳转到演示动作"
           >
-            查看演示操作
+            开始演示
           </a>
           <a
             href="mailto:team@gasmorph.example"
-            className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-black transition hover:-translate-y-0.5 hover:shadow-md"
+            className="rounded-full bg-[var(--app-accent)] px-4 py-2 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:shadow-md"
             aria-label="联系团队"
           >
             联系团队

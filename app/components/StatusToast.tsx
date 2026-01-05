@@ -11,7 +11,7 @@ export default function StatusToast() {
     (status === "connecting"
       ? "正在连接钱包..."
       : status === "reconnecting"
-        ? "尝试恢复连接..."
+        ? "正在重新连接钱包..."
         : null);
 
   if (!message) return null;
@@ -21,12 +21,12 @@ export default function StatusToast() {
   return (
     <div
       className={`glass-card mt-4 inline-flex items-center gap-3 rounded-xl px-4 py-3 text-sm ${
-        isError ? "border-red-300/50 text-red-50" : "border-white/20 text-sky-50"
+        isError ? "border-red-300/70 text-red-800" : "border-[var(--app-border)] text-[var(--app-fg)]"
       }`}
       role="status"
     >
       <span className="text-base" aria-hidden="true">
-        {isError ? "⚠️" : "⏳"}
+        {isError ? "!" : "~"}
       </span>
       <span>{message}</span>
     </div>

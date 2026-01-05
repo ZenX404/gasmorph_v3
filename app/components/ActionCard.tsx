@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 
@@ -17,30 +17,39 @@ export default function ActionCard({ onExecute }: Props) {
     try {
       await onExecute?.();
     } catch (err) {
-      setError((err as Error).message || "执行失败");
+      setError((err as Error).message || "Execution failed");
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="glass-card rounded-2xl border border-white/15 p-6 text-white">
+    <div className="relative overflow-hidden rounded-3xl border border-[var(--app-border)] bg-white/70 p-6 text-[var(--app-fg)]">
+      <div className="absolute right-6 top-6 rounded-full border border-[var(--app-border)] bg-white/80 px-3 py-1 text-[10px] uppercase tracking-[0.3em] text-[var(--app-muted)]">
+        交易
+      </div>
       <div className="flex flex-col gap-3">
         <div className="flex items-center justify-between">
-          <h3 className="text-lg font-semibold">示例操作</h3>
-          {/* 补贴模式切换由页面顶部开关统一控制，这里仅执行操作 */}
+          <h3 className="text-lg font-semibold">演示交易</h3>
         </div>
-        <p className="text-sm text-sky-100/80">触发一次链上示例调用，展示补贴与自付的区别。</p>
+        <p className="text-sm text-[var(--app-muted)]">
+          触发一次链上动作，对比项目补贴、消费券抵扣与自费路径。
+        </p>
         <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center">
           <button
             type="button"
             onClick={handleExecute}
             disabled={loading}
-            className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-black transition hover:-translate-y-0.5 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-60"
+            className="rounded-full bg-[var(--app-accent)] px-4 py-2 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:shadow-[0_12px_30px_rgba(255,143,47,0.3)] disabled:cursor-not-allowed disabled:opacity-60"
           >
-            {loading ? "执行中..." : "执行操作"}
+            {loading ? "执行中..." : "运行演示动作"}
           </button>
-          {error && <span className="text-sm text-red-200">{error}</span>}
+          {error ? (
+            <div className="rounded-xl border border-rose-200/80 bg-rose-50/70 px-3 py-2 text-xs text-rose-800">
+              <span className="font-semibold uppercase tracking-[0.2em] text-rose-500">Error</span>
+              <div className="mt-1 break-words">{error}</div>
+            </div>
+          ) : null}
         </div>
       </div>
     </div>

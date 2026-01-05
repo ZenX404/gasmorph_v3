@@ -1,4 +1,4 @@
-# research.md - Wallet 登录与初始落地页
+﻿# research.md - Wallet 登录与初始落地页
 
 ## 背景与范围
 - 目标：测试网环境（Sepolia、Monad 测试网）和本地 Foundry/anvil 的钱包连接与状态保持；不触及主网与真实资产。
@@ -14,7 +14,7 @@
   - 纯 wagmi 自定义 UI：开发成本更高，影响进度。
 
 ### 2) 网络配置（Sepolia、Monad 测试网、本地 anvil）
-- **Decision**: 默认启用 Sepolia (chainId 11155111)；Monad 测试网暂用 chainId 20143（官方若有更新再同步）；本地开发使用 Foundry anvil（chainId 默认 31337）。
+- **Decision**: 默认启用 Sepolia (chainId 11155111)；Monad 测试网暂用 chainId 20143（官方若有更新再同步）；本地开发使用 Foundry anvil（chainId 默认 1337）。
 - **Rationale**: 用户明确测试网；需要固定 chainId 以满足宪法的链交互一致性要求；本地链用于 E2E/模拟。
 - **Alternatives**:
   - 仅单测试网：降低演示力。
@@ -54,5 +54,6 @@
 - 测试网 RPC URL、项目品牌文案需在实现时注入 `.env.*`（无敏感信息入仓）。
 
 ## 参考输出（后续文件将复用）
-- 链配置：Sepolia 11155111，Monad 测试网 20143（待确认），本地 anvil 31337。
+- 链配置：Sepolia 11155111，Monad 测试网 20143（待确认），本地 anvil 1337。
 - 测试重点：连接成功/拒绝/超时、不兼容网络提示、刷新恢复、账户/网络切换、主动断开。
+

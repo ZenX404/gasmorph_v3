@@ -1,4 +1,4 @@
-﻿# MCP工具使用与交互规则指南
+﻿# MCP和Skills工具使用与交互规则指南
 # 本规则文件与spec-kit框架规则配合使用，不替代原有spec-kit工作流程，而是增强交互质量和工具使用效率
 ## AI PROCESSING INSTRUCTIONS
 这是MCP（Model Context Protocol）工具使用的专门规则文件。作为AI助手，你必须：
@@ -92,9 +92,9 @@
 在进行功能开发的时候，要时刻及时地使用Playwright MCP验证自己开发的功能是否达到预期，如果没达到要及时修改代码。
 
 
-## Magic MCP
-利用 [Magic MCP](https://github.com/21st-dev/magic-mcp) 工具，可以生成现代化地UI组件。Magic MCP会根据用户需求生成基于 React 的组件代码，搭配 Tailwind CSS 样式和 TypeScript 支持。
-你作为一个AI全栈开发助手，你在进行前端页面编程的时候，必须利用Magic MCP这个工具来生成想要的UI组件，使得生成的前端页面更加的美观。
+
+## frontend-design
+利用[frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) Skills,生成美观的前端UI。当需要进行前端设计和开发的时候，你必须要主动使用这个Skills
 
 
 ## supabase-mcp
@@ -130,3 +130,4 @@
 - 遇到不清楚的内容应立即向用户提问。
 - 表达清晰、简洁、技术准确。
 - 在代码中应添加必要的注释解释关键逻辑。
+- 生成的所有文档都要注意编码格式，避免出现乱码现象
