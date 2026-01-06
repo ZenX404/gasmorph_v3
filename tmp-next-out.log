@@ -127803,3 +127803,6947 @@
   totalCount: 28
 }
  GET /api/console/overview 200 in 21ms (compile: 6ms, render: 15ms)
+{
+  ts: '2026-01-05T08:42:27.352Z',
+  traceId: 'f9a38018-7c02-4674-ab82-e532fbe613df',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 31ms (compile: 24ms, render: 7ms)
+{
+  ts: '2026-01-05T08:42:27.358Z',
+  traceId: '46603fee-6098-4f0c-bdf1-dece611f7c2e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 35ms (compile: 13ms, render: 22ms)
+{
+  ts: '2026-01-05T08:42:28.415Z',
+  traceId: '9c389000-2902-4060-aaa9-2c7b747a9081',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 26ms, render: 3ms)
+{
+  ts: '2026-01-05T08:42:28.419Z',
+  traceId: 'ee321512-9350-4cf8-98a0-513fc7cd16ff',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 17ms, render: 18ms)
+{
+  ts: '2026-01-05T08:42:32.346Z',
+  traceId: '0bbec650-88b1-4fbb-a196-b3d8318ba3c3',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 19ms, render: 3ms)
+{
+  ts: '2026-01-05T08:42:32.350Z',
+  traceId: 'b076f2b2-85c8-41e3-ba49-ae02d5b630a3',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 9ms, render: 19ms)
+{
+  ts: '2026-01-05T08:42:33.414Z',
+  traceId: '4139a81b-43b3-4b21-86aa-b2d108f08641',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 4ms)
+{
+  ts: '2026-01-05T08:42:33.417Z',
+  traceId: '411b5260-0718-475b-a8bf-b7d0ced40920',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 6ms, render: 17ms)
+{
+  ts: '2026-01-05T08:42:37.354Z',
+  traceId: '48fb7be8-6fe6-47a6-aa17-50de800c2f4b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 32ms (compile: 25ms, render: 7ms)
+{
+  ts: '2026-01-05T08:42:37.360Z',
+  traceId: 'a0f48c23-12d6-43bc-a7ee-8f115a77e539',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 38ms (compile: 12ms, render: 26ms)
+{
+  ts: '2026-01-05T08:42:38.416Z',
+  traceId: '284bb8e1-ac9c-43bc-9adb-ee5f8705ed4e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:42:38.419Z',
+  traceId: '7ba71d1a-a72f-4caf-b474-47bf7aecf261',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 6ms, render: 16ms)
+{
+  ts: '2026-01-05T08:42:42.351Z',
+  traceId: '1047bb71-5ade-411b-b933-df7eb07fd1a6',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 24ms, render: 5ms)
+{
+  ts: '2026-01-05T08:42:42.355Z',
+  traceId: 'f208821c-dc83-47a0-9261-f9977e58e2f8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 14ms, render: 19ms)
+{
+  ts: '2026-01-05T08:42:43.426Z',
+  traceId: 'e8f49582-d6d8-4d32-bc47-87520725cec8',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:42:43.429Z',
+  traceId: '087dda16-bc1c-4be7-94f9-860fbbd9394d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:42:47.341Z',
+  traceId: '0b2bca4b-0c87-4a73-b9e8-29e6e22219d7',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 15ms, render: 5ms)
+{
+  ts: '2026-01-05T08:42:47.346Z',
+  traceId: '2749b026-41e4-4d8b-87b0-eddbd9f02b11',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 5ms, render: 19ms)
+{
+  ts: '2026-01-05T08:42:48.408Z',
+  traceId: '3e3ff300-7dee-425c-ae37-a69626d65eae',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 16ms, render: 4ms)
+{
+  ts: '2026-01-05T08:42:48.412Z',
+  traceId: '3abbe562-b8d5-48e1-a15c-b4bb751b77b1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 8ms, render: 16ms)
+{
+  ts: '2026-01-05T08:42:52.354Z',
+  traceId: '5e39897d-c145-4c71-8c8e-328e47586366',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:42:52.359Z',
+  traceId: 'c6d6819b-27c8-435d-b842-a8bc12b195ab',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 10ms, render: 22ms)
+{
+  ts: '2026-01-05T08:42:53.411Z',
+  traceId: 'd4bb9346-74ea-4857-95f8-6ca57c01eaa7',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 12ms, render: 5ms)
+{
+  ts: '2026-01-05T08:42:53.414Z',
+  traceId: '2f5ecc22-7f26-429a-9479-c1e006fce2a0',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 5ms, render: 17ms)
+{
+  ts: '2026-01-05T08:42:57.350Z',
+  traceId: 'fce3c5c6-46a3-4817-99e4-3d9f909b3a7a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 22ms, render: 5ms)
+{
+  ts: '2026-01-05T08:42:57.353Z',
+  traceId: 'b64659c7-eb07-4edb-96b7-7ec32fcf9ab5',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 13ms, render: 18ms)
+{
+  ts: '2026-01-05T08:42:58.411Z',
+  traceId: '71b0fb4c-31f9-4ead-acda-6256ece3d4cb',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:42:58.416Z',
+  traceId: '9f5e6a0d-3c6d-4850-9c5b-40ac47961478',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T08:43:02.340Z',
+  traceId: 'ad9b6230-361e-4e49-9f71-b0190dbb35ae',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 18ms, render: 3ms)
+{
+  ts: '2026-01-05T08:43:02.343Z',
+  traceId: '592b27c7-c73e-4347-b182-c5608cc10d86',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 7ms, render: 19ms)
+{
+  ts: '2026-01-05T08:43:03.415Z',
+  traceId: '0a7d4f75-be70-4f8c-82fe-bf15873fb8af',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:43:03.419Z',
+  traceId: '2e6b8e0e-8307-4d8b-8ac4-2b81a0fdb1b4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 16ms, render: 15ms)
+{
+  ts: '2026-01-05T08:43:07.328Z',
+  traceId: 'fe5e8a11-2ad2-4cf0-ac22-19efb4f80389',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 15ms (compile: 7ms, render: 8ms)
+{
+  ts: '2026-01-05T08:43:07.339Z',
+  traceId: '80a17219-2ca3-4e36-a5bb-0d9b98dec3b6',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 4ms)
+{
+  ts: '2026-01-05T08:43:08.415Z',
+  traceId: 'edfbcdaa-560b-4523-b82c-de63a5f5f864',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 13ms, render: 3ms)
+{
+  ts: '2026-01-05T08:43:08.418Z',
+  traceId: 'ea4502f2-284b-483f-85dd-5e5c6c082111',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 20ms (compile: 5ms, render: 15ms)
+{
+  ts: '2026-01-05T08:43:12.343Z',
+  traceId: '631b67ce-183e-403c-ad1f-9e174dd6e193',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 17ms, render: 4ms)
+{
+  ts: '2026-01-05T08:43:12.347Z',
+  traceId: '730865db-4044-4c1b-9368-af04f8d50e1b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 8ms, render: 18ms)
+{
+  ts: '2026-01-05T08:43:13.418Z',
+  traceId: '83f7ff98-9f19-44fc-9e28-ea50ccde1187',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 3ms)
+{
+  ts: '2026-01-05T08:43:13.421Z',
+  traceId: '993d21ca-469b-49cf-92c3-fde6f5f58911',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 15ms, render: 14ms)
+{
+  ts: '2026-01-05T08:43:17.338Z',
+  traceId: '9c73a959-ff5b-454f-9bd1-81f2d679d3f2',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 17ms, render: 3ms)
+{
+  ts: '2026-01-05T08:43:17.341Z',
+  traceId: '40a3063a-ae35-47b5-896f-6c3aa69abd1d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 8ms, render: 16ms)
+{
+  ts: '2026-01-05T08:43:18.421Z',
+  traceId: '3cb272eb-6fe5-4ba4-8857-d69e046ff2fa',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 21ms, render: 5ms)
+{
+  ts: '2026-01-05T08:43:18.426Z',
+  traceId: 'a785871a-cdf2-4e83-a9a0-5a57ba06daaf',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 13ms, render: 17ms)
+{
+  ts: '2026-01-05T08:43:22.346Z',
+  traceId: 'ea9b8fbe-c308-4b77-8b05-dc247a1e9460',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:43:22.350Z',
+  traceId: '0b8e02d3-371a-40ca-99d7-db865df8ad04',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 11ms, render: 20ms)
+{
+  ts: '2026-01-05T08:43:23.412Z',
+  traceId: 'ad4a2651-347b-4a83-9f3b-96106586f1b9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 22ms, render: 6ms)
+{
+  ts: '2026-01-05T08:43:23.416Z',
+  traceId: 'f3116c60-7f2d-4b3c-898b-0d166ade5947',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:43:27.328Z',
+  traceId: '76d26b58-5542-4591-933a-db455d237a63',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 16ms (compile: 9ms, render: 7ms)
+{
+  ts: '2026-01-05T08:43:27.341Z',
+  traceId: 'e55ec14f-f3f3-44c7-ab5d-948ad4a2215e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 11ms (compile: 6ms, render: 5ms)
+{
+  ts: '2026-01-05T08:43:28.408Z',
+  traceId: 'b0b681e1-4793-4dd6-bfd4-e98d3e1a5cbf',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 20ms, render: 3ms)
+{
+  ts: '2026-01-05T08:43:28.411Z',
+  traceId: 'a49d7163-a23a-4a14-9b7e-df64b9e85e4e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 13ms, render: 15ms)
+{
+  ts: '2026-01-05T08:43:32.350Z',
+  traceId: '74660f93-b7bd-4f41-9e4c-973c0722929a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 23ms, render: 5ms)
+{
+  ts: '2026-01-05T08:43:32.355Z',
+  traceId: '0371a2dd-961e-4610-8ddf-128dc56ae8da',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 36ms (compile: 14ms, render: 22ms)
+{
+  ts: '2026-01-05T08:43:33.411Z',
+  traceId: '68314c4d-4db6-40c3-b2ca-4f0ec63f4cbe',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 18ms, render: 3ms)
+{
+  ts: '2026-01-05T08:43:33.414Z',
+  traceId: '1470608b-3e2a-4634-a35c-17745699b1f6',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 9ms, render: 17ms)
+{
+  ts: '2026-01-05T08:43:37.344Z',
+  traceId: 'd50a8354-c19a-47f1-97c0-a45a2ce37d45',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 18ms, render: 3ms)
+{
+  ts: '2026-01-05T08:43:37.347Z',
+  traceId: '57fbd7b8-9641-4457-a6e0-58ee0cf52837',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 7ms, render: 19ms)
+{
+  ts: '2026-01-05T08:43:38.417Z',
+  traceId: '13086284-fd40-46d6-a535-0b5f62b52b42',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:43:38.420Z',
+  traceId: '192c912f-5333-424d-ae78-54090e2340d9',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 15ms, render: 15ms)
+{
+  ts: '2026-01-05T08:43:42.349Z',
+  traceId: '1126e755-9146-42d1-8789-3f761372324c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 25ms, render: 4ms)
+{
+  ts: '2026-01-05T08:43:42.353Z',
+  traceId: 'ceb74a34-9ad2-4798-92a4-588bb803bcaf',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 10ms, render: 24ms)
+{
+  ts: '2026-01-05T08:43:43.421Z',
+  traceId: 'b2e35167-cdf5-4034-9ce0-b5acb86eecbf',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 5ms)
+{
+  ts: '2026-01-05T08:43:43.424Z',
+  traceId: 'fe65c10c-23c8-4b22-bb51-6792cb64f4e4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T08:43:47.337Z',
+  traceId: '4c25cbd7-c80d-4bd9-8e31-de4391a2923e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 14ms, render: 10ms)
+{
+  ts: '2026-01-05T08:43:47.350Z',
+  traceId: '1acfc7dc-a802-488c-916f-4aa400513b40',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 11ms (compile: 8ms, render: 3ms)
+{
+  ts: '2026-01-05T08:43:48.425Z',
+  traceId: '2acc65c4-435b-4803-ba5b-af7ec0bff77a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 25ms, render: 4ms)
+{
+  ts: '2026-01-05T08:43:48.429Z',
+  traceId: '87fc03ef-357b-4f72-9fe1-981f5908b710',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 16ms, render: 18ms)
+{
+  ts: '2026-01-05T08:43:52.335Z',
+  traceId: '3b468e64-1ded-4d8e-b667-0e5506bafe2c',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 14ms, render: 9ms)
+{
+  ts: '2026-01-05T08:43:52.346Z',
+  traceId: '7f1ec50e-6523-4d22-9f2d-70ebea7619b5',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 6ms, render: 3ms)
+{
+  ts: '2026-01-05T08:43:53.409Z',
+  traceId: 'cb80f062-b436-4f7a-9f70-eed3421c8dcf',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 16ms (compile: 13ms, render: 3ms)
+{
+  ts: '2026-01-05T08:43:53.412Z',
+  traceId: '96ebcc62-c631-47e0-8f07-93e96c191ff2',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 5ms, render: 16ms)
+{
+  ts: '2026-01-05T08:43:57.326Z',
+  traceId: '3172b293-29eb-491b-b0cf-ce4213908d0e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 13ms (compile: 6ms, render: 8ms)
+{
+  ts: '2026-01-05T08:43:57.337Z',
+  traceId: '3e37a7db-3292-40c2-865e-cd538c1f2872',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 6ms, render: 4ms)
+{
+  ts: '2026-01-05T08:43:58.416Z',
+  traceId: '187f4851-ce97-43a0-bdd0-456e41b13479',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 23ms, render: 3ms)
+{
+  ts: '2026-01-05T08:43:58.419Z',
+  traceId: '1937694b-8474-4c06-973c-c536fae7c952',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 13ms, render: 16ms)
+{
+  ts: '2026-01-05T08:44:02.347Z',
+  traceId: '9bdaf02c-44c4-4aa6-9180-7e4c6f772b44',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 18ms, render: 3ms)
+{
+  ts: '2026-01-05T08:44:02.353Z',
+  traceId: '925bb944-001b-44c1-be41-5c84b3850157',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 9ms, render: 18ms)
+{
+  ts: '2026-01-05T08:44:03.419Z',
+  traceId: '722a3309-8ae1-42d3-9bc8-1ab8197fcc0c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 3ms)
+{
+  ts: '2026-01-05T08:44:03.423Z',
+  traceId: '6343ecb2-68b7-4e93-8623-613a10556f3d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:44:07.343Z',
+  traceId: 'd7701873-dfee-4610-87cf-8f6704592ed4',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 15ms, render: 5ms)
+{
+  ts: '2026-01-05T08:44:07.348Z',
+  traceId: '8d696926-3753-49cc-aa14-721cb5f906e1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 5ms, render: 19ms)
+{
+  ts: '2026-01-05T08:44:08.411Z',
+  traceId: '36c57da6-c1a3-4bcf-acea-e6a7d6ab51a1',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 16ms, render: 3ms)
+{
+  ts: '2026-01-05T08:44:08.414Z',
+  traceId: '525455a0-304d-41cb-b19f-e5bf4c48233b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 8ms, render: 15ms)
+{
+  ts: '2026-01-05T08:44:12.345Z',
+  traceId: '711a1552-e42e-40c4-ac14-a73e564168ff',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 18ms, render: 3ms)
+{
+  ts: '2026-01-05T08:44:12.349Z',
+  traceId: 'f5984e4b-ed5f-44b1-a692-bb644c05a35b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 10ms, render: 15ms)
+{
+  ts: '2026-01-05T08:44:13.416Z',
+  traceId: '6b697749-4f36-4853-94a7-841e7e08fcaa',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 23ms, render: 5ms)
+{
+  ts: '2026-01-05T08:44:13.419Z',
+  traceId: 'f1c4fc9f-8572-4c45-83b0-85b05748892b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:44:17.345Z',
+  traceId: '4df5c7ce-ed8a-4568-9699-4f4e81f84fa0',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 15ms, render: 4ms)
+{
+  ts: '2026-01-05T08:44:17.348Z',
+  traceId: '32090d6a-dfaf-4d54-a502-58e68e3dfe65',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 7ms, render: 16ms)
+{
+  ts: '2026-01-05T08:44:18.415Z',
+  traceId: '2f08c10a-d581-4841-90bc-67e00f8d36ad',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 5ms)
+{
+  ts: '2026-01-05T08:44:18.418Z',
+  traceId: 'd4f73faa-3a5a-48bb-8e17-f1023a23a4b7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:44:22.344Z',
+  traceId: 'a7c8d980-ccca-468f-a419-3f52475ab00a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 19ms, render: 3ms)
+{
+  ts: '2026-01-05T08:44:22.349Z',
+  traceId: '4fc9329b-a025-4130-beef-8f6c2d9124a1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 9ms, render: 18ms)
+{
+  ts: '2026-01-05T08:44:23.408Z',
+  traceId: '0f8ebb93-e221-4027-8705-470b018acf7d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:44:23.411Z',
+  traceId: '53717a3d-ec7f-4f38-b265-c276c69edd2f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 5ms, render: 16ms)
+{
+  ts: '2026-01-05T08:44:27.333Z',
+  traceId: '2a4caba2-9499-4dba-bcde-60d545d40030',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 16ms (compile: 12ms, render: 3ms)
+{
+  ts: '2026-01-05T08:44:27.338Z',
+  traceId: '5cfa8e03-9e8a-422a-896f-1fad1ebeed30',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 5ms, render: 16ms)
+{
+  ts: '2026-01-05T08:44:28.414Z',
+  traceId: '631b7d88-247f-4019-a6b3-2e2cbd3d14a5',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 4ms)
+{
+  ts: '2026-01-05T08:44:28.418Z',
+  traceId: 'ed182b96-2f39-4059-8385-2a827210ad79',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 7ms, render: 16ms)
+{
+  ts: '2026-01-05T08:44:32.347Z',
+  traceId: 'f77ca830-5a68-4baf-b02c-93998dbc2154',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 18ms, render: 3ms)
+{
+  ts: '2026-01-05T08:44:32.351Z',
+  traceId: '7fb5430a-0045-424d-88f0-4e66de184aae',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 9ms, render: 18ms)
+{
+  ts: '2026-01-05T08:44:33.415Z',
+  traceId: 'ac819c40-27dd-4425-87e1-81bd9fff48fc',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:44:33.418Z',
+  traceId: '6468bc59-fc95-41c1-8b9c-3bb5bebb260c',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 14ms, render: 16ms)
+{
+  ts: '2026-01-05T08:44:37.343Z',
+  traceId: 'c4eb5428-8f41-4b00-8426-77a19c763a3d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 20ms, render: 3ms)
+{
+  ts: '2026-01-05T08:44:37.348Z',
+  traceId: 'b881a3ee-3c7a-4b23-bf42-b1c552a9e99a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 13ms, render: 16ms)
+{
+  ts: '2026-01-05T08:44:38.409Z',
+  traceId: '0a760a54-541b-4634-b6f8-388103c639f3',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 16ms, render: 3ms)
+{
+  ts: '2026-01-05T08:44:38.412Z',
+  traceId: '8c7ee78e-23ff-4ef9-bc84-bb026e4a180e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 9ms, render: 15ms)
+{
+  ts: '2026-01-05T08:44:42.347Z',
+  traceId: '111afdde-b14c-48f1-a85f-8b0742be9ef4',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 21ms, render: 3ms)
+{
+  ts: '2026-01-05T08:44:42.351Z',
+  traceId: 'dbf18c46-6ff8-4c6f-8301-f149a3a01842',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 11ms, render: 18ms)
+{
+  ts: '2026-01-05T08:44:43.419Z',
+  traceId: '4d76c74a-321e-448d-8f8a-b22cd9f2435c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 21ms, render: 5ms)
+{
+  ts: '2026-01-05T08:44:43.423Z',
+  traceId: '09c512af-6fa3-4b62-a53d-d79bef6acc0e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 12ms, render: 21ms)
+{
+  ts: '2026-01-05T08:44:47.350Z',
+  traceId: '21ff5f62-ebc9-4fea-803c-f3544b25e42e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 20ms, render: 8ms)
+{
+  ts: '2026-01-05T08:44:47.358Z',
+  traceId: '4611e3b3-9df6-4af1-a46e-bed125a5b794',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 7ms, render: 27ms)
+{
+  ts: '2026-01-05T08:44:48.411Z',
+  traceId: 'c8392d56-c950-4b9b-9522-2f089b694276',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 24ms, render: 5ms)
+{
+  ts: '2026-01-05T08:44:48.416Z',
+  traceId: 'c6cda74e-b575-496b-834b-1f4adab52c5f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T08:44:52.346Z',
+  traceId: 'd28fed60-55d7-487d-91c4-aa43d176e474',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:44:52.351Z',
+  traceId: 'b39d0e42-44e6-44ff-8ecb-c56a078ea2f2',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 12ms, render: 19ms)
+{
+  ts: '2026-01-05T08:44:53.411Z',
+  traceId: '7c8b4215-eec7-47bf-a2ce-8a188867ec9e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 13ms, render: 4ms)
+{
+  ts: '2026-01-05T08:44:53.415Z',
+  traceId: '9aff130d-f01b-4f7c-a458-99d52be757b8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 5ms, render: 17ms)
+{
+  ts: '2026-01-05T08:44:57.326Z',
+  traceId: 'cafaf640-1c96-40f4-ab6c-34c3f2140581',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 13ms (compile: 7ms, render: 6ms)
+{
+  ts: '2026-01-05T08:44:57.336Z',
+  traceId: '6608f69e-9d7e-486c-8417-49ac2c1319a7',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 6ms, render: 4ms)
+{
+  ts: '2026-01-05T08:44:58.404Z',
+  traceId: '382d6a76-6f42-487d-90db-8df9e1f6ebf9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 15ms, render: 4ms)
+{
+  ts: '2026-01-05T08:44:58.407Z',
+  traceId: '360ba7ec-389c-4b71-a203-e2941e24fa02',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 7ms, render: 15ms)
+{
+  ts: '2026-01-05T08:45:02.356Z',
+  traceId: '16e96228-6076-4aaa-9cf6-a6dba71a47f2',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 32ms (compile: 27ms, render: 5ms)
+{
+  ts: '2026-01-05T08:45:02.359Z',
+  traceId: '0975db9c-8d64-406c-bb4f-3c9622204159',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 38ms (compile: 15ms, render: 23ms)
+{
+  ts: '2026-01-05T08:45:03.408Z',
+  traceId: '776cde02-b07e-4043-bf07-f794458a5229',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 16ms, render: 3ms)
+{
+  ts: '2026-01-05T08:45:03.411Z',
+  traceId: '74cd9315-2639-49e1-acd6-7f78984e4ec7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 9ms, render: 15ms)
+{
+  ts: '2026-01-05T08:45:07.337Z',
+  traceId: '86a5706a-3850-49d3-a7fe-84a0647f98ae',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 15ms, render: 8ms)
+{
+  ts: '2026-01-05T08:45:07.349Z',
+  traceId: '2874af98-bb3b-4d9a-886d-4e621cc71a79',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:45:08.414Z',
+  traceId: '8b5872d1-1034-4f02-ba54-d222e5d85803',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 17ms, render: 4ms)
+{
+  ts: '2026-01-05T08:45:08.418Z',
+  traceId: 'aa4a9cdf-7bb9-4364-a0a7-a8debef30557',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 7ms, render: 19ms)
+{
+  ts: '2026-01-05T08:45:12.342Z',
+  traceId: 'ed2d23e0-95c1-47c5-8f0f-f17a13680069',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 19ms, render: 9ms)
+{
+  ts: '2026-01-05T08:45:12.353Z',
+  traceId: 'c848c4b7-3cf7-44a8-ad85-1dfdbd945d98',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 4ms)
+{
+  ts: '2026-01-05T08:45:13.420Z',
+  traceId: '16cccebb-7d08-4448-a0d9-a24cbadcfd01',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 17ms, render: 3ms)
+{
+  ts: '2026-01-05T08:45:13.424Z',
+  traceId: '7082f22b-8c0d-44d5-9a9d-08024f5090a4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 7ms, render: 17ms)
+{
+  ts: '2026-01-05T08:45:17.347Z',
+  traceId: '421e2460-09b8-4f2a-98d8-f0c8c3c2d555',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 24ms, render: 5ms)
+{
+  ts: '2026-01-05T08:45:17.350Z',
+  traceId: '7a3b23c0-0c89-432c-aed1-1f2fcf393bec',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 14ms, render: 18ms)
+{
+  ts: '2026-01-05T08:45:18.415Z',
+  traceId: '011e4dca-190a-4b61-af2a-694525e1015f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:45:18.419Z',
+  traceId: 'ee0477df-053a-45b2-b533-808a8d6663a4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 16ms, render: 16ms)
+{
+  ts: '2026-01-05T08:45:22.338Z',
+  traceId: '9a4d2b0f-d5b6-4e05-b748-6b27b4de84a1',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 19ms, render: 3ms)
+{
+  ts: '2026-01-05T08:45:22.343Z',
+  traceId: 'ddab12b5-1504-4b47-bd91-361a323b6f8d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 9ms, render: 19ms)
+{
+  ts: '2026-01-05T08:45:23.413Z',
+  traceId: 'b4af013b-6914-4f1f-9f78-cc77f407366a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:45:23.416Z',
+  traceId: '5bcd5264-5ccb-4c7a-8302-dcb6af591fa3',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 7ms, render: 14ms)
+{
+  ts: '2026-01-05T08:45:27.352Z',
+  traceId: 'be30d797-9b7a-4bc6-bde4-9f5354fe90f1',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:45:27.357Z',
+  traceId: '4eab8efd-a089-49e2-9419-0f1a9b595e24',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 16ms, render: 18ms)
+{
+  ts: '2026-01-05T08:45:28.409Z',
+  traceId: '92778e0f-a83c-4766-ba01-ee41163a3973',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 16ms (compile: 13ms, render: 3ms)
+{
+  ts: '2026-01-05T08:45:28.412Z',
+  traceId: 'ff8bc6e6-c7af-4e1f-9c61-a58defe0531b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 6ms, render: 16ms)
+{
+  ts: '2026-01-05T08:45:32.345Z',
+  traceId: '475a893a-6647-4977-a52c-7803acb1017e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 20ms, render: 6ms)
+{
+  ts: '2026-01-05T08:45:32.351Z',
+  traceId: 'b7006698-96fe-4ee6-b89e-f0479fcaef54',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 11ms, render: 19ms)
+{
+  ts: '2026-01-05T08:45:33.423Z',
+  traceId: 'dd449612-9492-41f9-a16d-cfbf4e6b7dc3',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:45:33.427Z',
+  traceId: '0425e4bc-33c4-49fa-829f-1e3d770093db',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 11ms, render: 17ms)
+{
+  ts: '2026-01-05T08:45:37.343Z',
+  traceId: '76bc359d-6d77-41eb-8fa3-d0eecff3f6c4',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 20ms, render: 4ms)
+{
+  ts: '2026-01-05T08:45:37.348Z',
+  traceId: '78a0e38e-4c34-4b27-9a50-579d536ebd2d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 12ms, render: 17ms)
+{
+  ts: '2026-01-05T08:45:38.407Z',
+  traceId: '15503923-007f-490b-b652-8389c9e7d304',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 16ms (compile: 13ms, render: 4ms)
+{
+  ts: '2026-01-05T08:45:38.410Z',
+  traceId: '513af08c-90a9-4ee5-bf40-ec2fcaa75991',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 6ms, render: 16ms)
+{
+  ts: '2026-01-05T08:45:42.346Z',
+  traceId: 'a540561b-b1c9-4651-9328-695ae0f67b6d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 24ms, render: 6ms)
+{
+  ts: '2026-01-05T08:45:42.352Z',
+  traceId: '4018263c-7cba-444f-9f06-5c2abf3fe663',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 14ms, render: 20ms)
+{
+  ts: '2026-01-05T08:45:43.408Z',
+  traceId: 'a16a082d-aa37-4bc5-b538-5bf34077a9ac',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:45:43.412Z',
+  traceId: 'e594c944-890b-4909-a542-6e7fc67e6797',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 6ms, render: 17ms)
+{
+  ts: '2026-01-05T08:45:47.333Z',
+  traceId: 'c835c1cc-544d-4656-a586-468b21b0f250',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 14ms, render: 8ms)
+{
+  ts: '2026-01-05T08:45:47.343Z',
+  traceId: '5e083e5e-e6f7-4884-a076-1e0fb44f92fe',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:45:48.405Z',
+  traceId: '6886ff15-060e-425d-a642-8aa47038a52b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:45:48.408Z',
+  traceId: 'c037917b-8641-4444-8e95-2d9b629d82a7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 8ms, render: 14ms)
+{
+  ts: '2026-01-05T08:45:52.346Z',
+  traceId: '1630b5d8-ea36-4500-b282-0a62f7251a43',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 20ms, render: 3ms)
+{
+  ts: '2026-01-05T08:45:52.349Z',
+  traceId: 'bcd118fa-23c0-4583-b588-1a92913cba16',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 11ms, render: 18ms)
+{
+  ts: '2026-01-05T08:45:53.409Z',
+  traceId: '7fecdd50-830b-4e4e-a39d-6864391edc20',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 16ms, render: 5ms)
+{
+  ts: '2026-01-05T08:45:53.414Z',
+  traceId: 'c4f56177-8bab-4583-bd84-ea1392e46441',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 7ms, render: 17ms)
+{
+  ts: '2026-01-05T08:45:57.340Z',
+  traceId: '6bc16032-d27f-4665-a36d-2b8e45f19d8f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 14ms, render: 12ms)
+{
+  ts: '2026-01-05T08:45:57.360Z',
+  traceId: '08ea1483-61b4-43b9-bf70-e02f567f9bdb',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 19ms, render: 5ms)
+{
+  ts: '2026-01-05T08:45:58.421Z',
+  traceId: 'ebfb2c19-92a5-469f-982e-f647b2865aee',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:45:58.425Z',
+  traceId: '896e304f-2fd8-4ecb-9b25-b72c649552d1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 15ms, render: 15ms)
+{
+  ts: '2026-01-05T08:46:02.337Z',
+  traceId: '17c2df13-6602-4c97-ac22-fed2379d85df',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 18ms (compile: 8ms, render: 10ms)
+{
+  ts: '2026-01-05T08:46:02.347Z',
+  traceId: 'ad47f426-8c99-450f-82e1-ac2ff6f3f0a3',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 13ms (compile: 8ms, render: 5ms)
+{
+  ts: '2026-01-05T08:46:03.417Z',
+  traceId: '35765da0-4373-4fc4-b966-cd8bfbabfcc4',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 21ms, render: 6ms)
+{
+  ts: '2026-01-05T08:46:03.421Z',
+  traceId: 'a4892893-af99-4d66-a526-d686d71094e5',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:46:07.354Z',
+  traceId: '12cb87d6-dc6b-4e89-baaf-d34d84b21416',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 24ms, render: 4ms)
+{
+  ts: '2026-01-05T08:46:07.359Z',
+  traceId: '02471aac-a42c-426d-9443-2c860d0a6ce7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 15ms, render: 18ms)
+{
+  ts: '2026-01-05T08:46:08.411Z',
+  traceId: 'a3f6f2e8-4769-4ac0-8954-4ebfc32a1fd3',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 13ms, render: 4ms)
+{
+  ts: '2026-01-05T08:46:08.414Z',
+  traceId: '81c825ac-bb4a-4262-9cf0-73bfa51b747e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 5ms, render: 15ms)
+{
+  ts: '2026-01-05T08:46:12.349Z',
+  traceId: 'd2f6b7ef-4f20-4153-8b59-88c0e6e3844d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 21ms, render: 5ms)
+{
+  ts: '2026-01-05T08:46:12.354Z',
+  traceId: '0317b4f8-bccd-428a-8033-627fbad31665',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 12ms, render: 22ms)
+{
+  ts: '2026-01-05T08:46:13.413Z',
+  traceId: 'e9ec9545-f1ba-4658-8fdd-7855960cd62b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 25ms, render: 4ms)
+{
+  ts: '2026-01-05T08:46:13.416Z',
+  traceId: 'ab9a50c7-6884-4a18-867c-beaf33261d72',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 16ms, render: 17ms)
+{
+  ts: '2026-01-05T08:46:17.335Z',
+  traceId: '555ea2bc-82a2-4786-8244-bed79967c489',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 18ms (compile: 7ms, render: 11ms)
+{
+  ts: '2026-01-05T08:46:17.347Z',
+  traceId: '00e1c7d4-1633-447b-9e00-8ad8a2eacb3c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 13ms (compile: 5ms, render: 8ms)
+{
+  ts: '2026-01-05T08:46:18.423Z',
+  traceId: 'b275d8c4-43d3-488c-a764-8affa43b9eac',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 25ms, render: 4ms)
+{
+  ts: '2026-01-05T08:46:18.427Z',
+  traceId: '05c8b0ac-5498-41d3-b281-01f210003ed5',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 15ms, render: 19ms)
+{
+  ts: '2026-01-05T08:46:22.352Z',
+  traceId: '38c6e1c1-77eb-4c64-b9f7-7ea4c62c66ce',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 31ms (compile: 25ms, render: 6ms)
+{
+  ts: '2026-01-05T08:46:22.356Z',
+  traceId: '447d16ee-2753-436d-9d07-c397c760d82c',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 35ms (compile: 14ms, render: 21ms)
+{
+  ts: '2026-01-05T08:46:23.423Z',
+  traceId: '7664d22f-b49b-44c7-89ce-136a062d755f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 20ms, render: 4ms)
+{
+  ts: '2026-01-05T08:46:23.427Z',
+  traceId: '3fc21ee2-1562-4beb-a432-fca1767d863f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 10ms, render: 19ms)
+{
+  ts: '2026-01-05T08:46:27.366Z',
+  traceId: '883d19a9-83b3-4f6b-a815-f3ab4c764237',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 37ms (compile: 30ms, render: 7ms)
+{
+  ts: '2026-01-05T08:46:27.373Z',
+  traceId: '7c4ec6b7-f396-452b-9c25-c0d2b5f08de4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 45ms (compile: 13ms, render: 32ms)
+{
+  ts: '2026-01-05T08:46:28.421Z',
+  traceId: 'f4934d45-1734-4b01-bc96-e878d3dddd84',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 35ms (compile: 26ms, render: 9ms)
+{
+  ts: '2026-01-05T08:46:28.429Z',
+  traceId: '89471807-9a47-4160-ac2f-21859ad6bb19',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 47ms (compile: 10ms, render: 36ms)
+{
+  ts: '2026-01-05T08:46:32.341Z',
+  traceId: 'a73a5fce-b32a-4691-b80a-498c6b5265b9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 18ms, render: 7ms)
+{
+  ts: '2026-01-05T08:46:32.348Z',
+  traceId: 'b4c19639-2cbc-4c89-850b-3f083c351d7a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 9ms, render: 20ms)
+{
+  ts: '2026-01-05T08:46:33.419Z',
+  traceId: '17513d97-39b8-4597-92e4-2413cbe765eb',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 20ms, render: 3ms)
+{
+  ts: '2026-01-05T08:46:33.422Z',
+  traceId: '6681a65b-d7c3-4aa1-8e47-732f6c14e450',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 11ms, render: 16ms)
+{
+  ts: '2026-01-05T08:46:37.346Z',
+  traceId: 'c5b091f8-f7fd-4dcd-98d2-e3d1a2cffe5c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:46:37.353Z',
+  traceId: 'aaa3a0e0-bd70-4e1a-a96f-7e4893f7ec7f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 14ms, render: 19ms)
+{
+  ts: '2026-01-05T08:46:38.411Z',
+  traceId: '6a4d7946-67dc-48b5-a681-d7260c7bf197',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 13ms, render: 3ms)
+{
+  ts: '2026-01-05T08:46:38.414Z',
+  traceId: '9e1063ff-b183-4762-8ea0-75b8189a2087',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 6ms, render: 18ms)
+{
+  ts: '2026-01-05T08:46:42.345Z',
+  traceId: '350ea243-4aa6-4593-b682-08d7757d8c26',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 19ms, render: 15ms)
+{
+  ts: '2026-01-05T08:46:42.364Z',
+  traceId: 'f1d1b8f6-669d-4051-bd7e-da8ec5b36b8c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 16ms (compile: 11ms, render: 5ms)
+{
+  ts: '2026-01-05T08:46:43.419Z',
+  traceId: '3b9cfebd-d003-4ead-9d6d-f96bb506323d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:46:43.423Z',
+  traceId: '463ae39b-5815-4004-9910-f48de26b6b41',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 14ms, render: 15ms)
+{
+  ts: '2026-01-05T08:46:47.326Z',
+  traceId: 'cefde379-bc8a-4306-a297-d661838ba8d6',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 13ms (compile: 6ms, render: 7ms)
+{
+  ts: '2026-01-05T08:46:47.336Z',
+  traceId: 'a1639d66-ce75-4d20-81ba-3140c1d2c565',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 6ms, render: 3ms)
+{
+  ts: '2026-01-05T08:46:48.419Z',
+  traceId: '7a782cc9-d21c-4715-b869-5038d24dc9da',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:46:48.424Z',
+  traceId: 'eb178215-8c4b-4cf6-b456-e8aa8f961189',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 13ms, render: 16ms)
+{
+  ts: '2026-01-05T08:46:52.353Z',
+  traceId: 'a62300c7-2095-496e-bbe7-e5f9a4dca7fc',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:46:52.356Z',
+  traceId: '59aec292-477f-49a2-8c2b-485f864db2c6',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 11ms, render: 19ms)
+{
+  ts: '2026-01-05T08:46:53.408Z',
+  traceId: '891ca3f1-dfac-411f-98f8-c6d8d60f2d24',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 16ms, render: 4ms)
+{
+  ts: '2026-01-05T08:46:53.411Z',
+  traceId: 'cdf40d30-f5e5-4ca3-90a3-d19cb2ed3d5d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 8ms, render: 16ms)
+{
+  ts: '2026-01-05T08:46:57.333Z',
+  traceId: 'cab1b490-b811-47cf-a86e-6332365102ed',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 12ms, render: 9ms)
+{
+  ts: '2026-01-05T08:46:57.346Z',
+  traceId: '2e628ebc-11db-457b-a61f-333d3eab0d67',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 4ms)
+{
+  ts: '2026-01-05T08:46:58.408Z',
+  traceId: '417298e2-7e9b-45a6-bb1d-be19d42eec68',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:46:58.411Z',
+  traceId: '8af40993-25d2-42cd-b098-47467fa3d964',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 6ms, render: 16ms)
+{
+  ts: '2026-01-05T08:47:02.336Z',
+  traceId: '3bb62247-9df9-4646-910e-663454b96c01',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 13ms, render: 9ms)
+{
+  ts: '2026-01-05T08:47:02.346Z',
+  traceId: 'cd459e64-14c5-4ac7-8d2e-4a0c236dd948',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:47:03.417Z',
+  traceId: 'b2bdf0e9-959f-40dd-98fc-3c1a8cd799de',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 25ms, render: 5ms)
+{
+  ts: '2026-01-05T08:47:03.421Z',
+  traceId: 'ec705d70-c7e9-4cbe-899d-c456eb4dc363',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 15ms, render: 19ms)
+{
+  ts: '2026-01-05T08:47:07.348Z',
+  traceId: '537736f5-83be-4af1-aa49-983bc06d8bf1',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:47:07.351Z',
+  traceId: '06383786-44af-45bd-83a0-38096b8c6949',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 15ms, render: 16ms)
+{
+  ts: '2026-01-05T08:47:08.420Z',
+  traceId: 'c939d084-4366-4640-b77e-f8f99eb954b8',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 17ms, render: 6ms)
+{
+  ts: '2026-01-05T08:47:08.425Z',
+  traceId: 'efcd652c-9612-4e7f-a617-2326c1beac32',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 5ms, render: 22ms)
+{
+  ts: '2026-01-05T08:47:12.353Z',
+  traceId: 'ebcf2285-cb97-4757-b4cf-828976aa5bd1',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 24ms, render: 3ms)
+{
+  ts: '2026-01-05T08:47:12.357Z',
+  traceId: '95df8be6-f2ea-4f3a-9ed6-ca3e0188f476',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 13ms, render: 19ms)
+{
+  ts: '2026-01-05T08:47:13.415Z',
+  traceId: '813adc14-4de6-4675-8da3-e99b8e6efd6e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 20ms, render: 3ms)
+{
+  ts: '2026-01-05T08:47:13.420Z',
+  traceId: 'e29a9954-bd32-4968-842e-ac583b5c2886',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 13ms, render: 16ms)
+{
+  ts: '2026-01-05T08:47:17.332Z',
+  traceId: '90c523d3-5fb3-4fd4-8662-e5549aa0b6ca',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 20ms (compile: 14ms, render: 7ms)
+{
+  ts: '2026-01-05T08:47:17.342Z',
+  traceId: '3efa2a92-f769-40d4-86ef-608defb2a915',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 6ms, render: 4ms)
+{
+  ts: '2026-01-05T08:47:18.426Z',
+  traceId: '63a4ba7f-b366-4471-9c57-89dad1406d5b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 23ms, render: 6ms)
+{
+  ts: '2026-01-05T08:47:18.430Z',
+  traceId: '53268c93-d122-4f81-8e03-cec9b5c02acd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 13ms, render: 20ms)
+{
+  ts: '2026-01-05T08:47:22.349Z',
+  traceId: 'c17d71cf-a8cf-4c8a-aa97-b221f5af6031',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 26ms, render: 4ms)
+{
+  ts: '2026-01-05T08:47:22.353Z',
+  traceId: '67dc2952-09a4-4aa4-931f-f6089c44066a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 35ms (compile: 16ms, render: 19ms)
+{
+  ts: '2026-01-05T08:47:23.403Z',
+  traceId: '2fab53a7-ca4a-4bbd-ae16-292917ee6ab7',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:47:23.406Z',
+  traceId: '614810e0-11be-427d-a2d4-e9c99302ed92',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 5ms, render: 16ms)
+{
+  ts: '2026-01-05T08:47:27.353Z',
+  traceId: '26380b1f-11c0-4c2c-9786-10823bdb7c37',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 31ms (compile: 27ms, render: 4ms)
+{
+  ts: '2026-01-05T08:47:27.359Z',
+  traceId: 'b6fcd8c7-a8c9-4aa5-86e1-cfbccd4024fd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 37ms (compile: 16ms, render: 21ms)
+{
+  ts: '2026-01-05T08:47:28.444Z',
+  traceId: '93455c66-5457-4a76-9dc3-98beb7621f54',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 3ms)
+{
+  ts: '2026-01-05T08:47:28.447Z',
+  traceId: 'a19786e7-b797-4fd2-a961-3c7bcd7c8f43',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 14ms, render: 18ms)
+{
+  ts: '2026-01-05T08:47:32.349Z',
+  traceId: '31238b25-b9c5-4dd8-b778-912f30b679ed',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 23ms, render: 5ms)
+{
+  ts: '2026-01-05T08:47:32.353Z',
+  traceId: '176d1ebb-c413-493d-9927-76f8c5104927',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 14ms, render: 18ms)
+{
+  ts: '2026-01-05T08:47:33.423Z',
+  traceId: '307e35aa-c903-4705-a304-0a76fd456440',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 24ms, render: 3ms)
+{
+  ts: '2026-01-05T08:47:33.427Z',
+  traceId: '022fe1e2-9009-4970-b2ce-678f0fc5955c',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T08:47:37.348Z',
+  traceId: 'c299e008-0690-480b-b9ea-873067eb616e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:47:37.353Z',
+  traceId: 'b0cb5324-0c97-410a-bc8a-9ee0d7a09fac',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 12ms, render: 18ms)
+{
+  ts: '2026-01-05T08:47:38.421Z',
+  traceId: '2cee0ad1-47c2-4762-b771-59041621b99c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 20ms, render: 4ms)
+{
+  ts: '2026-01-05T08:47:38.424Z',
+  traceId: '18c50acb-cd5a-43f9-976f-0edf8a2e42bf',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 9ms, render: 20ms)
+{
+  ts: '2026-01-05T08:47:42.345Z',
+  traceId: '18624acb-718b-4fbe-8440-6abb6c830e76',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 24ms, render: 7ms)
+{
+  ts: '2026-01-05T08:47:42.351Z',
+  traceId: 'ade6f4a9-9c42-4297-b1b2-1b974ad3cc7a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 35ms (compile: 14ms, render: 21ms)
+{
+  ts: '2026-01-05T08:47:43.418Z',
+  traceId: '998b35d5-7206-45bb-8df4-db96e2667e9e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 25ms, render: 3ms)
+{
+  ts: '2026-01-05T08:47:43.422Z',
+  traceId: 'd4ab947d-eb3d-4761-9bcc-01cb31c46c85',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 16ms, render: 16ms)
+{
+  ts: '2026-01-05T08:47:47.333Z',
+  traceId: '1e979fb1-8da5-4db0-ba2e-f5ac47dc8549',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 14ms, render: 9ms)
+{
+  ts: '2026-01-05T08:47:47.343Z',
+  traceId: 'd774f6c9-7464-4a73-aad4-8270fe6aca7e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 11ms (compile: 6ms, render: 5ms)
+{
+  ts: '2026-01-05T08:47:48.423Z',
+  traceId: '6effdb40-6b36-4273-bb6b-4a432c62c6fd',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 20ms, render: 4ms)
+{
+  ts: '2026-01-05T08:47:48.426Z',
+  traceId: '33df6689-7016-4301-927a-0b2fea1bd767',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 13ms, render: 16ms)
+{
+  ts: '2026-01-05T08:47:52.342Z',
+  traceId: '0e3c9788-6774-4572-9e50-fe9552ec0d52',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 16ms, render: 6ms)
+{
+  ts: '2026-01-05T08:47:52.347Z',
+  traceId: '61411fbb-97d5-428b-b10c-c0eb52399604',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 8ms, render: 18ms)
+{
+  ts: '2026-01-05T08:47:53.412Z',
+  traceId: '2f778faa-9c6d-4744-8681-4e9f7ff71e0e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 16ms, render: 3ms)
+{
+  ts: '2026-01-05T08:47:53.415Z',
+  traceId: '01ae278c-fbe9-4b7a-acea-8e858f931a76',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 8ms, render: 14ms)
+{
+  ts: '2026-01-05T08:47:57.350Z',
+  traceId: '7e2e7205-9ae4-48a5-ba77-bcf5e24129a3',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 24ms, render: 4ms)
+{
+  ts: '2026-01-05T08:47:57.355Z',
+  traceId: 'e8fac170-a143-4918-bd91-c8407e2ea250',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T08:47:58.403Z',
+  traceId: '283133e1-a48f-4720-9043-b5a9cbc111ec',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 13ms, render: 4ms)
+{
+  ts: '2026-01-05T08:47:58.407Z',
+  traceId: 'ef8a54cc-3cb2-46e5-b459-5158687e5c54',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 5ms, render: 16ms)
+{
+  ts: '2026-01-05T08:48:02.351Z',
+  traceId: '2be1ec48-00f7-42c8-ab34-228c0feac17d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 21ms, render: 6ms)
+{
+  ts: '2026-01-05T08:48:02.355Z',
+  traceId: '41a1afdf-0c43-469e-93f9-b7ee8e170176',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 12ms, render: 19ms)
+{
+  ts: '2026-01-05T08:48:03.412Z',
+  traceId: '39464d37-54ab-4ee5-83a7-f3ff39d45bea',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:03.415Z',
+  traceId: 'c84462cd-a3dc-4d63-b29f-893dbaa89eaf',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 13ms, render: 16ms)
+{
+  ts: '2026-01-05T08:48:07.342Z',
+  traceId: 'e5d12ec0-9b54-420f-8d55-edee9024b831',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 19ms, render: 6ms)
+{
+  ts: '2026-01-05T08:48:07.348Z',
+  traceId: 'b1b949a8-d95d-48f3-9e99-25810cbbc218',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 7ms, render: 22ms)
+{
+  ts: '2026-01-05T08:48:08.409Z',
+  traceId: '58a43577-9e10-494f-9f65-2ef382147709',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 19ms, render: 6ms)
+{
+  ts: '2026-01-05T08:48:08.416Z',
+  traceId: 'b1c33ab4-8558-4cf3-95c0-55213902b3ad',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 8ms, render: 23ms)
+{
+  ts: '2026-01-05T08:48:12.340Z',
+  traceId: '750e61a9-5d57-4f92-a140-0c58a695d18d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 18ms, render: 8ms)
+{
+  ts: '2026-01-05T08:48:12.355Z',
+  traceId: '372aa6e0-a318-4dbd-97a5-c50aa096fbfc',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 6ms, render: 3ms)
+{
+  ts: '2026-01-05T08:48:13.410Z',
+  traceId: '46b2e1eb-b63d-4faf-9768-e30cb62ad386',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:13.415Z',
+  traceId: '6a7404b6-ec3a-44f2-b001-dfaffe21cf66',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 13ms, render: 17ms)
+{
+  ts: '2026-01-05T08:48:17.351Z',
+  traceId: '5424bdb2-b874-40ca-b560-1416702684c6',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:17.355Z',
+  traceId: '9f59b5d7-6d88-45c8-9c86-72a88a1e2bdd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:48:18.426Z',
+  traceId: '0bed62cf-6dcc-465b-b331-0d6fce954f07',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 25ms, render: 3ms)
+{
+  ts: '2026-01-05T08:48:18.429Z',
+  traceId: '3de1449b-a91f-442d-ab2b-e572cc1ccc64',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 16ms, render: 17ms)
+{
+  ts: '2026-01-05T08:48:22.360Z',
+  traceId: '7fa8028e-d21f-42fb-99c8-1d2320c7aebd',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 35ms (compile: 31ms, render: 5ms)
+{
+  ts: '2026-01-05T08:48:22.366Z',
+  traceId: '0b5d3f91-d0e9-43bd-8f76-8dc0bfbe5446',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 41ms (compile: 16ms, render: 25ms)
+{
+  ts: '2026-01-05T08:48:23.413Z',
+  traceId: 'a4943135-3262-4434-9be9-9578a2746d5e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:48:23.416Z',
+  traceId: '88cc729e-d362-40d6-a562-94059988aebe',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 6ms, render: 15ms)
+{
+  ts: '2026-01-05T08:48:27.335Z',
+  traceId: 'a60fb911-6f61-4aa7-962a-70a8316a39b5',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 16ms, render: 8ms)
+{
+  ts: '2026-01-05T08:48:27.347Z',
+  traceId: 'cd16629d-8b15-4322-94d2-0f1efc8b4dec',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 7ms, render: 3ms)
+{
+  ts: '2026-01-05T08:48:28.421Z',
+  traceId: '73fa58db-72fb-4f26-a8f7-364ffae8c151',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 5ms)
+{
+  ts: '2026-01-05T08:48:28.426Z',
+  traceId: 'cbfd2d70-0ae4-4961-80c5-af51ec48fead',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:48:32.351Z',
+  traceId: 'd11b6e99-5148-43ae-ae31-a176888e1b55',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 25ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:32.356Z',
+  traceId: 'bc577284-10b8-4e11-97c6-0a3f0d019140',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 35ms (compile: 15ms, render: 20ms)
+{
+  ts: '2026-01-05T08:48:33.423Z',
+  traceId: 'f5d03b94-6402-400d-849c-9367fbee0066',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:33.427Z',
+  traceId: '2fffdd78-761e-4741-8427-eba5d89f9926',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 16ms)
+{
+  ts: '2026-01-05T08:48:37.349Z',
+  traceId: '98aecaf3-8967-47c7-be27-ec8226e8944c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:37.355Z',
+  traceId: 'ac29e859-d0a3-48a8-9cde-dc6cab2bbcc4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 14ms, render: 18ms)
+{
+  ts: '2026-01-05T08:48:38.427Z',
+  traceId: 'c5fdfc43-d62b-4934-9e3b-fe095a05b863',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 24ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:38.430Z',
+  traceId: '5650858e-9e22-4184-9dc6-078dd04acd42',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 16ms, render: 15ms)
+{
+  ts: '2026-01-05T08:48:42.338Z',
+  traceId: '4d3d72a1-5078-47f0-9fb0-e1e0edea1fe3',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 13ms, render: 12ms)
+{
+  ts: '2026-01-05T08:48:42.352Z',
+  traceId: '57f73b60-240e-471e-940a-37c6fc816a34',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 6ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:43.402Z',
+  traceId: '19f3e823-add5-4210-a2a6-089eee7bb72b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 15ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:43.406Z',
+  traceId: 'c0e99fa7-8175-4251-b68b-21a175f22837',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 5ms, render: 18ms)
+{
+  ts: '2026-01-05T08:48:47.348Z',
+  traceId: 'bee7a8cd-d34e-4bdc-a3f1-29bee2ae3d61',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 21ms, render: 6ms)
+{
+  ts: '2026-01-05T08:48:47.353Z',
+  traceId: '734cb562-447b-4c3d-910e-67d56e1d31c9',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T08:48:48.426Z',
+  traceId: 'edf62a50-f225-46fc-9362-26336d55cd6b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 24ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:48.430Z',
+  traceId: 'bc5d97f1-6b3e-4a10-8860-7c23cdf7a5b3',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 16ms, render: 16ms)
+{
+  ts: '2026-01-05T08:48:52.331Z',
+  traceId: '67e42803-94bd-4cdf-8bdc-826b246afc5a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 19ms (compile: 8ms, render: 11ms)
+{
+  ts: '2026-01-05T08:48:52.342Z',
+  traceId: '3ed98180-c009-47da-8c98-259b0b7c5579',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 8ms (compile: 5ms, render: 3ms)
+{
+  ts: '2026-01-05T08:48:53.405Z',
+  traceId: 'f3f8819b-38f1-4be9-b68b-b2428685562d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:48:53.408Z',
+  traceId: '0701d14f-a4dd-412a-958f-7d52a537dd3f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 7ms, render: 15ms)
+{
+  ts: '2026-01-05T08:48:57.349Z',
+  traceId: '38636bdd-08eb-438f-9549-d6814005c2dd',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:57.354Z',
+  traceId: '6f996f5f-4f58-40be-9de9-e08f93a2d883',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 15ms, render: 16ms)
+{
+  ts: '2026-01-05T08:48:58.423Z',
+  traceId: '72069301-71de-46a7-a137-107e2bd1926a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:48:58.426Z',
+  traceId: 'c4d15a79-8012-4687-9235-055e0dfefeba',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 15ms, render: 15ms)
+{
+  ts: '2026-01-05T08:49:02.330Z',
+  traceId: '63638460-b58b-440a-9fb3-133a46214d54',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 19ms (compile: 8ms, render: 11ms)
+{
+  ts: '2026-01-05T08:49:02.341Z',
+  traceId: 'd4ba3d3e-b206-4a4f-a7b8-8c526b63e848',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 4ms, render: 4ms)
+{
+  ts: '2026-01-05T08:49:03.414Z',
+  traceId: 'bc459c5e-e585-46eb-952c-cf55d401f96c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:49:03.417Z',
+  traceId: 'b0a55bcf-50c1-4035-9f8d-bbeb816eac13',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 13ms, render: 15ms)
+{
+  ts: '2026-01-05T08:49:07.349Z',
+  traceId: '4fb3db0e-a4b5-4e72-b1d9-651c6478fbdd',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:49:07.352Z',
+  traceId: '0a7dfd7a-09e4-4f1c-97c9-0ec0c1f070eb',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 13ms, render: 17ms)
+{
+  ts: '2026-01-05T08:49:08.413Z',
+  traceId: '570902ac-dc4a-411a-9eed-54aeb5ab34ea',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 4ms)
+{
+  ts: '2026-01-05T08:49:08.417Z',
+  traceId: 'aa541dfa-3979-4e8d-8920-1668644aa356',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 7ms, render: 16ms)
+{
+  ts: '2026-01-05T08:49:12.340Z',
+  traceId: 'aa69da7b-80a5-48e1-b8bb-b4f1a0811bd7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 19ms, render: 8ms)
+{
+  ts: '2026-01-05T08:49:12.350Z',
+  traceId: 'dd86d61c-0146-495c-8d3f-741bc1773171',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 8ms (compile: 5ms, render: 3ms)
+{
+  ts: '2026-01-05T08:49:13.418Z',
+  traceId: '3484d1df-5bbb-44e0-b5bb-685ae2d3f5a8',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 20ms, render: 3ms)
+{
+  ts: '2026-01-05T08:49:13.423Z',
+  traceId: '48f04f0c-f5cc-45e1-bb9e-0203c1bfb340',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 13ms, render: 16ms)
+{
+  ts: '2026-01-05T08:49:17.351Z',
+  traceId: 'bcc1133f-afbb-41e7-bb00-e588783d4af9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:49:17.356Z',
+  traceId: '12c782fc-4dfb-49c8-ae3f-abf007c5854a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 18ms)
+{
+  ts: '2026-01-05T08:49:18.414Z',
+  traceId: 'c55b14f6-41dd-435b-8eb4-834c296478ee',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:49:18.417Z',
+  traceId: '983ed32c-3db0-4538-96ae-8d02664fb0bc',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 16ms, render: 14ms)
+{
+  ts: '2026-01-05T08:49:22.348Z',
+  traceId: '0a4a524d-8a00-445d-84b2-1d9f91bfb984',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 24ms, render: 6ms)
+{
+  ts: '2026-01-05T08:49:22.352Z',
+  traceId: 'b9f2f340-283c-4180-a5ae-0b12adf3ec53',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 13ms, render: 22ms)
+{
+  ts: '2026-01-05T08:49:23.405Z',
+  traceId: 'eb0ef46e-5b8a-4776-8a4e-3033b268c94d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 16ms (compile: 12ms, render: 4ms)
+{
+  ts: '2026-01-05T08:49:23.409Z',
+  traceId: '9d8f8966-c60b-4e58-abb1-40fe27ee6461',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 20ms (compile: 5ms, render: 15ms)
+{
+  ts: '2026-01-05T08:49:27.345Z',
+  traceId: '8c423516-e726-4846-8271-2826d21d5227',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 18ms, render: 7ms)
+{
+  ts: '2026-01-05T08:49:27.353Z',
+  traceId: '8cc1c2d6-7d4f-4407-b7a1-f876b265a0f8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 6ms, render: 26ms)
+{
+  ts: '2026-01-05T08:49:28.427Z',
+  traceId: '29d9601e-583a-4da3-9b92-cf15953da1ce',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 31ms (compile: 27ms, render: 5ms)
+{
+  ts: '2026-01-05T08:49:28.430Z',
+  traceId: '2ec04d22-9719-447b-9df2-59dda8c264bc',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 35ms (compile: 15ms, render: 20ms)
+{
+  ts: '2026-01-05T08:49:32.332Z',
+  traceId: '7fc22cc3-7e3c-471c-8318-c00ce5411fc8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 18ms (compile: 8ms, render: 10ms)
+{
+  ts: '2026-01-05T08:49:32.342Z',
+  traceId: '82a47950-81c3-4dee-a461-47ae21a91fa2',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:49:33.410Z',
+  traceId: '8e0f53f8-7898-489a-9505-a470f6ef03af',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 3ms)
+{
+  ts: '2026-01-05T08:49:33.413Z',
+  traceId: '9550c139-d258-4710-8820-cde193f671d7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 14ms, render: 16ms)
+{
+  ts: '2026-01-05T08:49:37.342Z',
+  traceId: 'd8b13b8f-c6ef-4108-9675-8b113f12726a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:49:37.347Z',
+  traceId: '37e2c3df-8eaa-4d10-bc19-93686e721d59',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 7ms, render: 17ms)
+{
+  ts: '2026-01-05T08:49:38.417Z',
+  traceId: '399d307d-29b5-4231-a7ad-78257f20635e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 21ms, render: 3ms)
+{
+  ts: '2026-01-05T08:49:38.420Z',
+  traceId: '0eaa5352-cc4f-4f3f-97d2-899c0729acfc',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 8ms, render: 20ms)
+{
+  ts: '2026-01-05T08:49:42.332Z',
+  traceId: 'aaec4a3b-02b3-47fb-bbaa-b22faa1904fd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 19ms (compile: 9ms, render: 11ms)
+{
+  ts: '2026-01-05T08:49:42.341Z',
+  traceId: '2929d951-85ae-4512-b84a-ad9b63cfbf5f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 4ms)
+{
+  ts: '2026-01-05T08:49:43.423Z',
+  traceId: 'a5ca2505-aef4-463c-869a-54d3d9223631',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 38ms (compile: 32ms, render: 6ms)
+{
+  ts: '2026-01-05T08:49:43.428Z',
+  traceId: '4f3e7580-b004-4ef3-b43c-7172e09c319f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 44ms (compile: 20ms, render: 24ms)
+{
+  ts: '2026-01-05T08:49:47.322Z',
+  traceId: 'c9493d96-0bbf-42db-b9b9-e17ebbec1d85',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 13ms (compile: 5ms, render: 8ms)
+{
+  ts: '2026-01-05T08:49:47.334Z',
+  traceId: '73a5781d-049e-4eff-a792-d4a363ee90e7',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 4ms, render: 5ms)
+{
+  ts: '2026-01-05T08:49:48.419Z',
+  traceId: 'a7478f71-d6d7-4cda-9a63-c173fe1b9e72',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 18ms, render: 4ms)
+{
+  ts: '2026-01-05T08:49:48.423Z',
+  traceId: '473ad616-3a16-499b-a7c1-309f0754c7fa',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 9ms, render: 19ms)
+{
+  ts: '2026-01-05T08:49:52.336Z',
+  traceId: '0debf8d6-41f5-4e1a-bb0f-a4e4d3a03b57',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 16ms, render: 8ms)
+{
+  ts: '2026-01-05T08:49:52.348Z',
+  traceId: '191e429c-aec3-441e-a09d-6d264160e57b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 3ms)
+{
+  ts: '2026-01-05T08:49:53.405Z',
+  traceId: '8fb69abf-6137-4c72-ac87-1c2ffac05ced',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:49:53.409Z',
+  traceId: '3a86037c-f155-4a63-a8dc-93a5b1e9c67c',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 6ms, render: 16ms)
+{
+  ts: '2026-01-05T08:49:57.327Z',
+  traceId: 'd22746c3-3997-46a0-89de-628147775df5',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 12ms (compile: 6ms, render: 7ms)
+{
+  ts: '2026-01-05T08:49:57.338Z',
+  traceId: '36ea3e96-ba67-48fc-adf5-3046cd738b1f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:49:58.414Z',
+  traceId: 'd78566bb-a8c2-48f0-9889-0b9ca0590530',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:49:58.419Z',
+  traceId: '3eb16d05-82d9-4dff-b29b-0eee99f991f9',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 14ms, render: 16ms)
+{
+  ts: '2026-01-05T08:50:02.347Z',
+  traceId: '18ef9ed1-6ce1-48f8-baf2-48b88f4f7501',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 4ms)
+{
+  ts: '2026-01-05T08:50:02.351Z',
+  traceId: '7658e2b1-5c94-4da8-af36-9fce69f01938',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 10ms, render: 17ms)
+{
+  ts: '2026-01-05T08:50:03.424Z',
+  traceId: 'cf6e3e15-8fc2-4266-bd40-62638b2f121a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 34ms (compile: 28ms, render: 6ms)
+{
+  ts: '2026-01-05T08:50:03.428Z',
+  traceId: '638cfef1-45bf-4957-90ed-b1cbd1c0313a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 41ms (compile: 18ms, render: 23ms)
+{
+  ts: '2026-01-05T08:50:07.358Z',
+  traceId: 'a26c2355-4d91-4fda-84b0-315aea8bc885',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 38ms (compile: 32ms, render: 6ms)
+{
+  ts: '2026-01-05T08:50:07.363Z',
+  traceId: '8b4f8b59-cbbe-4b82-851a-a771372df383',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 42ms (compile: 16ms, render: 26ms)
+{
+  ts: '2026-01-05T08:50:08.413Z',
+  traceId: 'ea83e5d3-1b3b-4b59-9485-70bb86dc0035',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 21ms, render: 5ms)
+{
+  ts: '2026-01-05T08:50:08.417Z',
+  traceId: 'a4729173-1c29-4bc5-937e-b80c4466a36b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 13ms, render: 16ms)
+{
+  ts: '2026-01-05T08:50:12.359Z',
+  traceId: 'b05c2541-365a-411d-8da2-1d3ed0cd0bb9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 36ms (compile: 31ms, render: 4ms)
+{
+  ts: '2026-01-05T08:50:12.364Z',
+  traceId: '53da8be4-dfc3-454a-bac7-ba41c2e3c064',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 44ms (compile: 16ms, render: 27ms)
+{
+  ts: '2026-01-05T08:50:13.421Z',
+  traceId: '57a91a24-0875-4f33-8cf9-ded9ba5363f7',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:50:13.424Z',
+  traceId: '73d3b9e8-fa91-4026-8ea9-cea0567e5f3d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T08:50:17.338Z',
+  traceId: '77c1fef0-5d34-48d3-8310-314eed6999e3',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 15ms, render: 8ms)
+{
+  ts: '2026-01-05T08:50:17.349Z',
+  traceId: '008f8cb3-a8c0-45c7-a59a-954449b846ee',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 11ms (compile: 7ms, render: 4ms)
+{
+  ts: '2026-01-05T08:50:18.418Z',
+  traceId: '6cfeba76-10b1-400f-bba4-ec9e439ddf3c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 31ms (compile: 26ms, render: 5ms)
+{
+  ts: '2026-01-05T08:50:18.423Z',
+  traceId: '21654350-89d9-4722-bd64-b04aa22131e1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 36ms (compile: 17ms, render: 19ms)
+{
+  ts: '2026-01-05T08:50:22.346Z',
+  traceId: 'eb443782-cf9f-4820-81e2-ac7dde7bc51e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 17ms, render: 4ms)
+{
+  ts: '2026-01-05T08:50:22.349Z',
+  traceId: '1b13a525-630a-4486-a0ae-6cbec2c01147',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 8ms, render: 17ms)
+{
+  ts: '2026-01-05T08:50:23.410Z',
+  traceId: '60a321fd-7bc7-4b68-be73-0a17e801e202',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:50:23.414Z',
+  traceId: 'c517b241-6571-4108-992e-7bd0f1201934',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:50:27.339Z',
+  traceId: '1348866e-fdba-4ef1-beb9-298dc810e475',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:50:27.343Z',
+  traceId: '3ef19959-c8b4-4ba2-8066-b234f9d1ab0e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 7ms, render: 16ms)
+{
+  ts: '2026-01-05T08:50:28.411Z',
+  traceId: '92d21a10-0e5e-4fe4-9e90-3698b57dcbf4',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 19ms, render: 7ms)
+{
+  ts: '2026-01-05T08:50:28.419Z',
+  traceId: 'b1fad496-0331-49fb-8010-90c07089bd21',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 7ms, render: 26ms)
+{
+  ts: '2026-01-05T08:50:32.345Z',
+  traceId: '6a0560c9-8b35-493d-9924-3dd74a9003c2',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:50:32.348Z',
+  traceId: '6f461f9a-23c1-499f-bb2c-90b66dffb611',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 11ms, render: 21ms)
+{
+  ts: '2026-01-05T08:50:33.424Z',
+  traceId: '692e210f-3447-4a3d-b977-39748aa9f5a9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 23ms, render: 5ms)
+{
+  ts: '2026-01-05T08:50:33.427Z',
+  traceId: 'bbe6de8d-096d-4631-8b1a-956befccddf4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 16ms, render: 15ms)
+{
+  ts: '2026-01-05T08:50:37.340Z',
+  traceId: 'a1adeb53-486b-49cc-a06d-481525c90add',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 17ms, render: 8ms)
+{
+  ts: '2026-01-05T08:50:37.353Z',
+  traceId: 'eecc6a65-36de-42a7-850f-335756fde09c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 3ms)
+{
+  ts: '2026-01-05T08:50:38.405Z',
+  traceId: 'bd35bd79-6ff6-4a86-ba77-fda0fb444758',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 14ms, render: 5ms)
+{
+  ts: '2026-01-05T08:50:38.409Z',
+  traceId: '2edccb67-640f-4185-96a2-da0a7b4dc2c7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 6ms, render: 17ms)
+{
+  ts: '2026-01-05T08:50:42.350Z',
+  traceId: '80538d88-e1cc-47b4-88ca-0f354c4044be',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 24ms, render: 4ms)
+{
+  ts: '2026-01-05T08:50:42.354Z',
+  traceId: '837a88fb-fe9b-431a-8d08-93c2fcec708f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 10ms, render: 23ms)
+{
+  ts: '2026-01-05T08:50:43.420Z',
+  traceId: 'c1068c0e-e4e9-44c1-bb8f-acd15feed208',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 23ms, render: 3ms)
+{
+  ts: '2026-01-05T08:50:43.423Z',
+  traceId: '61f91c34-8986-4779-83ef-98324d475b56',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 14ms, render: 16ms)
+{
+  ts: '2026-01-05T08:50:47.343Z',
+  traceId: '5d059dae-d650-490f-9416-114fb56b7533',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 19ms, render: 3ms)
+{
+  ts: '2026-01-05T08:50:47.346Z',
+  traceId: 'ffe49f5c-15c4-445c-94ed-1fb68d723bc8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 9ms, render: 18ms)
+{
+  ts: '2026-01-05T08:50:48.419Z',
+  traceId: '5f1f347a-031c-4162-95bd-09b69ede8be9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 25ms, render: 4ms)
+{
+  ts: '2026-01-05T08:50:48.423Z',
+  traceId: '9dc719ee-b17d-4a5f-b656-489c4692a7c0',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 35ms (compile: 15ms, render: 19ms)
+{
+  ts: '2026-01-05T08:50:52.356Z',
+  traceId: '0430dd32-3cb5-4801-9fd1-dae9485d781e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:50:52.360Z',
+  traceId: 'e8220e09-c168-4e01-bbb2-53eb62f27576',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 15ms, render: 18ms)
+{
+  ts: '2026-01-05T08:50:53.402Z',
+  traceId: 'cd42e043-19cb-4ab0-b694-d2b9957e1b4c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 14ms, render: 4ms)
+{
+  ts: '2026-01-05T08:50:53.406Z',
+  traceId: '7dd042be-1cf1-4314-a8c9-0018c393efa8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 6ms, render: 18ms)
+{
+  ts: '2026-01-05T08:50:57.340Z',
+  traceId: 'b4b52d4a-47ea-4f30-a8be-3e8c17dcb231',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 14ms, render: 6ms)
+{
+  ts: '2026-01-05T08:50:57.346Z',
+  traceId: 'a2389663-21ad-4322-91e2-f0c4ed254dc7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 7ms, render: 17ms)
+{
+  ts: '2026-01-05T08:50:58.419Z',
+  traceId: '186cc3b0-ac72-4e68-ac4e-000d10a14d70',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 21ms, render: 5ms)
+{
+  ts: '2026-01-05T08:50:58.423Z',
+  traceId: '49da44e1-7800-42d8-8749-a762a282a412',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 13ms, render: 18ms)
+{
+  ts: '2026-01-05T08:51:02.343Z',
+  traceId: 'eceaebc1-6790-4701-9c04-27741626a83a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 18ms, render: 3ms)
+{
+  ts: '2026-01-05T08:51:02.346Z',
+  traceId: '4d2be4c2-b5c7-4836-8e9c-06163d953a7f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 8ms, render: 18ms)
+{
+  ts: '2026-01-05T08:51:03.418Z',
+  traceId: 'f9852743-06c2-4e26-b9f3-177f1cb200ea',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:03.422Z',
+  traceId: '5336acdf-b7d8-4828-b7e4-1ed3550f123f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 15ms, render: 15ms)
+{
+  ts: '2026-01-05T08:51:07.350Z',
+  traceId: '77166ffc-116b-48ce-8ce6-48c90bc2740c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 31ms (compile: 27ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:07.355Z',
+  traceId: '0027ec7a-97d3-4178-9f22-705ecdba8692',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 38ms (compile: 15ms, render: 23ms)
+{
+  ts: '2026-01-05T08:51:08.417Z',
+  traceId: '5961dfb3-a31c-4f6d-99ae-8777c72b75c1',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 24ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:08.421Z',
+  traceId: '2726bca1-e178-4272-8caf-ab6b278fdb5e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 16ms, render: 16ms)
+{
+  ts: '2026-01-05T08:51:12.351Z',
+  traceId: '9caa7e6c-ad37-4ddd-8808-e3d0cb1be973',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:12.354Z',
+  traceId: 'fed2b273-1ec4-437f-b8a0-7f07c933dded',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 9ms, render: 19ms)
+{
+  ts: '2026-01-05T08:51:13.416Z',
+  traceId: '47b15b4f-ea55-4e4e-9448-2b6c422d1c2c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:13.419Z',
+  traceId: '92c5f05d-05ed-416c-8526-bc7c1274e49f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 13ms, render: 18ms)
+{
+  ts: '2026-01-05T08:51:17.326Z',
+  traceId: 'ee28b984-9ea3-4f14-994e-1da5b9b4e1cf',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 14ms (compile: 7ms, render: 8ms)
+{
+  ts: '2026-01-05T08:51:17.337Z',
+  traceId: '8eed207a-d713-420b-8b32-0752b59ea20c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:51:18.406Z',
+  traceId: 'bbb0dba0-6b96-41df-90ce-d5d49776e762',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 16ms, render: 5ms)
+{
+  ts: '2026-01-05T08:51:18.410Z',
+  traceId: '97b3d367-16dd-445a-ae43-9828f3df6af1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 7ms, render: 18ms)
+{
+  ts: '2026-01-05T08:51:22.350Z',
+  traceId: 'b0c0ee02-139e-436b-b1b1-ac97ddd8e1dd',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 24ms, render: 6ms)
+{
+  ts: '2026-01-05T08:51:22.356Z',
+  traceId: 'e1d0628c-6bb6-4a70-ac23-d08e9a252f00',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 36ms (compile: 14ms, render: 21ms)
+{
+  ts: '2026-01-05T08:51:23.411Z',
+  traceId: '8a1326e5-b087-4ad9-976b-8d8064f73e37',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 13ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:23.414Z',
+  traceId: 'e61fecef-0503-4496-afb3-1e54639fbf65',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 6ms, render: 16ms)
+{
+  ts: '2026-01-05T08:51:27.342Z',
+  traceId: 'de92db50-40db-4eab-b9c9-1cc59cf84560',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:51:27.346Z',
+  traceId: '734e72a0-2d8b-47e1-8ff1-3a2ba1a5d880',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 5ms, render: 17ms)
+{
+  ts: '2026-01-05T08:51:28.416Z',
+  traceId: '47eb0ac3-a11a-4763-b794-f3a69af8fde0',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:28.421Z',
+  traceId: '7c127d88-0748-4887-b9b6-d241eec741f2',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 12ms, render: 19ms)
+{
+  ts: '2026-01-05T08:51:32.352Z',
+  traceId: 'c03521d4-81bf-44d9-b73c-1e3c4f9f2239',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 25ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:32.357Z',
+  traceId: 'd0fa42a5-c172-44d5-ba5b-f40ad58fc010',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 14ms, render: 20ms)
+{
+  ts: '2026-01-05T08:51:33.411Z',
+  traceId: 'b33d8a9f-02b0-4588-bc9e-d242c44bc804',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:33.415Z',
+  traceId: '2c0e7e6b-6961-4f90-aedd-996fa33db66b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 15ms, render: 14ms)
+{
+  ts: '2026-01-05T08:51:37.341Z',
+  traceId: '6af0514c-c017-4f61-a7a5-c8dc40b4bf00',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:51:37.344Z',
+  traceId: 'a0bb6bbc-9a3a-4a94-9cc6-1ef8ac7c7f2a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 6ms, render: 16ms)
+{
+  ts: '2026-01-05T08:51:38.414Z',
+  traceId: '4a83ba98-c527-41ec-a1e3-7b6cf98b856c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 20ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:38.418Z',
+  traceId: 'e47c81e8-1537-4101-b596-8cc499cfc875',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 13ms, render: 15ms)
+{
+  ts: '2026-01-05T08:51:42.345Z',
+  traceId: '546c220a-5dc6-43e3-b212-e1e38169ea26',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:42.349Z',
+  traceId: 'cecdfae4-e4c9-4239-91dd-3d5706a6f88f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 11ms, render: 18ms)
+{
+  ts: '2026-01-05T08:51:43.418Z',
+  traceId: 'fbf8906d-60f7-41e3-9981-78428b200dd4',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 24ms, render: 5ms)
+{
+  ts: '2026-01-05T08:51:43.423Z',
+  traceId: '955d024e-750e-4dec-bb9e-3aba6d3bd4b8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 17ms, render: 17ms)
+{
+  ts: '2026-01-05T08:51:47.337Z',
+  traceId: 'f43579eb-a992-403b-b945-b7e99baf9d4e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 18ms, render: 3ms)
+{
+  ts: '2026-01-05T08:51:47.340Z',
+  traceId: '45500e54-9f3e-4cde-82ce-c67e6c4d9564',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 9ms, render: 16ms)
+{
+  ts: '2026-01-05T08:51:48.415Z',
+  traceId: '56ce0d08-4f85-4d22-9af0-e2b9b41690f7',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:48.419Z',
+  traceId: 'c9d03752-9960-400f-bc44-74e6131ee420',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 6ms, render: 15ms)
+{
+  ts: '2026-01-05T08:51:52.337Z',
+  traceId: '33583c34-31ce-4aca-9063-6b24d51deeb2',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 16ms, render: 9ms)
+{
+  ts: '2026-01-05T08:51:52.347Z',
+  traceId: 'eaab3378-0104-4277-af72-fbbe7e5721b9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 11ms (compile: 4ms, render: 7ms)
+{
+  ts: '2026-01-05T08:51:53.424Z',
+  traceId: '67022314-d99a-4d33-a1d6-a73a9c4148dd',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 24ms, render: 5ms)
+{
+  ts: '2026-01-05T08:51:53.427Z',
+  traceId: '213e497c-28e3-4ffb-b8d6-edfd5a209e6e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 16ms, render: 17ms)
+{
+  ts: '2026-01-05T08:51:57.346Z',
+  traceId: '06eb9aa6-b08c-46c9-9487-809dd0e313fa',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 16ms, render: 3ms)
+{
+  ts: '2026-01-05T08:51:57.350Z',
+  traceId: '415be07b-224e-48a2-87b5-5ec46fb86791',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 7ms, render: 18ms)
+{
+  ts: '2026-01-05T08:51:58.415Z',
+  traceId: 'f85047e8-85c3-490c-97c6-ac40abfcb01a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:51:58.418Z',
+  traceId: 'cc2a5df8-7c2c-4228-a13f-3954cacc4b50',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:52:02.347Z',
+  traceId: '561981fa-e0a8-485a-9618-417f31e1a360',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:02.351Z',
+  traceId: '19cf7dff-0900-4ea2-b3c2-0425aa259553',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 9ms, render: 19ms)
+{
+  ts: '2026-01-05T08:52:03.424Z',
+  traceId: 'cd3f03b4-cd13-4d60-b99c-59b717356bce',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:03.428Z',
+  traceId: 'a832523e-69d1-42a9-9033-85946744c8e0',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 15ms, render: 16ms)
+{
+  ts: '2026-01-05T08:52:07.354Z',
+  traceId: 'b573672b-8638-4d5d-a473-4cec03bd2169',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 26ms, render: 3ms)
+{
+  ts: '2026-01-05T08:52:07.357Z',
+  traceId: 'b071c581-aa15-48cf-8d60-39c5ec805f18',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T08:52:08.416Z',
+  traceId: '26ef823c-99e9-4532-a371-6d32674306f2',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:52:08.419Z',
+  traceId: 'ea900b2d-f9da-439c-83ed-bf6777b5f079',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 7ms, render: 15ms)
+{
+  ts: '2026-01-05T08:52:12.345Z',
+  traceId: '16ca8e11-6280-4ecb-950b-62f4033388fb',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:12.349Z',
+  traceId: '87da772b-ab27-4ba7-b763-ce92e6bd6c9f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 7ms, render: 23ms)
+{
+  ts: '2026-01-05T08:52:13.426Z',
+  traceId: 'e2dec2e5-8a2d-4f39-99d9-964dec4e6a5f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 36ms (compile: 28ms, render: 8ms)
+{
+  ts: '2026-01-05T08:52:13.433Z',
+  traceId: '7bb99543-1214-4844-be0f-53517bb06198',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 42ms (compile: 19ms, render: 23ms)
+{
+  ts: '2026-01-05T08:52:17.324Z',
+  traceId: '1f95a807-222d-48b1-80fd-69c20193edd2',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 13ms (compile: 6ms, render: 8ms)
+{
+  ts: '2026-01-05T08:52:17.337Z',
+  traceId: 'ce9bce58-82ec-4fe6-ac8f-70fc4d18d2e7',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 6ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:18.414Z',
+  traceId: 'ee4f86b8-70ea-4fb3-bfee-d9a834c6bf60',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 3ms)
+{
+  ts: '2026-01-05T08:52:18.417Z',
+  traceId: '69f361c1-0d13-4b20-ae5a-00b9834e4363',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 12ms, render: 14ms)
+{
+  ts: '2026-01-05T08:52:22.343Z',
+  traceId: '77a3a3b9-7cb0-429a-ab4d-9c7dcb646d94',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:22.348Z',
+  traceId: '3b5b2366-4224-45c9-b135-d9a72194c18f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 13ms, render: 18ms)
+{
+  ts: '2026-01-05T08:52:23.416Z',
+  traceId: 'd117aa35-e6d0-4108-8045-e6431a89e406',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 15ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:23.419Z',
+  traceId: '44145040-8c01-422c-a774-f102902000fa',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 7ms, render: 16ms)
+{
+  ts: '2026-01-05T08:52:27.341Z',
+  traceId: '63c79418-3988-4483-b8fa-002ad6cd307f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:52:27.344Z',
+  traceId: 'b27128e5-0f83-4386-9563-8868cc17518e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 7ms, render: 16ms)
+{
+  ts: '2026-01-05T08:52:28.400Z',
+  traceId: '087e8d35-bc27-4942-877f-59c696bff2dc',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 16ms (compile: 12ms, render: 3ms)
+{
+  ts: '2026-01-05T08:52:28.403Z',
+  traceId: 'a8bcc838-584d-4e32-80f1-074216ec9de0',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 19ms (compile: 5ms, render: 14ms)
+{
+  ts: '2026-01-05T08:52:32.342Z',
+  traceId: '59d45f5d-f447-4f61-9d86-2bfa87b37aca',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 17ms, render: 3ms)
+{
+  ts: '2026-01-05T08:52:32.345Z',
+  traceId: '99736f2e-36ee-4399-854e-2c49ddd20f68',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 6ms, render: 18ms)
+{
+  ts: '2026-01-05T08:52:33.405Z',
+  traceId: '1fb5c3f5-8493-405b-8fd2-77c46af77bb1',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:33.409Z',
+  traceId: '3630d01e-e01d-40a8-9ba8-4556050a4116',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 7ms, render: 15ms)
+{
+  ts: '2026-01-05T08:52:37.337Z',
+  traceId: 'ca252847-e091-40a8-9047-8f554f8473e7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 15ms, render: 8ms)
+{
+  ts: '2026-01-05T08:52:37.349Z',
+  traceId: 'c938b647-2c98-4a06-b91e-b7b5be9d4e8b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 6ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:38.407Z',
+  traceId: '430a5902-73ec-46f9-9087-d61d418e402e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:38.411Z',
+  traceId: '21564593-3a0f-4e34-a4d2-ee24bda129d4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 6ms, render: 17ms)
+{
+  ts: '2026-01-05T08:52:42.327Z',
+  traceId: '7ac469a8-44cb-41f6-a1c8-526a7c4fd99a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 16ms (compile: 7ms, render: 9ms)
+{
+  ts: '2026-01-05T08:52:42.338Z',
+  traceId: '772eac24-1ecb-4f43-b020-acb6bc25a99d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:52:43.411Z',
+  traceId: '117adad5-294e-40f9-bd90-2a4487857f7d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 18ms, render: 3ms)
+{
+  ts: '2026-01-05T08:52:43.415Z',
+  traceId: 'ac6eec13-1b38-4be2-8a80-1a4a870b4095',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 9ms, render: 18ms)
+{
+  ts: '2026-01-05T08:52:47.337Z',
+  traceId: '94dc07dc-8019-4406-828d-10c31a58d7dd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 15ms, render: 9ms)
+{
+  ts: '2026-01-05T08:52:47.348Z',
+  traceId: '9df0136e-f796-4ebd-b468-84903759cbdd',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 8ms (compile: 4ms, render: 3ms)
+{
+  ts: '2026-01-05T08:52:48.407Z',
+  traceId: '347f0d6b-bb6e-4cc9-9ccf-e381ded8b42f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 19ms, render: 5ms)
+{
+  ts: '2026-01-05T08:52:48.412Z',
+  traceId: '9c835053-1181-4740-a358-f5a402424fb4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 7ms, render: 22ms)
+{
+  ts: '2026-01-05T08:52:52.338Z',
+  traceId: 'c8f07b6f-e35a-4bee-b321-108b706d3b8a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:52.342Z',
+  traceId: '703ad500-4be1-439b-acdc-6a608517a62e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 9ms, render: 20ms)
+{
+  ts: '2026-01-05T08:52:53.402Z',
+  traceId: '0bbc7ea0-c90d-418c-8892-21dac6d67281',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 15ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:53.405Z',
+  traceId: '91402ca6-e597-4743-b6b2-f46925d0251d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 7ms, render: 16ms)
+{
+  ts: '2026-01-05T08:52:57.331Z',
+  traceId: '5acbc4fb-9a33-44ae-87d9-31aef0701b03',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 18ms (compile: 7ms, render: 10ms)
+{
+  ts: '2026-01-05T08:52:57.344Z',
+  traceId: '71ac9742-81f2-4338-852a-03e167082e1c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:52:58.413Z',
+  traceId: '3f7f2430-4986-4206-9c42-8008607a7550',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 13ms, render: 4ms)
+{
+  ts: '2026-01-05T08:52:58.416Z',
+  traceId: 'c774d4d4-9a08-48c1-a5b6-e34faed5cbc8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 5ms, render: 16ms)
+{
+  ts: '2026-01-05T08:53:02.345Z',
+  traceId: '0a2f8403-33f9-4974-adb1-20de3f3d2f1f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 17ms, render: 4ms)
+{
+  ts: '2026-01-05T08:53:02.350Z',
+  traceId: 'c8dbe855-85f8-464f-8347-60051403bab1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 8ms, render: 18ms)
+{
+  ts: '2026-01-05T08:53:03.407Z',
+  traceId: '042f56eb-bf14-4caa-a039-28e7b8ceacfd',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 19ms, render: 3ms)
+{
+  ts: '2026-01-05T08:53:03.411Z',
+  traceId: '007cbd62-dee9-4015-a8a5-a664b12be1a8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 9ms, render: 18ms)
+{
+  ts: '2026-01-05T08:53:07.326Z',
+  traceId: '174f7f30-279d-4857-ba4d-82e7a7675fab',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 15ms (compile: 6ms, render: 9ms)
+{
+  ts: '2026-01-05T08:53:07.336Z',
+  traceId: 'f6ba22eb-557e-4053-81aa-7b05b42c9515',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 4ms)
+{
+  ts: '2026-01-05T08:53:08.405Z',
+  traceId: '10331e58-b292-43ab-a611-82048a8bdf72',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 4ms)
+{
+  ts: '2026-01-05T08:53:08.408Z',
+  traceId: 'ad111a48-f685-4a27-9932-c595fb6d8714',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 6ms, render: 17ms)
+{
+  ts: '2026-01-05T08:53:12.343Z',
+  traceId: '6f530fb2-77c0-44a7-bcd5-9215a2678c1d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 21ms, render: 5ms)
+{
+  ts: '2026-01-05T08:53:12.347Z',
+  traceId: '31b56150-7479-48b3-b877-a95812fd77bd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 12ms, render: 18ms)
+{
+  ts: '2026-01-05T08:53:13.408Z',
+  traceId: '2004d59e-c2f3-4c93-b184-939ed9980813',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 20ms, render: 4ms)
+{
+  ts: '2026-01-05T08:53:13.411Z',
+  traceId: 'ffd2ab09-0e93-4f65-ba70-e24212eea405',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 13ms, render: 14ms)
+{
+  ts: '2026-01-05T08:53:17.336Z',
+  traceId: 'b4e4cc03-d933-47e8-947e-deb53d742a40',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:53:17.339Z',
+  traceId: '06050284-f066-4073-99e7-ac3d468a4944',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 5ms, render: 18ms)
+{
+  ts: '2026-01-05T08:53:18.425Z',
+  traceId: '2afb13bc-7048-4665-9faa-40b9dff39c87',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 23ms, render: 5ms)
+{
+  ts: '2026-01-05T08:53:18.429Z',
+  traceId: '1d1d4f3d-b31e-425a-916f-63727448ac56',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 16ms, render: 17ms)
+{
+  ts: '2026-01-05T08:53:22.334Z',
+  traceId: 'b6f42517-e534-4e1f-a3f4-b9571b08b5b6',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 20ms (compile: 10ms, render: 10ms)
+{
+  ts: '2026-01-05T08:53:22.346Z',
+  traceId: '31053672-c0ef-4b1c-b8d3-5e0d4b7bd1b9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 6ms, render: 4ms)
+{
+  ts: '2026-01-05T08:53:23.419Z',
+  traceId: '6d350777-9e64-4de4-8212-40e9d52915de',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:53:23.422Z',
+  traceId: '135d2d84-6c15-4481-8e86-9b5f3300b36e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 13ms, render: 15ms)
+{
+  ts: '2026-01-05T08:53:27.346Z',
+  traceId: '94a94021-bd57-4e8a-ad9a-0dc9e4a2195f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 3ms)
+{
+  ts: '2026-01-05T08:53:27.349Z',
+  traceId: '1895079b-c4b0-43a6-bbad-b900d525d861',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 16ms)
+{
+  ts: '2026-01-05T08:53:28.425Z',
+  traceId: '5fb9fc98-bed4-4937-97e0-3d0e0e0424eb',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 24ms, render: 6ms)
+{
+  ts: '2026-01-05T08:53:28.428Z',
+  traceId: '5d34a21d-4516-4e83-97f9-c024e4f1d1dd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 16ms, render: 18ms)
+{
+  ts: '2026-01-05T08:53:32.353Z',
+  traceId: '8d502fb1-a85a-4521-a646-94a9d42c5b79',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 23ms, render: 5ms)
+{
+  ts: '2026-01-05T08:53:32.357Z',
+  traceId: 'a7e6d712-1f80-4f2a-8759-e8568d44f136',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 10ms, render: 23ms)
+{
+  ts: '2026-01-05T08:53:33.420Z',
+  traceId: '3fbe724b-783b-464b-b594-8a48cf97636c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 3ms)
+{
+  ts: '2026-01-05T08:53:33.423Z',
+  traceId: 'c5330cd6-696d-461e-9b16-ecfb52573b99',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 14ms, render: 14ms)
+{
+  ts: '2026-01-05T08:53:37.345Z',
+  traceId: 'b9300253-f22d-4f89-a1bd-69c067da158d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:53:37.348Z',
+  traceId: '53827b38-9e4f-40b0-ad66-8a02fa1e9db5',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 13ms, render: 20ms)
+{
+  ts: '2026-01-05T08:53:38.421Z',
+  traceId: 'c2bca54e-37bd-464e-8bee-50aba090201f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 19ms, render: 6ms)
+{
+  ts: '2026-01-05T08:53:38.424Z',
+  traceId: '03873932-4d69-4b7b-9e91-413d22da6b11',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 10ms, render: 18ms)
+{
+  ts: '2026-01-05T08:53:42.344Z',
+  traceId: 'abaef8fb-5e4e-4026-8f9f-ccb6b748766e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 3ms)
+{
+  ts: '2026-01-05T08:53:42.347Z',
+  traceId: '2f37d36d-8bf1-4a00-a148-85aaeb0650d2',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 11ms, render: 18ms)
+{
+  ts: '2026-01-05T08:53:43.415Z',
+  traceId: '2a4ab299-9448-47d7-9a7e-e0c39ae68ac8',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 13ms, render: 4ms)
+{
+  ts: '2026-01-05T08:53:43.418Z',
+  traceId: 'f176d40c-57d0-4da3-9a67-b0bcba4ef344',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 5ms, render: 16ms)
+{
+  ts: '2026-01-05T08:53:47.348Z',
+  traceId: 'b99040be-1c23-4ea7-853d-c07074d7e342',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 16ms, render: 3ms)
+{
+  ts: '2026-01-05T08:53:47.353Z',
+  traceId: 'e0266899-0f7c-4358-99e7-aeb6f41c0e3c',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 13ms, render: 17ms)
+{
+  ts: '2026-01-05T08:53:48.424Z',
+  traceId: 'ff589ba5-36a2-400a-9b21-8d51a7cabe85',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 31ms (compile: 27ms, render: 4ms)
+{
+  ts: '2026-01-05T08:53:48.428Z',
+  traceId: 'da3bc017-d75d-4f9c-a03c-7af783209be6',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 36ms (compile: 19ms, render: 17ms)
+{
+  ts: '2026-01-05T08:53:52.342Z',
+  traceId: '396fd809-085a-4579-b041-3d37b73f1e4f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 18ms, render: 10ms)
+{
+  ts: '2026-01-05T08:53:52.354Z',
+  traceId: '8f6bfd87-0502-430d-a8fb-539e048c0ff4',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 11ms (compile: 6ms, render: 5ms)
+{
+  ts: '2026-01-05T08:53:53.411Z',
+  traceId: '8555ef7c-f74e-4329-a400-3bc35cac5f56',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:53:53.413Z',
+  traceId: 'f2ec43ae-98a8-4dba-ab35-c06d13bd2f3d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 7ms, render: 14ms)
+{
+  ts: '2026-01-05T08:53:57.342Z',
+  traceId: 'd129a453-78fe-4ba2-adfd-9e2ed65652b1',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:53:57.345Z',
+  traceId: 'a8b80e8f-52ca-43ee-8264-9add9bbab274',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:53:58.411Z',
+  traceId: '6d33eb51-ac4e-4e18-aa65-e89989b2c64a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:53:58.413Z',
+  traceId: '86fe0a3d-34ad-40d2-99d6-b522f842a92d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 8ms, render: 14ms)
+{
+  ts: '2026-01-05T08:54:02.354Z',
+  traceId: '12a9961f-fd47-4cf5-bd07-40f5189b8ccb',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 24ms, render: 4ms)
+{
+  ts: '2026-01-05T08:54:02.357Z',
+  traceId: '1ae12815-5110-4092-bf08-f5b09c85b5b5',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 13ms, render: 18ms)
+{
+  ts: '2026-01-05T08:54:03.402Z',
+  traceId: 'f59b2d65-ef71-483a-a8a1-ade2336d6e0a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:54:03.405Z',
+  traceId: 'eb3aace9-a1f8-45bc-892e-069ea2bbef4d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 8ms, render: 14ms)
+{
+  ts: '2026-01-05T08:54:07.344Z',
+  traceId: 'f5335750-7f87-4405-a5c6-9be58da0e9db',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:54:07.348Z',
+  traceId: '1b7ba6ba-d9be-42ed-9edc-be46b99df658',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 15ms, render: 18ms)
+{
+  ts: '2026-01-05T08:54:08.402Z',
+  traceId: '02a4cf93-97ed-42a0-a57f-bcd05f1821db',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:54:08.406Z',
+  traceId: 'e25e6c8e-ea81-4831-ae0f-3d98210d5a8e',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 6ms, render: 15ms)
+{
+  ts: '2026-01-05T08:54:12.349Z',
+  traceId: '9742ae63-9dae-4197-876c-e37552ffa4af',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 24ms, render: 4ms)
+{
+  ts: '2026-01-05T08:54:12.353Z',
+  traceId: '16873ebd-feb8-49b9-ba99-8b0f61e5274c',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 15ms, render: 18ms)
+{
+  ts: '2026-01-05T08:54:13.409Z',
+  traceId: '1eba4e9e-af5c-40e8-86dc-33ab763c741c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 16ms (compile: 13ms, render: 3ms)
+{
+  ts: '2026-01-05T08:54:13.412Z',
+  traceId: '9459766d-7a80-41af-b1b0-d5bab3c2ebd4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 20ms (compile: 5ms, render: 15ms)
+{
+  ts: '2026-01-05T08:54:17.341Z',
+  traceId: '1bb28628-f54b-4832-aca6-f11e3769f9cb',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 13ms, render: 4ms)
+{
+  ts: '2026-01-05T08:54:17.344Z',
+  traceId: 'ee5bc08a-415d-4fb9-8c37-ef51686a2669',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 5ms, render: 17ms)
+{
+  ts: '2026-01-05T08:54:18.404Z',
+  traceId: 'f0d4ecdc-42c7-49ff-bbfb-3ad5d3d12f22',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:54:18.407Z',
+  traceId: '3b44664b-2e8f-4f1c-abde-c933204db168',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 7ms, render: 15ms)
+{
+  ts: '2026-01-05T08:54:22.363Z',
+  traceId: '4b6d09bb-83e7-4d38-9662-a73f16c0f685',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 37ms (compile: 31ms, render: 6ms)
+{
+  ts: '2026-01-05T08:54:22.368Z',
+  traceId: 'ef8a9cd2-6f13-4d30-8b95-371d0adcac4f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 41ms (compile: 14ms, render: 27ms)
+{
+  ts: '2026-01-05T08:54:23.411Z',
+  traceId: '4fce5fe6-e6cd-4f76-9d22-a8915a587a22',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 15ms, render: 4ms)
+{
+  ts: '2026-01-05T08:54:23.415Z',
+  traceId: 'e869b091-d948-496d-a4a8-522ff32dd467',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 7ms, render: 17ms)
+{
+  ts: '2026-01-05T08:54:27.337Z',
+  traceId: 'd3480586-f6d2-4aeb-9582-3678ca969096',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 16ms (compile: 13ms, render: 3ms)
+{
+  ts: '2026-01-05T08:54:27.340Z',
+  traceId: 'b2153eea-bbff-424c-bff2-2fe6e21fd0f5',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 5ms, render: 16ms)
+{
+  ts: '2026-01-05T08:54:28.408Z',
+  traceId: '9724255e-399e-481e-b653-04b8affbc5ea',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 17ms, render: 4ms)
+{
+  ts: '2026-01-05T08:54:28.411Z',
+  traceId: 'b4aea28d-abef-47f0-9e6f-5c8b1bbf3816',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 8ms, render: 16ms)
+{
+  ts: '2026-01-05T08:54:32.353Z',
+  traceId: '9edf548c-5aab-4e7f-9a94-a918cdd4db15',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 33ms (compile: 29ms, render: 4ms)
+{
+  ts: '2026-01-05T08:54:32.357Z',
+  traceId: '737828fe-d426-4135-85fb-6148dddac16b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 37ms (compile: 18ms, render: 19ms)
+{
+  ts: '2026-01-05T08:54:33.406Z',
+  traceId: '7cd4008f-f862-44be-9f4f-b50fe1ad0e06',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 4ms)
+{
+  ts: '2026-01-05T08:54:33.409Z',
+  traceId: '0ddfa741-37e1-41a3-a764-9107dcffa845',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 6ms, render: 16ms)
+{
+  ts: '2026-01-05T08:54:37.334Z',
+  traceId: 'c3222050-88a7-4af0-a068-a91b2c6b278b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 14ms, render: 8ms)
+{
+  ts: '2026-01-05T08:54:37.346Z',
+  traceId: '93f821f5-7b9a-4103-8845-52309fd9f23e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 11ms (compile: 6ms, render: 5ms)
+{
+  ts: '2026-01-05T08:54:38.408Z',
+  traceId: '76c8e905-a024-49a9-8ce5-1d955bb8082e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:54:38.412Z',
+  traceId: '38f6560f-3e00-4fd0-9aeb-54fc37aff8ef',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 6ms, render: 18ms)
+{
+  ts: '2026-01-05T08:54:42.328Z',
+  traceId: 'a598868c-9517-4444-8f4e-5b445dcb863c',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 16ms (compile: 7ms, render: 9ms)
+{
+  ts: '2026-01-05T08:54:42.340Z',
+  traceId: '4a9c8b14-1c0c-46a8-af37-28becaa96005',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:54:43.405Z',
+  traceId: '025dd2f0-949d-4b02-93b9-bc889f5ba3fa',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 17ms, render: 3ms)
+{
+  ts: '2026-01-05T08:54:43.408Z',
+  traceId: '50a2945e-870f-4928-b6d7-782509135c5f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 10ms, render: 14ms)
+{
+  ts: '2026-01-05T08:54:47.350Z',
+  traceId: 'fe163856-ae86-4d4c-b31a-81f5bc7b59f0',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 24ms, render: 5ms)
+{
+  ts: '2026-01-05T08:54:47.356Z',
+  traceId: 'aadac488-ffc0-4106-b50e-47e1f2630978',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 15ms, render: 18ms)
+{
+  ts: '2026-01-05T08:54:48.419Z',
+  traceId: 'dcbd7397-ff72-4dfa-b752-fa1d978c9f56',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 19ms, render: 3ms)
+{
+  ts: '2026-01-05T08:54:48.423Z',
+  traceId: 'a51b41d6-eaec-466f-8aae-73e1a6098880',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 7ms, render: 20ms)
+{
+  ts: '2026-01-05T08:54:52.347Z',
+  traceId: 'a45657db-d506-4f19-a468-fc2f3ff2db31',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 21ms, render: 6ms)
+{
+  ts: '2026-01-05T08:54:52.351Z',
+  traceId: '007d3b39-2a31-40b0-bad4-f9fdb1ee6669',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 12ms, render: 18ms)
+{
+  ts: '2026-01-05T08:54:53.419Z',
+  traceId: 'b3dc753a-d5ee-42b9-98be-52f737321834',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 34ms (compile: 30ms, render: 3ms)
+{
+  ts: '2026-01-05T08:54:53.422Z',
+  traceId: 'c4f6feb0-39de-43a3-92bb-4e2bc17badd6',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 37ms (compile: 21ms, render: 17ms)
+{
+  ts: '2026-01-05T08:54:57.327Z',
+  traceId: '6e4e470f-94eb-418d-ac33-937fa005f7a7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 13ms (compile: 6ms, render: 7ms)
+{
+  ts: '2026-01-05T08:54:57.336Z',
+  traceId: '9c711801-9302-481f-a966-ecff8e18bb66',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 4ms)
+{
+  ts: '2026-01-05T08:54:58.413Z',
+  traceId: 'f720e04d-9015-464c-b343-a1633108ccb9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:54:58.417Z',
+  traceId: 'f6fb534e-d05c-45a6-9559-9a103b7cdca6',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 13ms, render: 16ms)
+{
+  ts: '2026-01-05T08:55:02.341Z',
+  traceId: '318e5221-155f-4aa2-9a7c-b3d2a4c4caf7',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 18ms, render: 3ms)
+{
+  ts: '2026-01-05T08:55:02.345Z',
+  traceId: 'bdd96554-092e-4702-b342-cbc1fcc06d90',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 9ms, render: 17ms)
+{
+  ts: '2026-01-05T08:55:03.416Z',
+  traceId: '48068078-83fb-4104-ab44-18a5d556f047',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 23ms, render: 3ms)
+{
+  ts: '2026-01-05T08:55:03.420Z',
+  traceId: 'd9235084-e294-4520-8b5b-e34789a78582',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 16ms, render: 14ms)
+{
+  ts: '2026-01-05T08:55:07.337Z',
+  traceId: 'b23e39cb-09f2-49e1-b2c9-f1c54c346d95',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 14ms, render: 8ms)
+{
+  ts: '2026-01-05T08:55:07.348Z',
+  traceId: 'dafecb97-7b31-4db5-bac1-7a9413895347',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:55:08.410Z',
+  traceId: '01706f0a-2d02-43a0-8878-48b5466d41ae',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:55:08.414Z',
+  traceId: '66934c9e-4bec-4f2a-9e07-14890f7dc5f5',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 7ms, render: 15ms)
+{
+  ts: '2026-01-05T08:55:12.342Z',
+  traceId: '833a731e-2b9d-43f4-aeab-fd2c3096501d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 17ms, render: 5ms)
+{
+  ts: '2026-01-05T08:55:12.347Z',
+  traceId: '8f230e20-4625-4308-a4c1-3ca7fab3d2f1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 8ms, render: 18ms)
+{
+  ts: '2026-01-05T08:55:13.417Z',
+  traceId: '4fad3bed-ad0d-4864-945c-b792f6f001ef',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 18ms, render: 4ms)
+{
+  ts: '2026-01-05T08:55:13.421Z',
+  traceId: '0f7fd0cb-4de1-4723-81ad-a45ff6f7d205',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 7ms, render: 19ms)
+{
+  ts: '2026-01-05T08:55:17.348Z',
+  traceId: '696b62e7-a333-4b0c-9efc-89f4e5a5db0a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:55:17.353Z',
+  traceId: 'cf1a80f5-0c37-4abf-9900-99d0c02e7418',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 12ms, render: 17ms)
+{
+  ts: '2026-01-05T08:55:18.423Z',
+  traceId: 'c77188bb-ac4e-4342-a0aa-6dc2b73f8f84',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 3ms)
+{
+  ts: '2026-01-05T08:55:18.426Z',
+  traceId: 'd0c22515-4aaf-4952-8297-36bfe37705fc',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 12ms, render: 18ms)
+{
+  ts: '2026-01-05T08:55:22.346Z',
+  traceId: '547632a6-1dbc-4cbd-83d3-62cbed0ea175',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 21ms, render: 6ms)
+{
+  ts: '2026-01-05T08:55:22.352Z',
+  traceId: '9d8789f4-0a31-442c-9b1c-b9a1459fb2f3',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 13ms, render: 18ms)
+{
+  ts: '2026-01-05T08:55:23.432Z',
+  traceId: '5c77080f-0b3f-48be-8325-e8fad9ce3d6b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 32ms (compile: 29ms, render: 3ms)
+{
+  ts: '2026-01-05T08:55:23.435Z',
+  traceId: '5602557c-2d58-4e21-990c-9fd8b22c1cd1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 36ms (compile: 18ms, render: 18ms)
+{
+  ts: '2026-01-05T08:55:27.344Z',
+  traceId: '88774bc2-59df-4aee-859e-4d345fd77b33',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 13ms, render: 3ms)
+{
+  ts: '2026-01-05T08:55:27.348Z',
+  traceId: '7525f0cb-9f35-4f05-99c1-479ba1f986ee',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 5ms, render: 17ms)
+{
+  ts: '2026-01-05T08:55:28.420Z',
+  traceId: 'ac791dc2-6fab-4056-89d2-5eb0a1c70528',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:55:28.424Z',
+  traceId: 'bce8f1d0-4092-4160-9612-6f0cd5352719',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 14ms, render: 16ms)
+{
+  ts: '2026-01-05T08:55:32.344Z',
+  traceId: '9606b08f-c7e9-48f8-af5c-c22ad42c1b0c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 5ms)
+{
+  ts: '2026-01-05T08:55:32.348Z',
+  traceId: '4a1e7760-79d5-4fbd-a46a-66dc94b2884f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 13ms, render: 17ms)
+{
+  ts: '2026-01-05T08:55:33.420Z',
+  traceId: '07dfada0-1589-4ea5-ab76-48e4ec17323a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 27ms, render: 3ms)
+{
+  ts: '2026-01-05T08:55:33.424Z',
+  traceId: '9e4f6c2d-6dae-4c79-9411-f47e8fb01a9a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 15ms, render: 19ms)
+{
+  ts: '2026-01-05T08:55:37.333Z',
+  traceId: 'bcd9aef1-a7fe-4e59-9c9a-b6260cda4d85',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 13ms, render: 8ms)
+{
+  ts: '2026-01-05T08:55:37.342Z',
+  traceId: '1652c313-c57f-497c-a106-1dbb587d9079',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 4ms)
+{
+  ts: '2026-01-05T08:55:38.416Z',
+  traceId: 'f4dab202-c05b-4738-b6d8-dac0ca77a83c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 5ms)
+{
+  ts: '2026-01-05T08:55:38.421Z',
+  traceId: '853e39fe-5e82-4d9f-b5c9-641ec0f4e758',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 16ms)
+{
+  ts: '2026-01-05T08:55:42.342Z',
+  traceId: '5c1abc31-2aee-4344-b442-2a8b4e765b4f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 4ms)
+{
+  ts: '2026-01-05T08:55:42.347Z',
+  traceId: 'cc8795ad-7431-46d5-bad0-46987e578b69',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 11ms, render: 17ms)
+{
+  ts: '2026-01-05T08:55:43.411Z',
+  traceId: '9da9f612-6db2-42d4-9936-6ee8a8acea6e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:55:43.414Z',
+  traceId: '73179f93-d94b-4dcf-afa1-ad2cc1e02399',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 16ms, render: 14ms)
+{
+  ts: '2026-01-05T08:55:47.339Z',
+  traceId: '07bbb836-31dd-4295-98d6-970545c2e9a9',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 18ms, render: 8ms)
+{
+  ts: '2026-01-05T08:55:47.350Z',
+  traceId: '4315284b-9502-41e1-b59c-114712d0b888',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 8ms (compile: 5ms, render: 3ms)
+{
+  ts: '2026-01-05T08:55:48.416Z',
+  traceId: 'e2c4f177-4d1e-4f10-b2b3-30ecb7d12f2d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:55:48.419Z',
+  traceId: 'd156a44a-5e5d-4525-9642-174c8aa79731',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 14ms, render: 15ms)
+{
+  ts: '2026-01-05T08:55:52.346Z',
+  traceId: '6773509e-7714-4d68-b883-df73c0633afd',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 21ms, render: 3ms)
+{
+  ts: '2026-01-05T08:55:52.352Z',
+  traceId: '2118991b-294e-4bf4-bd26-e4f8727b64a4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 12ms, render: 18ms)
+{
+  ts: '2026-01-05T08:55:53.413Z',
+  traceId: 'e1897455-694e-41a4-b341-f9920f00c3f3',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 27ms, render: 4ms)
+{
+  ts: '2026-01-05T08:55:53.416Z',
+  traceId: 'bbe0468c-dc40-471c-b608-599bd0545c44',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 16ms, render: 18ms)
+{
+  ts: '2026-01-05T08:55:57.328Z',
+  traceId: '75c80a22-e762-4d19-9b33-04338affc5da',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 14ms (compile: 6ms, render: 8ms)
+{
+  ts: '2026-01-05T08:55:57.339Z',
+  traceId: '826e9571-f408-41b1-8ee1-ba1e1256fa3f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:55:58.413Z',
+  traceId: 'db5672fa-96e3-46d5-b467-135885d2d911',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:55:58.417Z',
+  traceId: '3f7a52d0-e20e-486d-b176-189f1d5dd45c',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 15ms, render: 15ms)
+{
+  ts: '2026-01-05T08:56:02.346Z',
+  traceId: 'ba901598-0e69-44c8-a327-3f2c24bf962c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 23ms, render: 5ms)
+{
+  ts: '2026-01-05T08:56:02.350Z',
+  traceId: 'c5f9c8aa-5bc7-41f6-bf9c-0fdb933a8592',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 13ms, render: 21ms)
+{
+  ts: '2026-01-05T08:56:03.427Z',
+  traceId: '5bc6a2f2-2869-41c6-958c-d41a4c204c59',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 24ms, render: 3ms)
+{
+  ts: '2026-01-05T08:56:03.430Z',
+  traceId: '7573fa90-a187-4783-a992-e5e542e99a47',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 17ms, render: 15ms)
+{
+  ts: '2026-01-05T08:56:07.346Z',
+  traceId: '3577530b-3856-46b5-a0aa-2e9380cd9a3e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:56:07.350Z',
+  traceId: '5dcbc80e-8367-44b3-aade-2e8a4eec884f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 15ms, render: 16ms)
+{
+  ts: '2026-01-05T08:56:08.415Z',
+  traceId: '700ba47d-f197-4563-91cf-15638cb42279',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 20ms, render: 3ms)
+{
+  ts: '2026-01-05T08:56:08.418Z',
+  traceId: '053333a8-4f1b-468a-aadd-9f84a1832cb2',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 13ms, render: 14ms)
+{
+  ts: '2026-01-05T08:56:12.328Z',
+  traceId: 'd66e79f9-6b8d-4032-86cc-f4850bc62065',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 18ms (compile: 7ms, render: 11ms)
+{
+  ts: '2026-01-05T08:56:12.338Z',
+  traceId: '1a9c8dd3-a6d5-4266-8c98-241843051468',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:56:13.419Z',
+  traceId: '517c0c79-9d3e-47fb-a5bc-1d165b7b44ad',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 3ms)
+{
+  ts: '2026-01-05T08:56:13.423Z',
+  traceId: 'bde08935-12f8-48f6-8ed6-afd940c8fb87',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 15ms, render: 14ms)
+{
+  ts: '2026-01-05T08:56:17.335Z',
+  traceId: '9fef262d-d7b4-4d4f-95e2-5fdb72319b02',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 13ms, render: 10ms)
+{
+  ts: '2026-01-05T08:56:17.346Z',
+  traceId: '5417fc76-154a-449d-b1c8-f916dfb17884',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 6ms, render: 4ms)
+{
+  ts: '2026-01-05T08:56:18.412Z',
+  traceId: '20c99f1d-f666-4c50-8066-44e0a15f1069',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 20ms, render: 4ms)
+{
+  ts: '2026-01-05T08:56:18.415Z',
+  traceId: 'c767de2c-6c91-4412-9638-d1b27a376fe8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 13ms, render: 15ms)
+{
+  ts: '2026-01-05T08:56:22.351Z',
+  traceId: '2931e872-2ffd-4dc2-be08-e4ff9573fcb8',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 3ms)
+{
+  ts: '2026-01-05T08:56:22.354Z',
+  traceId: '3a2cee5f-a477-4527-abcf-f627d174688b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 11ms, render: 17ms)
+{
+  ts: '2026-01-05T08:56:23.415Z',
+  traceId: '68dca761-0aad-4551-956f-4c5331ca61c3',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 3ms)
+{
+  ts: '2026-01-05T08:56:23.418Z',
+  traceId: 'a39095f0-df47-438e-9ca8-9228ec69b267',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 14ms, render: 14ms)
+{
+  ts: '2026-01-05T08:56:27.340Z',
+  traceId: 'f3f0c6db-2288-4f61-9089-b7194fc9746c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 16ms, render: 4ms)
+{
+  ts: '2026-01-05T08:56:27.344Z',
+  traceId: 'd99578b0-f855-4778-b419-c46017f2c24a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 6ms, render: 18ms)
+{
+  ts: '2026-01-05T08:56:28.416Z',
+  traceId: 'dfdd7c96-bfcd-4508-9f88-53192e4aff9a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 24ms, render: 4ms)
+{
+  ts: '2026-01-05T08:56:28.420Z',
+  traceId: '0153c4c7-1eb8-4a10-a0bf-60227ee8a2c1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 16ms, render: 15ms)
+{
+  ts: '2026-01-05T08:56:32.343Z',
+  traceId: '124c423f-f42f-4e2f-b09d-6dcc2988d7f8',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:56:32.347Z',
+  traceId: '43ea1eb5-640b-4c33-b180-0e6107455447',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 12ms, render: 18ms)
+{
+  ts: '2026-01-05T08:56:33.409Z',
+  traceId: '842b69f8-6f87-41aa-a8fc-661129c79b16',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 3ms)
+{
+  ts: '2026-01-05T08:56:33.412Z',
+  traceId: '0eb5be96-c64c-4e9f-8bfc-8afc55fdca8f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 12ms, render: 16ms)
+{
+  ts: '2026-01-05T08:56:37.347Z',
+  traceId: '3af8c5cc-1be1-4359-a3e3-b287fe247926',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 23ms, render: 5ms)
+{
+  ts: '2026-01-05T08:56:37.351Z',
+  traceId: '939e015a-1905-4d4a-8e37-4ee20591f244',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 13ms, render: 19ms)
+{
+  ts: '2026-01-05T08:56:38.415Z',
+  traceId: '30a3e315-ccd9-48d6-919f-94ab5b7ce25d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:56:38.418Z',
+  traceId: 'e0dc0564-2d7f-4d1a-a26f-6ccbe0977670',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 17ms)
+{
+  ts: '2026-01-05T08:56:42.328Z',
+  traceId: 'adfa593f-3138-4e72-b489-0fecdc57f022',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 16ms (compile: 7ms, render: 9ms)
+{
+  ts: '2026-01-05T08:56:42.337Z',
+  traceId: '24a6bab6-d986-4167-a3a3-875363445f8c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:56:43.427Z',
+  traceId: 'd27ccc30-a5be-4e80-a6bf-019c2bbec537',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 23ms, render: 6ms)
+{
+  ts: '2026-01-05T08:56:43.431Z',
+  traceId: '1ce60c80-110e-49bd-af9b-e9f398b88351',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T08:56:47.346Z',
+  traceId: '44050710-cf57-46d6-9065-12bd56e4ac82',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 19ms, render: 3ms)
+{
+  ts: '2026-01-05T08:56:47.350Z',
+  traceId: 'bdc89fd8-55f6-49a6-a678-dd4f376249b9',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 8ms, render: 18ms)
+{
+  ts: '2026-01-05T08:56:48.417Z',
+  traceId: '8e56f3b4-67a9-403e-8edd-5f2450acfb3c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 5ms)
+{
+  ts: '2026-01-05T08:56:48.420Z',
+  traceId: '85e338d2-6aef-48a2-8100-720a79f4ddb0',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 12ms, render: 15ms)
+{
+  ts: '2026-01-05T08:56:52.348Z',
+  traceId: '47e58e4c-3f7b-4ec4-ac40-1b592b26ea86',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 3ms)
+{
+  ts: '2026-01-05T08:56:52.351Z',
+  traceId: '654cc720-7c5a-43f6-9ba5-8e0fd20e23c0',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 13ms, render: 18ms)
+{
+  ts: '2026-01-05T08:56:53.423Z',
+  traceId: '14b6c824-93c0-4ef6-804d-acea241d0c82',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:56:53.426Z',
+  traceId: '37104b83-e91f-44af-bbad-197b94e4a787',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 15ms, render: 15ms)
+{
+  ts: '2026-01-05T08:56:57.344Z',
+  traceId: '96a7fca6-7ea4-405e-8914-363719f09597',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 15ms, render: 3ms)
+{
+  ts: '2026-01-05T08:56:57.348Z',
+  traceId: 'd5ba2702-d128-4d2c-950b-77df876cfe68',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 5ms, render: 18ms)
+{
+  ts: '2026-01-05T08:56:58.423Z',
+  traceId: '1da01daa-1b9e-4819-ba33-c68bede38496',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 22ms, render: 6ms)
+{
+  ts: '2026-01-05T08:56:58.427Z',
+  traceId: '6321eee4-db3f-4c37-bdaf-8048cc6c2155',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T08:57:02.348Z',
+  traceId: '58d68169-4b84-4a6b-b79a-2939245a5feb',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:02.352Z',
+  traceId: '3b5a94a2-2322-442e-b310-a495907145e4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 11ms, render: 18ms)
+{
+  ts: '2026-01-05T08:57:03.413Z',
+  traceId: '647cc14c-993c-4359-9a3f-846b81272379',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 19ms, render: 5ms)
+{
+  ts: '2026-01-05T08:57:03.418Z',
+  traceId: 'd4278b28-3628-400e-9674-c9a6a1bcad2c',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 12ms, render: 17ms)
+{
+  ts: '2026-01-05T08:57:07.346Z',
+  traceId: 'cbf19574-1ddc-4115-81b5-b50f96f9d61f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 24ms, render: 5ms)
+{
+  ts: '2026-01-05T08:57:07.349Z',
+  traceId: 'e920fd19-413e-4d13-9545-412647af2914',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 15ms, render: 18ms)
+{
+  ts: '2026-01-05T08:57:08.415Z',
+  traceId: '6dd71eca-ae27-4396-88db-255450720b66',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 20ms, render: 5ms)
+{
+  ts: '2026-01-05T08:57:08.420Z',
+  traceId: '8afa09af-4875-4005-ac1c-d04ac9444dd1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 13ms, render: 16ms)
+{
+  ts: '2026-01-05T08:57:12.341Z',
+  traceId: 'e29d3ec7-aa84-47ec-9803-d59fcfbcf1b5',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 18ms, render: 5ms)
+{
+  ts: '2026-01-05T08:57:12.344Z',
+  traceId: '32281d3c-c024-4816-a1b7-10b5a62c1489',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 10ms, render: 18ms)
+{
+  ts: '2026-01-05T08:57:13.414Z',
+  traceId: '3fe5981e-ec86-4f98-8e58-90d906201d3d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 19ms, render: 6ms)
+{
+  ts: '2026-01-05T08:57:13.418Z',
+  traceId: 'd0fdfc4e-593b-4985-bbc6-d7d1ccd9b965',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 12ms, render: 17ms)
+{
+  ts: '2026-01-05T08:57:17.345Z',
+  traceId: '3d2d525a-bcac-43db-b155-db5e6de51a58',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:17.349Z',
+  traceId: '176be603-b7b8-435a-885a-e026b90a5219',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 13ms, render: 18ms)
+{
+  ts: '2026-01-05T08:57:18.417Z',
+  traceId: '23e87417-8eaf-473b-b118-058abebd1eb6',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 19ms, render: 3ms)
+{
+  ts: '2026-01-05T08:57:18.420Z',
+  traceId: '27fb5b4e-07d3-4db9-9f23-6990c3a7280b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 12ms, render: 14ms)
+{
+  ts: '2026-01-05T08:57:22.332Z',
+  traceId: '2a374b20-2d34-4763-9596-82036fa136c2',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 19ms (compile: 7ms, render: 11ms)
+{
+  ts: '2026-01-05T08:57:22.343Z',
+  traceId: 'a3612af7-5520-4705-996a-30202899de58',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:57:23.410Z',
+  traceId: '096882fb-3044-4cb0-921f-045b964ca60b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:23.413Z',
+  traceId: '42b69745-e8fc-41f4-ba64-a66584c3385b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 15ms, render: 14ms)
+{
+  ts: '2026-01-05T08:57:27.326Z',
+  traceId: '8a30b7c2-1d43-4d14-9ef1-b3e4b94c02f9',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 14ms (compile: 5ms, render: 9ms)
+{
+  ts: '2026-01-05T08:57:27.338Z',
+  traceId: '5712c96a-9e8e-4e42-aa1c-38d64bc4abeb',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 8ms (compile: 5ms, render: 3ms)
+{
+  ts: '2026-01-05T08:57:28.413Z',
+  traceId: 'cda4131b-6e96-4348-aa40-1fcfdd952fa7',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:28.417Z',
+  traceId: 'ba40f54f-9be6-4918-bae0-1effc0916ff2',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 12ms, render: 16ms)
+{
+  ts: '2026-01-05T08:57:32.341Z',
+  traceId: '74221edc-bb48-48af-8543-6301c65bd240',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 16ms, render: 3ms)
+{
+  ts: '2026-01-05T08:57:32.344Z',
+  traceId: 'a5abbf90-1cfa-44b2-bca9-801b7ad8b836',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 7ms, render: 17ms)
+{
+  ts: '2026-01-05T08:57:33.413Z',
+  traceId: 'd4773db3-6a7c-42b2-963c-425f3fb2aad8',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:33.416Z',
+  traceId: 'b316b35e-15e5-4bf6-913f-007552107ac8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 14ms, render: 15ms)
+{
+  ts: '2026-01-05T08:57:37.344Z',
+  traceId: '5b3bd71f-63a4-4350-93a8-1b4e96ab79e6',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:37.348Z',
+  traceId: 'ffe5e40f-a057-4d70-aba0-4699e27963db',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 15ms, render: 16ms)
+{
+  ts: '2026-01-05T08:57:38.413Z',
+  traceId: '36941125-4eae-4d10-b798-c7871904c023',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 16ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:38.416Z',
+  traceId: '4cfc2036-9fff-45bf-8359-ee3799f287a0',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 6ms, render: 17ms)
+{
+  ts: '2026-01-05T08:57:42.341Z',
+  traceId: 'd5744c87-f3c2-4379-a5f4-c9f3fe0d8884',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:42.345Z',
+  traceId: 'c3bf2a69-2b4f-4dad-b1f2-af685f046108',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 9ms, render: 20ms)
+{
+  ts: '2026-01-05T08:57:43.419Z',
+  traceId: 'a0198b6a-c596-46cc-b894-ada6125a565a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:43.423Z',
+  traceId: '3410352e-1077-4301-a507-29fce77fdccd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 15ms, render: 15ms)
+{
+  ts: '2026-01-05T08:57:47.346Z',
+  traceId: '6d89813f-91d3-4bfc-878e-4497c5d567cf',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 25ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:47.349Z',
+  traceId: '89efa5eb-6cf5-4e4f-b4f8-ed23c9d8f704',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 14ms, render: 19ms)
+{
+  ts: '2026-01-05T08:57:48.425Z',
+  traceId: '0ab06bcb-5436-405d-b027-ee165ea53143',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 33ms (compile: 29ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:48.429Z',
+  traceId: '89b386fd-8285-4067-8336-9938630d0a6d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 37ms (compile: 20ms, render: 16ms)
+{
+  ts: '2026-01-05T08:57:52.351Z',
+  traceId: 'ef668bda-139d-4a3d-9c6f-d8482cc0e155',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 24ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:52.355Z',
+  traceId: '023605f9-67c0-4d91-a7cc-d334d756aa5c',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 15ms, render: 19ms)
+{
+  ts: '2026-01-05T08:57:53.417Z',
+  traceId: 'ed06d7b5-e96d-4ce1-bf2b-ab38a81cee84',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 5ms)
+{
+  ts: '2026-01-05T08:57:53.421Z',
+  traceId: 'e0bfa65d-e089-4d95-8592-7d36b82938cb',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T08:57:57.334Z',
+  traceId: '2947b24a-cc08-446a-a491-74287a71e8d1',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 4ms)
+{
+  ts: '2026-01-05T08:57:57.339Z',
+  traceId: '8f635289-5317-4b79-816c-bac472ad2db1',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 5ms, render: 18ms)
+{
+  ts: '2026-01-05T08:57:58.411Z',
+  traceId: 'd3fb1aa2-b16b-4652-b5f2-c8b2b0799a26',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 3ms)
+{
+  ts: '2026-01-05T08:57:58.414Z',
+  traceId: '82872832-80cc-4b98-9a2b-095369b0829d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 15ms, render: 15ms)
+{
+  ts: '2026-01-05T08:58:02.344Z',
+  traceId: '62c5d450-a06f-4a24-9f6d-d76d73de773d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 28ms (compile: 22ms, render: 5ms)
+{
+  ts: '2026-01-05T08:58:02.350Z',
+  traceId: '6e963ff1-b739-4995-8a41-e0e97a7fc19a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 15ms, render: 18ms)
+{
+  ts: '2026-01-05T08:58:03.406Z',
+  traceId: 'bae2e756-a2c2-4fc5-bdf7-ae31de054ff0',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 18ms (compile: 14ms, render: 4ms)
+{
+  ts: '2026-01-05T08:58:03.420Z',
+  traceId: '6a8caf1d-b1d7-41e5-94f3-9cd57a5c79cf',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 23ms, render: 7ms)
+{
+  ts: '2026-01-05T08:58:07.328Z',
+  traceId: '7baae378-e7e4-4b93-9a58-1f462afeb23f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 16ms (compile: 8ms, render: 8ms)
+{
+  ts: '2026-01-05T08:58:07.338Z',
+  traceId: '16095fb1-6471-4cd9-804d-28a9593ed5d8',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:58:08.413Z',
+  traceId: 'c536140c-c5b2-489b-a248-cc8554091c80',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T08:58:08.416Z',
+  traceId: '2419a094-e8c8-4477-b7b1-578bb19141b0',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 6ms, render: 15ms)
+{
+  ts: '2026-01-05T08:58:12.339Z',
+  traceId: '199a41f9-7a0c-4e32-81de-4e25264f700d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 4ms)
+{
+  ts: '2026-01-05T08:58:12.343Z',
+  traceId: 'd34ce841-f4d1-4fec-8ed2-52705d69e697',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 10ms, render: 18ms)
+{
+  ts: '2026-01-05T08:58:13.418Z',
+  traceId: '7e3aa187-10fb-43fe-8ee6-dc86a8880ba6',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 15ms, render: 4ms)
+{
+  ts: '2026-01-05T08:58:13.421Z',
+  traceId: '609996c0-9b49-48a0-8505-b9a7ecffcd21',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 6ms, render: 17ms)
+{
+  ts: '2026-01-05T08:58:17.344Z',
+  traceId: 'b39c76c4-8c7a-4d35-9ff6-9dec0be04deb',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T08:58:17.349Z',
+  traceId: 'f17ffdec-e05e-4043-8b22-dd22906a09d7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 14ms, render: 18ms)
+{
+  ts: '2026-01-05T08:58:18.417Z',
+  traceId: 'fb63820d-6d19-42ff-aada-3251b7b17399',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 17ms, render: 3ms)
+{
+  ts: '2026-01-05T08:58:18.420Z',
+  traceId: 'b04c3960-8d4e-4b05-b175-754d6855276b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 10ms, render: 15ms)
+{
+  ts: '2026-01-05T08:58:22.348Z',
+  traceId: 'fc582984-6554-4f26-97cd-30e94dd3b31d',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 5ms)
+{
+  ts: '2026-01-05T08:58:22.353Z',
+  traceId: '74f84a9d-1df5-4d40-9d63-829e9caa75c7',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 12ms, render: 21ms)
+{
+  ts: '2026-01-05T08:58:23.417Z',
+  traceId: '3b6396f3-77c6-482d-b8a8-6c5ddfd8ece9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 3ms)
+{
+  ts: '2026-01-05T08:58:23.420Z',
+  traceId: '9c2bb883-d66c-4793-9d0d-3249e0b37922',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 14ms, render: 14ms)
+{
+  ts: '2026-01-05T08:58:27.338Z',
+  traceId: '611269e4-b4a1-4925-8636-ff0ed6fac9a0',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 20ms (compile: 17ms, render: 3ms)
+{
+  ts: '2026-01-05T08:58:27.341Z',
+  traceId: 'fcfd89ad-2123-4c41-8958-49bd590d11ea',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 5ms, render: 19ms)
+{
+  ts: '2026-01-05T08:58:28.416Z',
+  traceId: '8ec4518f-86fe-4040-9bba-7ece56b729bf',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 3ms)
+{
+  ts: '2026-01-05T08:58:28.419Z',
+  traceId: '18cb6fa2-43c0-4d2e-b3a7-ae27d654ac14',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 15ms, render: 14ms)
+{
+  ts: '2026-01-05T08:58:32.339Z',
+  traceId: '1b5bde18-31fb-4845-916e-40f43719dc04',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 26ms (compile: 17ms, render: 8ms)
+{
+  ts: '2026-01-05T08:58:32.350Z',
+  traceId: '97c6471a-d69a-4e60-8794-3c406733506a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 3ms)
+{
+  ts: '2026-01-05T08:58:33.426Z',
+  traceId: '09c74f32-9f57-436e-bb75-4ae7c776f333',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 31ms (compile: 26ms, render: 5ms)
+{
+  ts: '2026-01-05T08:58:33.430Z',
+  traceId: '87a664e0-2141-4375-80ba-3f4959aa5dcd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 35ms (compile: 13ms, render: 22ms)
+{
+  ts: '2026-01-05T08:58:37.354Z',
+  traceId: 'b2928dda-b720-4e4f-8b3b-1f72f37db1d3',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 25ms, render: 4ms)
+{
+  ts: '2026-01-05T08:58:37.359Z',
+  traceId: 'bc057b20-4509-41b8-abed-0f990c2169bf',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 16ms, render: 17ms)
+{
+  ts: '2026-01-05T08:58:38.415Z',
+  traceId: '8791ab0d-4eb8-4dd3-9eb3-a46b849f0646',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 14ms, render: 5ms)
+{
+  ts: '2026-01-05T08:58:38.419Z',
+  traceId: '208b4dc1-b12f-4a17-9c59-b2d1f3d0d657',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 6ms, render: 18ms)
+{
+  ts: '2026-01-05T08:58:42.330Z',
+  traceId: 'db70e039-6787-48a8-b2e0-e5ea1e963aee',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 19ms (compile: 7ms, render: 12ms)
+{
+  ts: '2026-01-05T08:58:42.340Z',
+  traceId: 'a41f7844-689b-4df8-996f-122aa2b0f5ab',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 4ms)
+{
+  ts: '2026-01-05T08:58:43.411Z',
+  traceId: 'ced3f823-eac1-4165-bd47-8e1214303965',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 3ms)
+{
+  ts: '2026-01-05T08:58:43.414Z',
+  traceId: '613e18ef-9532-4421-ad47-58e57e86336b',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 15ms, render: 16ms)
+{
+  ts: '2026-01-05T08:58:47.353Z',
+  traceId: 'f8585570-37dc-483f-810a-f797f1c939a9',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:58:47.359Z',
+  traceId: 'c0e5c8c3-153a-44ea-837e-54bd3d076f17',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 15ms, render: 16ms)
+{
+  ts: '2026-01-05T08:58:48.423Z',
+  traceId: '4a3a16ea-02ea-4495-a550-c6f7b5187e05',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 33ms (compile: 29ms, render: 4ms)
+{
+  ts: '2026-01-05T08:58:48.428Z',
+  traceId: '70443525-d137-4399-90ec-32ab3a74d3e0',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 38ms (compile: 21ms, render: 16ms)
+{
+  ts: '2026-01-05T08:58:52.347Z',
+  traceId: '42863cf5-18fb-4491-abe1-7e9992002354',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 3ms)
+{
+  ts: '2026-01-05T08:58:52.351Z',
+  traceId: '5c59c3e6-bf20-44d7-938c-495e9c47e4dc',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 9ms, render: 18ms)
+{
+  ts: '2026-01-05T08:58:53.421Z',
+  traceId: 'af5c4316-41c8-46a8-bead-5fc50393d805',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 23ms, render: 3ms)
+{
+  ts: '2026-01-05T08:58:53.424Z',
+  traceId: 'a57af253-43a0-459c-aaa0-3619334fd672',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 13ms, render: 18ms)
+{
+  ts: '2026-01-05T08:58:57.345Z',
+  traceId: '0d5e6276-8a79-460f-ae2d-157e44f746ba',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 5ms)
+{
+  ts: '2026-01-05T08:58:57.350Z',
+  traceId: 'e90f59ec-086c-4feb-82da-e70b649075d6',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 15ms, render: 16ms)
+{
+  ts: '2026-01-05T08:58:58.454Z',
+  traceId: '3d9419b2-a24a-4c4c-961d-d2a15518f527',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 31ms (compile: 27ms, render: 3ms)
+{
+  ts: '2026-01-05T08:58:58.457Z',
+  traceId: 'd4ce237f-feff-4be6-9bbb-299579a16b3d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 35ms (compile: 16ms, render: 19ms)
+{
+  ts: '2026-01-05T08:59:02.346Z',
+  traceId: '798000e4-2e71-4130-a0eb-6f35462ebd3a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 21ms, render: 3ms)
+{
+  ts: '2026-01-05T08:59:02.350Z',
+  traceId: 'f317de3b-6942-42d9-931c-2c419ebfd4cd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 10ms, render: 20ms)
+{
+  ts: '2026-01-05T08:59:03.419Z',
+  traceId: 'a5d3313d-bdac-4d68-b857-3dd81f27c166',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 26ms, render: 4ms)
+{
+  ts: '2026-01-05T08:59:03.423Z',
+  traceId: '52c5e571-a56c-4a4c-a7cb-d51f4683a0c4',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 37ms (compile: 16ms, render: 21ms)
+{
+  ts: '2026-01-05T08:59:07.336Z',
+  traceId: '9ed031c7-c9a5-49df-b9cd-2ddf329dc27a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 15ms, render: 7ms)
+{
+  ts: '2026-01-05T08:59:07.347Z',
+  traceId: 'aac6fb10-8fb0-40de-8cd3-070705cf12f3',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:59:08.415Z',
+  traceId: 'a89cd0a2-77fb-4ff2-afe9-5194425bdad0',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 17ms, render: 4ms)
+{
+  ts: '2026-01-05T08:59:08.419Z',
+  traceId: '2c983cf6-0293-4870-a2f7-e7e3c3f81672',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 8ms, render: 17ms)
+{
+  ts: '2026-01-05T08:59:12.353Z',
+  traceId: 'a0e631bd-5b5c-4d9a-a316-2f29985ce33b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T08:59:12.357Z',
+  traceId: 'c6635fe5-7852-4631-bf81-d60af6c2d5f3',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 12ms, render: 18ms)
+{
+  ts: '2026-01-05T08:59:13.421Z',
+  traceId: '44069ac1-e707-457a-9e3e-09b696ffe98e',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 3ms)
+{
+  ts: '2026-01-05T08:59:13.425Z',
+  traceId: 'e1419781-27f2-4528-a8af-bb21d574a9a5',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 14ms, render: 15ms)
+{
+  ts: '2026-01-05T08:59:17.326Z',
+  traceId: '4d6f5a18-e995-4c17-900b-5544237d4331',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 12ms (compile: 5ms, render: 7ms)
+{
+  ts: '2026-01-05T08:59:17.336Z',
+  traceId: '154b63a0-d308-4c72-a1f0-511317f9fba2',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 9ms (compile: 5ms, render: 5ms)
+{
+  ts: '2026-01-05T08:59:18.417Z',
+  traceId: '05fde850-8792-4e14-80ed-fd4d82d72229',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 19ms, render: 5ms)
+{
+  ts: '2026-01-05T08:59:18.421Z',
+  traceId: '1d5df051-7947-4453-9159-96f0ef83a6dd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 11ms, render: 16ms)
+{
+  ts: '2026-01-05T08:59:22.349Z',
+  traceId: 'f78a97a5-3ab9-4b38-b0d1-6bd1e4049c88',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 25ms, render: 5ms)
+{
+  ts: '2026-01-05T08:59:22.353Z',
+  traceId: '55ebd43e-5f6f-43bb-b4b2-373afae8bbba',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 34ms (compile: 15ms, render: 19ms)
+{
+  ts: '2026-01-05T08:59:23.426Z',
+  traceId: '4c0071ce-bb2b-4bf5-a7de-883f58078c9c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 26ms, render: 4ms)
+{
+  ts: '2026-01-05T08:59:23.430Z',
+  traceId: 'cdbb9eb8-5662-4332-a478-1457d3bd61e5',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 35ms (compile: 18ms, render: 18ms)
+{
+  ts: '2026-01-05T08:59:27.346Z',
+  traceId: '67e59313-00b6-4e6b-9858-7ff0a6ecc3da',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 19ms (compile: 16ms, render: 3ms)
+{
+  ts: '2026-01-05T08:59:27.351Z',
+  traceId: 'f96ab30b-307b-4206-9843-6d72bdcb5320',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 7ms, render: 18ms)
+{
+  ts: '2026-01-05T08:59:28.422Z',
+  traceId: '0179c59e-ba9a-470e-b21c-ed310c794168',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T08:59:28.426Z',
+  traceId: 'f3487a55-234a-4c73-8908-687537329d86',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 14ms, render: 15ms)
+{
+  ts: '2026-01-05T08:59:32.345Z',
+  traceId: 'ba80da20-2446-4e62-9493-e26d8d6f2ef0',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 22ms (compile: 18ms, render: 4ms)
+{
+  ts: '2026-01-05T08:59:32.350Z',
+  traceId: '14b48cdd-5ebc-4125-b3ba-281123d0017f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 27ms (compile: 10ms, render: 17ms)
+{
+  ts: '2026-01-05T08:59:33.414Z',
+  traceId: '3ef2ab80-c2bf-4f4a-bddd-ea61e29fb678',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 29ms (compile: 25ms, render: 4ms)
+{
+  ts: '2026-01-05T08:59:33.417Z',
+  traceId: 'a00f861a-d2e2-48ea-8cb6-1e7b4d61a138',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 17ms, render: 16ms)
+{
+  ts: '2026-01-05T08:59:37.350Z',
+  traceId: '5ceafe91-2996-4eb1-ab4a-ec85c1aa51bc',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 24ms, render: 4ms)
+{
+  ts: '2026-01-05T08:59:37.354Z',
+  traceId: '2a24345a-81a3-4b56-bbc0-dff170c4e6af',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 15ms, render: 16ms)
+{
+  ts: '2026-01-05T08:59:38.418Z',
+  traceId: '18b29213-a850-46f4-a123-3f0da3d555f7',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 24ms (compile: 20ms, render: 3ms)
+{
+  ts: '2026-01-05T08:59:38.421Z',
+  traceId: 'b332c17c-7e81-44dd-b62c-1fa1bfef21ee',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 14ms, render: 14ms)
+{
+  ts: '2026-01-05T08:59:42.342Z',
+  traceId: 'd45d49ef-4e3e-4f1a-a091-703c091301a6',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 22ms, render: 3ms)
+{
+  ts: '2026-01-05T08:59:42.345Z',
+  traceId: 'f34de2cb-68bb-4382-977b-0f663bbe714d',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 13ms, render: 18ms)
+{
+  ts: '2026-01-05T08:59:43.423Z',
+  traceId: 'f5fe4d7b-ed72-4052-b03e-c8d35b8f1591',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 30ms (compile: 25ms, render: 5ms)
+{
+  ts: '2026-01-05T08:59:43.426Z',
+  traceId: '463c3dac-6ca1-4c30-baa7-6eaded3db0dc',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 33ms (compile: 15ms, render: 18ms)
+{
+  ts: '2026-01-05T08:59:47.340Z',
+  traceId: 'c0a0fc9d-2964-4f24-b197-d7898329d278',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 17ms, render: 3ms)
+{
+  ts: '2026-01-05T08:59:47.343Z',
+  traceId: '1193508e-c267-4300-b1dc-afbb33b8461f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 24ms (compile: 8ms, render: 16ms)
+{
+  ts: '2026-01-05T08:59:48.419Z',
+  traceId: 'd3512080-2ed1-495d-96fe-c3fe4ab7ae0f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 20ms, render: 5ms)
+{
+  ts: '2026-01-05T08:59:48.422Z',
+  traceId: 'b049f1af-ae81-488c-b014-cd796b5854c3',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 12ms, render: 17ms)
+{
+  ts: '2026-01-05T08:59:52.349Z',
+  traceId: 'b68f2878-8d86-4d84-89d9-436919389591',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 32ms (compile: 27ms, render: 4ms)
+{
+  ts: '2026-01-05T08:59:52.354Z',
+  traceId: '326fc1eb-8603-4ae7-86d1-df941d549659',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 36ms (compile: 14ms, render: 22ms)
+{
+  ts: '2026-01-05T08:59:53.419Z',
+  traceId: '4a889f99-617d-4036-bd20-199d2f24ae95',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 3ms)
+{
+  ts: '2026-01-05T08:59:53.422Z',
+  traceId: '06f3dfa8-6972-45bc-8998-9118cf3295e8',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 29ms (compile: 13ms, render: 16ms)
+{
+  ts: '2026-01-05T08:59:57.335Z',
+  traceId: '1bece025-68dd-4a50-bd8d-9934305383dd',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 15ms, render: 6ms)
+{
+  ts: '2026-01-05T08:59:57.345Z',
+  traceId: 'f36ba4cb-b742-439b-8c0e-668594973a90',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 10ms (compile: 5ms, render: 6ms)
+{
+  ts: '2026-01-05T08:59:58.418Z',
+  traceId: '2477ef37-4255-4694-acb9-8a256423800c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 5ms)
+{
+  ts: '2026-01-05T08:59:58.421Z',
+  traceId: 'f72536bc-6c53-49b9-85fc-3f6b40a12a09',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 14ms, render: 16ms)
+{
+  ts: '2026-01-05T09:00:02.330Z',
+  traceId: '60d2cd10-e658-4559-b2ac-6a70ad7e0451',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 18ms (compile: 9ms, render: 9ms)
+{
+  ts: '2026-01-05T09:00:02.340Z',
+  traceId: '1e8c1dc2-9ef6-4a24-8bfc-36f8c9069529',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 7ms (compile: 4ms, render: 3ms)
+{
+  ts: '2026-01-05T09:00:03.422Z',
+  traceId: '3c0a6b98-90d7-4679-bec9-6212ec4ac0e2',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 22ms, render: 4ms)
+{
+  ts: '2026-01-05T09:00:03.426Z',
+  traceId: '8ee0f3ed-6498-48cc-a096-71859f9bbdf6',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 14ms, render: 16ms)
+{
+  ts: '2026-01-05T09:00:07.348Z',
+  traceId: '381c394f-1c2c-4805-b150-bf2e9459ae90',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 21ms, render: 4ms)
+{
+  ts: '2026-01-05T09:00:07.352Z',
+  traceId: '6c11a21b-5649-44ee-a58f-db44f6d80743',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 44ms (compile: 12ms, render: 32ms)
+{
+  ts: '2026-01-05T09:00:08.411Z',
+  traceId: 'a2f398a9-4083-4434-b863-8bb2d5616d2a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 26ms (compile: 23ms, render: 3ms)
+{
+  ts: '2026-01-05T09:00:08.416Z',
+  traceId: '564a2883-4fef-459d-b010-8e6adb665e11',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 32ms (compile: 15ms, render: 17ms)
+{
+  ts: '2026-01-05T09:00:12.339Z',
+  traceId: '50b4b965-8fa8-4829-bb91-34057c8d63ea',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 21ms (compile: 17ms, render: 4ms)
+{
+  ts: '2026-01-05T09:00:12.343Z',
+  traceId: 'c952ffcb-f6f3-481a-9ec2-5ac36724e5c6',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 25ms (compile: 8ms, render: 17ms)
+{
+  ts: '2026-01-05T09:00:13.402Z',
+  traceId: '968d6329-82a8-4228-b5b5-954f373c078f',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 13ms, render: 3ms)
+{
+  ts: '2026-01-05T09:00:13.405Z',
+  traceId: '82ef54b0-7147-4f09-ae53-c8d1f08120a9',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 22ms (compile: 5ms, render: 17ms)
+{
+  ts: '2026-01-05T09:00:17.345Z',
+  traceId: 'c6657cee-8733-4fe4-8a1a-fa56abd0f794',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 22ms, render: 5ms)
+{
+  ts: '2026-01-05T09:00:17.350Z',
+  traceId: '083b4b50-6ccc-4975-b908-ccb0f5aa4e98',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 31ms (compile: 15ms, render: 16ms)
+{
+  ts: '2026-01-05T09:00:18.422Z',
+  traceId: 'fcfa60eb-c8df-4ed7-93d0-70c42ca45c5a',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 27ms (compile: 23ms, render: 4ms)
+{
+  ts: '2026-01-05T09:00:18.425Z',
+  traceId: '9aade6c7-500b-4683-94da-282b69dfd76f',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 15ms, render: 15ms)
+{
+  ts: '2026-01-05T09:00:22.332Z',
+  traceId: '80afd767-1c29-4ba6-83c3-a9e9d2492aca',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 23ms (compile: 12ms, render: 11ms)
+{
+  ts: '2026-01-05T09:00:22.345Z',
+  traceId: 'cee85ff9-ae8c-4298-903e-423e2cb08453',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 11ms (compile: 7ms, render: 4ms)
+{
+  ts: '2026-01-05T09:00:23.402Z',
+  traceId: '70226534-4e37-4eb3-a588-93bb14e59889',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 17ms (compile: 14ms, render: 3ms)
+{
+  ts: '2026-01-05T09:00:23.405Z',
+  traceId: '9d39347f-c091-4d20-84f9-d8fff1f67ec9',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 21ms (compile: 6ms, render: 15ms)
+{
+  ts: '2026-01-05T09:00:27.349Z',
+  traceId: 'b3343e12-4f1d-4b86-9523-a038ee11308b',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 23ms (compile: 20ms, render: 4ms)
+{
+  ts: '2026-01-05T09:00:27.354Z',
+  traceId: 'cfcabe8b-523f-4295-ae59-89741be0b63a',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 28ms (compile: 12ms, render: 16ms)
+{
+  ts: '2026-01-05T09:00:28.420Z',
+  traceId: 'e22b2a17-35bc-44eb-bf88-294b5b0b783c',
+  level: 'info',
+  event: 'console.transactions',
+  count: 28
+}
+ GET /api/console/transactions 200 in 25ms (compile: 21ms, render: 5ms)
+{
+  ts: '2026-01-05T09:00:28.423Z',
+  traceId: 'e879b3fc-dccb-4a4a-beda-2e00a98e2a85',
+  level: 'info',
+  event: 'console.overview',
+  totalCount: 28
+}
+ GET /api/console/overview 200 in 30ms (compile: 13ms, render: 16ms)
