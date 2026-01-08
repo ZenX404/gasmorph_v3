@@ -7,7 +7,10 @@ param(
   [string]$MonadRpc = "",
   [string]$BundlerRpc = "",
   [string]$PaymasterRpc = "",
+  [Alias("SponsorPrivateKey")]
   [string]$SponsorPk = "",
+  [Alias("FaucetPrivateKey")]
+  [string]$FaucetPk = "",
   [string]$VoucherAddress = "",
   [string]$DemoAddress = "",
   [string]$EntryPoint = "",
@@ -22,12 +25,15 @@ NEXT_PUBLIC_MONAD_TESTNET_RPC_URL=$MonadRpc
 BUNDLER_RPC_URL=$BundlerRpc
 PAYMASTER_RPC_URL=$PaymasterRpc
 SPONSOR_PRIVATE_KEY=$SponsorPk
+NEXT_PUBLIC_SPONSOR_PRIVATE_KEY=$SponsorPk
 NEXT_PUBLIC_VOUCHER_CONTRACT_ADDRESS=$VoucherAddress
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=demo
 DEMO_CONTRACT_ADDRESS=$DemoAddress
 ENTRYPOINT_ADDRESS=$EntryPoint
 PAYMASTER_ADDRESS=$PaymasterAddress
 DEFAULT_CHAIN_ID=$DefaultChainId
+FAUCET_PRIVATE_KEY=$FaucetPk
+NEXT_PUBLIC_FAUCET_PRIVATE_KEY=$FaucetPk
 "@
 
 Write-Host "Writing env file to $EnvFile (will overwrite existing file)"

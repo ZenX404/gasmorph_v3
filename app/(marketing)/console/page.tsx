@@ -8,9 +8,13 @@ import DashboardCards from "@/app/components/console/DashboardCards";
 import SponsorSummary from "@/app/components/console/SponsorSummary";
 import TransactionTable from "@/app/components/console/TransactionTable";
 import IssueVoucherForm from "@/app/components/console/IssueVoucherForm";
+import ProjectConfigCard from "@/app/components/console/ProjectConfigCard";
+import ActivityForm, { type ActivityDraft } from "@/app/components/console/ActivityForm";
+import ActivityList, { type ActivityListItem } from "@/app/components/console/ActivityList";
 import TrendChart from "@/app/components/console/TrendChart";
 import SubsidyToggle from "@/app/components/SubsidyToggle";
 import { buildConsoleTrendSeries } from "@/app/lib/console/chartData";
+import { writeProjectConfigCache } from "@/app/lib/console/projectConfigCache";
 import { normalizeMetrics, type ConsoleMetric } from "@/app/lib/console/metrics";
 import type { VoucherKind } from "@/app/lib/voucher/types";
 
@@ -42,6 +46,16 @@ type TransactionItem = {
   createdAt: number;
 };
 
+type ProjectConfigResponse = {
+  subsidyAccount: { address: string; note?: string } | null;
+  checkInEnabled: boolean;
+  updatedAt: string;
+};
+
+type ActivitiesResponse = {
+  items: ActivityListItem[];
+};
+
 function isValidAddress(value: string) {
   return /^0x[a-fA-F0-9]{40}$/.test(value);
 }
@@ -64,6 +78,21 @@ function buildTxSignature(items: TransactionItem[]) {
     .join("|");
 }
 
+function buildConfigSignature(data?: ProjectConfigResponse | null) {
+  if (!data) return "";
+  const account = data.subsidyAccount ? `${data.subsidyAccount.address}:${data.subsidyAccount.note ?? ""}` : "";
+  return `${account}|${data.checkInEnabled ? "1" : "0"}`;
+}
+
+function buildActivitySignature(items: ActivityListItem[]) {
+  return items
+    .map(
+      (item) =>
+        `${item.id}:${item.status}:${item.remainingQuota}:${item.startsAt}:${item.endsAt}:${item.updatedAt}`,
+    )
+    .join("|");
+}
+
 export default function ConsolePage() {
   const pathname = usePathname();
   const [overview, setOverview] = useState<OverviewResponse | null>(null);
@@ -74,8 +103,19 @@ export default function ConsolePage() {
   const [resetAddress, setResetAddress] = useState("");
   const [resetLoading, setResetLoading] = useState(false);
   const [resetMessage, setResetMessage] = useState<string | null>(null);
+  const [projectConfig, setProjectConfig] = useState<ProjectConfigResponse | null>(null);
+  const [configLoading, setConfigLoading] = useState(false);
+  const [configMessage, setConfigMessage] = useState<string | null>(null);
+  const [activities, setActivities] = useState<ActivityListItem[]>([]);
+  const [activityLoading, setActivityLoading] = useState(false);
+  const [activitySubmitting, setActivitySubmitting] = useState(false);
+  const [activityMessage, setActivityMessage] = useState<string | null>(null);
+  const [activityError, setActivityError] = useState<string | null>(null);
+  const [activityActionId, setActivityActionId] = useState<string | null>(null);
   const overviewSigRef = useRef("");
   const txSigRef = useRef("");
+  const configSigRef = useRef("");
+  const activitySigRef = useRef("");
 
   const nav = useMemo(
     () => navItems.map((item) => ({ ...item, isActive: item.href === pathname })),
@@ -86,9 +126,10 @@ export default function ConsolePage() {
 
   const refresh = useCallback(async () => {
     try {
-      const [overviewRes, txRes] = await Promise.all([
+      const [overviewRes, txRes, configRes] = await Promise.all([
         fetch("/api/console/overview"),
         fetch("/api/console/transactions"),
+        fetch("/api/console/project-config"),
       ]);
       if (overviewRes.ok) {
         const overviewJson = (await overviewRes.json()) as OverviewResponse;
@@ -112,10 +153,52 @@ export default function ConsolePage() {
           setTransactions(nextItems);
         }
       }
+      if (configRes.ok) {
+        const configJson = (await configRes.json()) as ProjectConfigResponse;
+        const sig = buildConfigSignature(configJson);
+        if (sig !== configSigRef.current) {
+          configSigRef.current = sig;
+          setProjectConfig(configJson);
+        }
+      }
     } catch {
       // ignore refresh errors to keep UI responsive
     }
   }, []);
+
+  const loadActivities = useCallback(
+    async (options?: { silent?: boolean }) => {
+      const silent = options?.silent ?? false;
+      if (!silent) {
+        setActivityLoading(true);
+        setActivityMessage(null);
+        setActivityError(null);
+      }
+      try {
+        const res = await fetch("/api/console/activities");
+        if (!res.ok) {
+          const data = await res.json();
+          throw new Error(data.error || "Failed to load activities");
+        }
+        const data = (await res.json()) as ActivitiesResponse;
+        const nextItems = data.items ?? [];
+        const sig = buildActivitySignature(nextItems);
+        if (sig !== activitySigRef.current) {
+          activitySigRef.current = sig;
+          setActivities(nextItems);
+        }
+      } catch (error) {
+        if (!silent) {
+          setActivityError((error as Error).message || "Failed to load activities");
+        }
+      } finally {
+        if (!silent) {
+          setActivityLoading(false);
+        }
+      }
+    },
+    [],
+  );
 
   useEffect(() => {
     refresh();
@@ -126,6 +209,17 @@ export default function ConsolePage() {
       window.removeEventListener("focus", refresh);
     };
   }, [refresh]);
+
+  useEffect(() => {
+    loadActivities();
+    const interval = setInterval(() => loadActivities({ silent: true }), 5000);
+    const handleFocus = () => loadActivities({ silent: true });
+    window.addEventListener("focus", handleFocus);
+    return () => {
+      clearInterval(interval);
+      window.removeEventListener("focus", handleFocus);
+    };
+  }, [loadActivities]);
 
   const handleToggle = async (enabled: boolean) => {
     setToggleLoading(true);
@@ -186,6 +280,133 @@ export default function ConsolePage() {
     setResetLoading(false);
   };
 
+  const handleConfigSave = async (payload: {
+    subsidyAccount: { address: string; note?: string } | null;
+    checkInEnabled: boolean;
+    sponsorPrivateKey?: string | null;
+  }) => {
+    setConfigLoading(true);
+    setConfigMessage(null);
+    writeProjectConfigCache({
+      subsidyAccount: payload.subsidyAccount,
+      checkInEnabled: payload.checkInEnabled,
+      updatedAt: Date.now(),
+    });
+    try {
+      const res = await fetch("/api/console/project-config", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) {
+        const data = await res.json();
+        setConfigMessage(data.error || "Failed to save project config");
+        return;
+      }
+      setConfigMessage("配置已保存");
+      await refresh();
+    } catch (error) {
+      setConfigMessage((error as Error).message || "Failed to save project config");
+    } finally {
+      setConfigLoading(false);
+    }
+  };
+
+  const handleCheckInToggle = async (enabled: boolean) => {
+    setConfigLoading(true);
+    setConfigMessage(null);
+    writeProjectConfigCache({
+      subsidyAccount: projectConfig?.subsidyAccount ?? null,
+      checkInEnabled: enabled,
+      updatedAt: Date.now(),
+    });
+    try {
+      const res = await fetch("/api/console/project-config", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ checkInEnabled: enabled }),
+      });
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || "Failed to update check-in state");
+      }
+      setConfigMessage("配置已保存");
+      await refresh();
+    } finally {
+      setConfigLoading(false);
+    }
+  };
+
+  const handleActivityCreate = async (payload: ActivityDraft) => {
+    setActivitySubmitting(true);
+    setActivityMessage(null);
+    setActivityError(null);
+    try {
+      const res = await fetch("/api/console/activities", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) {
+        const data = await res.json();
+        setActivityError(data.error || "Failed to create activity");
+        return;
+      }
+      setActivityMessage("活动已创建");
+      await loadActivities();
+    } catch (error) {
+      setActivityError((error as Error).message || "Failed to create activity");
+    } finally {
+      setActivitySubmitting(false);
+    }
+  };
+
+  const handleActivityStatus = async (id: string, status: "active" | "paused") => {
+    setActivityActionId(id);
+    setActivityMessage(null);
+    setActivityError(null);
+    try {
+      const res = await fetch(`/api/console/activities/${id}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ status }),
+      });
+      if (!res.ok) {
+        const data = await res.json();
+        setActivityError(data.error || "Failed to update activity");
+        return;
+      }
+      setActivityMessage("活动状态已更新");
+      await loadActivities({ silent: true });
+    } catch (error) {
+      setActivityError((error as Error).message || "Failed to update activity");
+    } finally {
+      setActivityActionId(null);
+    }
+  };
+
+  const handleActivityDelete = async (id: string) => {
+    const confirmed = window.confirm("确认删除该活动吗？");
+    if (!confirmed) return;
+    setActivityActionId(id);
+    setActivityMessage(null);
+    setActivityError(null);
+    try {
+      const res = await fetch(`/api/console/activities/${id}`, { method: "DELETE" });
+      if (!res.ok) {
+        const data = await res.json();
+        setActivityError(data.error || "Failed to delete activity");
+        return;
+      }
+      setActivityMessage("活动已删除");
+      await loadActivities({ silent: true });
+    } catch (error) {
+      setActivityError((error as Error).message || "Failed to delete activity");
+    } finally {
+      setActivityActionId(null);
+    }
+  };
+
   return (
     <AppShell
       title="GasMorph 控制台"
@@ -201,25 +422,52 @@ export default function ConsolePage() {
       }
     >
       <PageShell>
-        <div className="lg:col-span-7">
-          <SectionCard
-            title="运行概览"
-            subtitle="实时运营指标，并预留后续图表扩展空间。"
-          >
+        <div className="lg:col-span-8 space-y-6">
+          <SectionCard title="运行概览" subtitle="实时运营指标，并预留后续图表扩展空间。">
             <DashboardCards metrics={overview?.metrics ?? []} />
           </SectionCard>
-        </div>
-        <div className="lg:col-span-5">
-          <SectionCard title="补贴账户" subtitle="余额变动与近期活动快照。">
-            <SponsorSummary summary={overview?.sponsorSummary} />
-          </SectionCard>
-        </div>
-        <div className="lg:col-span-7">
           <SectionCard title="覆盖趋势" subtitle="按小时展示补贴与消费券覆盖量。">
             <TrendChart series={chartSeries} />
           </SectionCard>
+          <SectionCard title="活动管理" subtitle="创建活动并同步到演示页面。">
+            <div className="grid gap-6 lg:grid-cols-2">
+              <div>
+                <ActivityForm
+                  onCreate={handleActivityCreate}
+                  isLoading={activitySubmitting}
+                  message={activityMessage}
+                />
+              </div>
+              <div className="space-y-3">
+                {activityLoading ? <p className="text-sm text-[var(--app-muted)]">正在加载活动...</p> : null}
+                <ActivityList
+                  items={activities}
+                  onStatusChange={handleActivityStatus}
+                  onDelete={handleActivityDelete}
+                  busyId={activityActionId}
+                />
+                {activityError ? <p className="text-sm text-rose-600">{activityError}</p> : null}
+              </div>
+            </div>
+          </SectionCard>
+          <SectionCard title="最新交易" subtitle="最新的补贴与消费券动作。">
+            <TransactionTable items={transactions} />
+          </SectionCard>
         </div>
-        <div className="lg:col-span-5">
+        <div className="lg:col-span-4 space-y-6">
+          <SectionCard title="补贴账户" subtitle="当前补贴扣费账户与近期活动快照。">
+            <SponsorSummary summary={overview?.sponsorSummary} />
+          </SectionCard>
+          <SectionCard title="项目配置" subtitle="设置补贴扣费账户与签到活动开关。">
+            <ProjectConfigCard
+              key={projectConfig?.updatedAt ?? "config"}
+              config={projectConfig}
+              onSave={handleConfigSave}
+              onToggleCheckIn={handleCheckInToggle}
+              saving={configLoading}
+              message={configMessage}
+            />
+          </SectionCard>
           <SectionCard title="发放消费券" subtitle="在控制台向任意地址发放消费券 NFT。">
             <IssueVoucherForm onIssue={handleIssue} isLoading={issueLoading} />
             {issueMessage ? <p className="mt-4 text-sm text-[var(--app-muted)]">{issueMessage}</p> : null}
@@ -253,11 +501,6 @@ export default function ConsolePage() {
               </div>
               {resetMessage ? <p className="mt-3 text-xs text-rose-600">{resetMessage}</p> : null}
             </div>
-          </SectionCard>
-        </div>
-        <div className="lg:col-span-12">
-          <SectionCard title="最新交易" subtitle="最新的补贴与消费券动作。">
-            <TransactionTable items={transactions} />
           </SectionCard>
         </div>
       </PageShell>

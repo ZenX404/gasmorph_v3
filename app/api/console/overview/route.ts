@@ -1,15 +1,13 @@
-﻿import { NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { createPublicClient, formatEther, http, type Address } from "viem";
-import { privateKeyToAccount } from "viem/accounts";
 import { normalizeMetrics } from "@/app/lib/console/metrics";
-import { getConsoleState, setSponsorBaseline } from "@/app/lib/console/store";
+import { getConsoleState, setSponsorAddress, setSponsorBaseline } from "@/app/lib/console/store";
+import { resolveSponsorAccount } from "@/app/lib/console/sponsor";
 import { createTraceContext, logError, logRequest } from "@/app/lib/telemetry/logger";
 
 function getRpcUrl() {
   return process.env.NEXT_PUBLIC_ANVIL_RPC_URL || "http://127.0.0.1:8545";
 }
-
-const fallbackSponsorPk = "0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603c9a21c087";
 
 export async function GET() {
   const trace = createTraceContext();
@@ -27,26 +25,36 @@ export async function GET() {
       { key: "successRate", label: "Success rate", value: `${successRate}%` },
     ]);
 
-    let sponsorAddress: Address = "0x0000000000000000000000000000000000000000";
-    const sponsorPk =
-      process.env.SPONSOR_PRIVATE_KEY ||
-      process.env.NEXT_PUBLIC_SPONSOR_PRIVATE_KEY ||
-      fallbackSponsorPk;
-    sponsorAddress = privateKeyToAccount(sponsorPk as `0x${string}`).address;
+    const { account, configuredAddress } = resolveSponsorAccount();
+    const sponsorAddress: Address = configuredAddress || account.address;
 
-    const client = createPublicClient({ transport: http(getRpcUrl()) });
-    const balance = await client.getBalance({ address: sponsorAddress });
-    if (!state.sponsorBaseline) {
-      setSponsorBaseline(balance);
+    if (state.sponsorAddress !== sponsorAddress) {
+      setSponsorAddress(sponsorAddress);
+      state.sponsorBaseline = undefined;
     }
-    const baseline = state.sponsorBaseline ?? balance;
-    const delta = balance - baseline;
 
-    const sponsorSummary = {
+    let sponsorSummary = {
       address: sponsorAddress,
-      balanceDelta: formatEther(delta),
+      balanceDelta: formatEther(BigInt(0)),
       lastTxAt: transactions[0]?.createdAt ? new Date(transactions[0].createdAt).toISOString() : null,
     };
+
+    try {
+      const client = createPublicClient({ transport: http(getRpcUrl()) });
+      const balance = await client.getBalance({ address: sponsorAddress });
+      if (!state.sponsorBaseline) {
+        setSponsorBaseline(balance);
+      }
+      const baseline = state.sponsorBaseline ?? balance;
+      const delta = balance - baseline;
+      sponsorSummary = {
+        address: sponsorAddress,
+        balanceDelta: formatEther(delta),
+        lastTxAt: transactions[0]?.createdAt ? new Date(transactions[0].createdAt).toISOString() : null,
+      };
+    } catch (error) {
+      logError("console.overview.rpc.error", { message: (error as Error).message }, trace.traceId);
+    }
 
     logRequest("console.overview", { totalCount }, trace.traceId);
 

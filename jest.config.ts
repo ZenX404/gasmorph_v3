@@ -9,9 +9,16 @@ const config: Config = {
   },
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/$1",
+    "^@gasmorph/sdk$": "<rootDir>/packages/sdk/src/index.ts",
     "\\.(css|less|sass|scss)$": "<rootDir>/tests/utils/styleMock.ts",
   },
-  testMatch: ["**/tests/**/*.spec.tsx"],
+  testPathIgnorePatterns: ["<rootDir>/tests/e2e/"],
+  testMatch: [
+    "**/tests/**/*.spec.tsx",
+    "**/tests/**/*.test.tsx",
+    "**/tests/**/*.spec.ts",
+    "**/tests/**/*.test.ts",
+  ],
 };
 
 export default config;

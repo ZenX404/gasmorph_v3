@@ -1,4 +1,4 @@
-import type { ConsoleMetric } from "@/app/lib/console/metrics";
+﻿import type { ConsoleMetric } from "@/app/lib/console/metrics";
 import { DataPill } from "../layout/pageShell";
 
 const iconMap: Record<string, string> = {

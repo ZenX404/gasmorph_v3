@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@gasmorph/sdk": ["./packages/sdk/src/index.ts"]
     }
   },
   "include": [

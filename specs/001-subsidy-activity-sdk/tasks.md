@@ -13,21 +13,21 @@
 
 ## Phase 1: Setup (Shared Infrastructure)
 **Purpose**: Project initialization and basic structure
-- [ ] T001 Create SDK package scaffold in packages/sdk/package.json, packages/sdk/tsconfig.json, packages/sdk/README.md
-- [ ] T002 [P] Add SDK source entry stub in packages/sdk/src/index.ts
-- [ ] T003 [P] Add tsconfig path alias for @gasmorph/sdk in tsconfig.json
+- [x] T001 Create SDK package scaffold in packages/sdk/package.json, packages/sdk/tsconfig.json, packages/sdk/README.md
+- [x] T002 [P] Add SDK source entry stub in packages/sdk/src/index.ts
+- [x] T003 [P] Add tsconfig path alias for @gasmorph/sdk in tsconfig.json
 
 ---
 
 ## Phase 2: Foundational (Blocking Prerequisites)
 **Purpose**: Core infrastructure that MUST be complete before ANY user story can be implemented
 **CRITICAL**: No user story work can begin until this phase is complete
-- [ ] T004 [P] Add activity domain types in app/lib/activities/types.ts
-- [ ] T005 [P] Add activity store in app/lib/activities/store.ts
-- [ ] T006 [P] Add project config store in app/lib/console/projectConfigStore.ts
-- [ ] T007 [P] Extend request validators for project config and activities in app/lib/validation/validators.ts
-- [ ] T008 Add shared activity error mapping in app/lib/activities/errors.ts
-- [ ] T009 [P] Add log redaction helper for sensitive fields in app/lib/telemetry/redact.ts
+- [x] T004 [P] Add activity domain types in app/lib/activities/types.ts
+- [x] T005 [P] Add activity store in app/lib/activities/store.ts
+- [x] T006 [P] Add project config store in app/lib/console/projectConfigStore.ts
+- [x] T007 [P] Extend request validators for project config and activities in app/lib/validation/validators.ts
+- [x] T008 Add shared activity error mapping in app/lib/activities/errors.ts
+- [x] T009 [P] Add log redaction helper for sensitive fields in app/lib/telemetry/redact.ts
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
@@ -38,20 +38,20 @@
 **Independent Test**: 通过控制台保存配置并关闭签到，演示页同步显示不可签到
 
 ### Tests for User Story 1 (必选)
-- [ ] T010 [P] [US1] Unit test for project config store in tests/unit/project-config-store.spec.ts
-- [ ] T011 [P] [US1] Unit test for config validation (reject sensitive fields) in tests/unit/project-config-validators.spec.ts
-- [ ] T012 [P] [US1] Integration test for project config API in tests/integration/project-config.test.ts
-- [ ] T013 [P] [US1] Integration test for check-in toggle enforcement in tests/integration/checkin-toggle.test.ts
-- [ ] T014 [P] [US1] Page-level E2E for console config + check-in toggle in tests/e2e/console/project-config.spec.ts
+- [x] T010 [P] [US1] Unit test for project config store in tests/unit/project-config-store.spec.ts
+- [x] T011 [P] [US1] Unit test for config validation (reject sensitive fields) in tests/unit/project-config-validators.spec.ts
+- [x] T012 [P] [US1] Integration test for project config API in tests/integration/project-config.test.ts
+- [x] T013 [P] [US1] Integration test for check-in toggle enforcement in tests/integration/checkin-toggle.test.ts
+- [x] T014 [P] [US1] Page-level E2E for console config + check-in toggle in tests/e2e/console/project-config.spec.ts
 
 ### Implementation for User Story 1
-- [ ] T015 [P] [US1] Implement project config API in app/api/console/project-config/route.ts
-- [ ] T016 [P] [US1] Add console config UI in app/components/console/ProjectConfigCard.tsx
-- [ ] T017 [US1] Wire console page to config API in app/(marketing)/console/page.tsx
-- [ ] T018 [US1] Apply check-in toggle to demo UI in app/(marketing)/subsidy/page.tsx
-- [ ] T019 [US1] Enforce check-in toggle on server in app/api/demo/checkin/route.ts
-- [ ] T020 [US1] Update check-in component for disabled state in app/components/voucher/CheckInCard.tsx
-- [ ] T021 [US1] Add sanitized structured logs for config updates in app/api/console/project-config/route.ts
+- [x] T015 [P] [US1] Implement project config API in app/api/console/project-config/route.ts
+- [x] T016 [P] [US1] Add console config UI in app/components/console/ProjectConfigCard.tsx
+- [x] T017 [US1] Wire console page to config API in app/(marketing)/console/page.tsx
+- [x] T018 [US1] Apply check-in toggle to demo UI in app/(marketing)/subsidy/page.tsx
+- [x] T019 [US1] Enforce check-in toggle on server in app/api/demo/checkin/route.ts
+- [x] T020 [US1] Update check-in component for disabled state in app/components/voucher/CheckInCard.tsx
+- [x] T021 [US1] Add sanitized structured logs for config updates in app/api/console/project-config/route.ts
 
 **Checkpoint**: User Story 1 should be fully functional and testable independently
 
@@ -62,21 +62,21 @@
 **Independent Test**: 创建活动并在演示页领取一次消费券
 
 ### Tests for User Story 2 (必选)
-- [ ] T022 [P] [US2] Unit test for activity store rules in tests/unit/activity-store.spec.ts
-- [ ] T023 [P] [US2] Unit test for activity claim rules in tests/unit/activity-claim.spec.ts
-- [ ] T024 [P] [US2] Integration test for activities APIs in tests/integration/activities-api.test.ts
-- [ ] T025 [P] [US2] Page-level E2E for activity create + claim in tests/e2e/subsidy/activities.spec.ts
+- [x] T022 [P] [US2] Unit test for activity store rules in tests/unit/activity-store.spec.tsx
+- [x] T023 [P] [US2] Unit test for activity claim rules in tests/unit/activity-claim.spec.tsx
+- [x] T024 [P] [US2] Integration test for activities APIs in tests/integration/activities-api.test.ts
+- [x] T025 [P] [US2] Page-level E2E for activity create + claim in tests/e2e/subsidy/activities.spec.ts
 
 ### Implementation for User Story 2
-- [ ] T026 [P] [US2] Implement console activities API (list/create) in app/api/console/activities/route.ts
-- [ ] T027 [P] [US2] Implement console activities API (update/delete) in app/api/console/activities/[id]/route.ts
-- [ ] T028 [P] [US2] Implement demo activities API in app/api/demo/activities/route.ts
-- [ ] T029 [P] [US2] Implement demo activity claim API in app/api/demo/activities/claim/route.ts
-- [ ] T030 [P] [US2] Add console activity form UI in app/components/console/ActivityForm.tsx
-- [ ] T031 [P] [US2] Add console activity list UI in app/components/console/ActivityList.tsx
-- [ ] T032 [US2] Wire console activities into app/(marketing)/console/page.tsx
-- [ ] T033 [P] [US2] Add demo activity board UI in app/components/voucher/ActivityBoard.tsx
-- [ ] T034 [US2] Wire demo activity board into app/(marketing)/subsidy/page.tsx
+- [x] T026 [P] [US2] Implement console activities API (list/create) in app/api/console/activities/route.ts
+- [x] T027 [P] [US2] Implement console activities API (update/delete) in app/api/console/activities/[id]/route.ts
+- [x] T028 [P] [US2] Implement demo activities API in app/api/demo/activities/route.ts
+- [x] T029 [P] [US2] Implement demo activity claim API in app/api/demo/activities/claim/route.ts
+- [x] T030 [P] [US2] Add console activity form UI in app/components/console/ActivityForm.tsx
+- [x] T031 [P] [US2] Add console activity list UI in app/components/console/ActivityList.tsx
+- [x] T032 [US2] Wire console activities into app/(marketing)/console/page.tsx
+- [x] T033 [P] [US2] Add demo activity board UI in app/components/voucher/ActivityBoard.tsx
+- [x] T034 [US2] Wire demo activity board into app/(marketing)/subsidy/page.tsx
 
 **Checkpoint**: User Stories 1 AND 2 should both work independently
 
@@ -87,18 +87,18 @@
 **Independent Test**: 演示页通过 SDK 完成补贴交易与活动领券
 
 ### Tests for User Story 3 (必选)
-- [ ] T035 [P] [US3] Unit test for SDK client in tests/unit/sdk/client.spec.ts
-- [ ] T036 [P] [US3] Unit test for SDK activities in tests/unit/sdk/activities.spec.ts
-- [ ] T037 [P] [US3] Page-level E2E for SDK demo flow in tests/e2e/subsidy/sdk-flow.spec.ts
+- [x] T035 [P] [US3] Unit test for SDK client in tests/unit/sdk/client.spec.tsx
+- [x] T036 [P] [US3] Unit test for SDK activities in tests/unit/sdk/activities.spec.tsx
+- [x] T037 [P] [US3] Page-level E2E for SDK demo flow in tests/e2e/subsidy/sdk-flow.spec.ts
 
 ### Implementation for User Story 3
-- [ ] T038 [P] [US3] Implement SDK core types in packages/sdk/src/types.ts
-- [ ] T039 [P] [US3] Implement SDK client in packages/sdk/src/client.ts
-- [ ] T040 [P] [US3] Implement SDK activities helpers in packages/sdk/src/activities.ts
-- [ ] T041 [P] [US3] Implement SDK voucher helpers in packages/sdk/src/vouchers.ts
-- [ ] T042 [US3] Export SDK public API in packages/sdk/src/index.ts
-- [ ] T043 [US3] Update tsconfig.json path mappings for SDK imports
-- [ ] T044 [US3] Integrate SDK usage into demo flow in app/(marketing)/subsidy/page.tsx and app/lib/demoAction.ts
+- [x] T038 [P] [US3] Implement SDK core types in packages/sdk/src/types.ts
+- [x] T039 [P] [US3] Implement SDK client in packages/sdk/src/client.ts
+- [x] T040 [P] [US3] Implement SDK activities helpers in packages/sdk/src/activities.ts
+- [x] T041 [P] [US3] Implement SDK voucher helpers in packages/sdk/src/vouchers.ts
+- [x] T042 [US3] Export SDK public API in packages/sdk/src/index.ts
+- [x] T043 [US3] Update tsconfig.json path mappings for SDK imports
+- [x] T044 [US3] Integrate SDK usage into demo flow in app/(marketing)/subsidy/page.tsx and app/lib/demoAction.ts
 
 **Checkpoint**: All user stories should now be independently functional
 
@@ -106,12 +106,12 @@
 
 ## Phase 6: Polish & Cross-Cutting Concerns
 **Purpose**: Improvements that affect multiple user stories
-- [ ] T045 [P] Update docs in specs/001-subsidy-activity-sdk/quickstart.md and README.md
-- [ ] T046 [P] Add perf smoke check for config/activity APIs in tests/integration/performance-smoke.test.ts
-- [ ] T047 Run lint/typecheck (`npm run lint`, `npm run typecheck`)
-- [ ] T048 Run unit tests (`npm test`)
-- [ ] T049 Run page-level E2E (`npm run playwright`)
-- [ ] T050 Run quickstart validation steps from specs/001-subsidy-activity-sdk/quickstart.md
+- [x] T045 [P] Update docs in specs/001-subsidy-activity-sdk/quickstart.md and README.md
+- [x] T046 [P] Add perf smoke check for config/activity APIs in tests/integration/performance-smoke.test.tsx
+- [x] T047 Run lint/typecheck (`npm run lint`, `npm run typecheck`)
+- [x] T048 Run unit tests (`npm test`)
+- [x] T049 Run page-level E2E (`npm run playwright`)
+- [x] T050 Run quickstart validation steps from specs/001-subsidy-activity-sdk/quickstart.md
 
 ---
 

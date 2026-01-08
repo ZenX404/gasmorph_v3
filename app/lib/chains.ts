@@ -1,7 +1,7 @@
 import type { Chain } from "viem";
 import { defineChain } from "viem";
 
-// 说明：全部链均为测试网，RPC 通过环境变量注入，避免硬编码私有节点。
+// 说明: 全部链均为测试网，RPC 通过环境变量注入，避免硬编码私有节点。
 const sepoliaRpc = process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL || "https://rpc.sepolia.org";
 const monadRpc = process.env.NEXT_PUBLIC_MONAD_TESTNET_RPC_URL;
 
@@ -55,7 +55,7 @@ function reorderByDefault(chains: Chain[]): Chain[] {
 }
 
 export function getSupportedChains(): Chain[] {
-  // 默认优先真实测试网，其次可选 Monad，最后保留本地 anvil。若设置 DEFAULT_CHAIN_ID，则按其排序优先。
+  // 默认优先真实测试网，其次可选 Monad，最后保留本地 anvil。
   const base: Chain[] = [sepolia];
   if (monadRpc) base.push(monadTestnet);
   base.push(anvil);

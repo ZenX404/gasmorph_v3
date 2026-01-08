@@ -24,6 +24,7 @@ type ConsoleState = {
   issuedVouchers: IssuedVoucherRecord[];
   updatedAt: number;
   sponsorBaseline?: bigint;
+  sponsorAddress?: string;
 };
 
 const globalKey = "__gasmorph_console_state__";
@@ -67,4 +68,10 @@ export function recordIssuedVoucher(record: IssuedVoucherRecord) {
 export function setSponsorBaseline(balance: bigint) {
   const state = getGlobalState();
   state.sponsorBaseline = balance;
+}
+
+export function setSponsorAddress(address: string) {
+  const state = getGlobalState();
+  state.sponsorAddress = address;
+  state.updatedAt = Date.now();
 }

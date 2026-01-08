@@ -11,44 +11,50 @@ export default function NetworkGuardBanner() {
 
   return (
     <div
-      className="glass-card glow flex flex-col gap-2 rounded-xl border-amber-200/60 bg-amber-50/80 px-4 py-3 text-amber-900 md:flex-row md:items-center md:justify-between"
+      className="glass-card glow flex flex-col gap-3 rounded-2xl border border-amber-200/70 bg-amber-50/80 px-4 py-4 text-amber-900 md:flex-row md:items-center md:justify-between"
       role="alert"
       aria-live="polite"
     >
-      <div className="flex items-center gap-2">
-        <span role="img" aria-label="警告">
+      <div className="flex items-start gap-3">
+        <span
+          role="img"
+          aria-label="Warning"
+          className="flex h-7 w-7 items-center justify-center rounded-full border border-amber-300/70 bg-white/70 text-sm font-semibold"
+        >
           !
         </span>
         <div className="text-sm">
-          <div>不支持的网络：{chainId ?? "未知"}</div>
-          <div className="text-amber-900/70">请切换到 {recommended?.name ?? "受支持的测试网"} 以继续。</div>
+          <div className="font-semibold">Unsupported network: {chainId ?? "Unknown"}</div>
+          <div className="text-amber-900/70">
+            Switch to {recommended?.name ?? "a supported testnet"} to continue.
+          </div>
         </div>
       </div>
-      <button
-        type="button"
-        onClick={() => ensureSupportedNetwork()}
-        aria-label="切换到受支持的网络"
-        className="rounded-full border border-amber-300/70 px-3 py-2 text-xs font-semibold text-amber-900 transition hover:border-amber-400"
-      >
-        尝试自动切换
-      </button>
-      <div className="flex flex-wrap gap-2 text-xs">
+      <div className="flex flex-wrap items-center gap-2 text-xs">
+        <button
+          type="button"
+          onClick={() => ensureSupportedNetwork()}
+          aria-label="Switch to the recommended network"
+          className="rounded-full border border-amber-300/70 px-3 py-2 font-semibold text-amber-900 transition hover:border-amber-400"
+        >
+          Try auto switch
+        </button>
         <button
           type="button"
           onClick={() => ensureSupportedNetwork(sepolia.id)}
           className="rounded-full border border-amber-300/70 px-3 py-2 text-amber-900 transition hover:border-amber-400"
         >
-          切换到 Sepolia
+          Switch to Sepolia
         </button>
-        {monadTestnet.rpcUrls.default.http.length > 0 && (
+        {monadTestnet.rpcUrls.default.http.length > 0 ? (
           <button
             type="button"
             onClick={() => ensureSupportedNetwork(monadTestnet.id)}
             className="rounded-full border border-amber-300/70 px-3 py-2 text-amber-900 transition hover:border-amber-400"
           >
-            切换到 Monad 测试网
+            Switch to Monad Testnet
           </button>
-        )}
+        ) : null}
       </div>
     </div>
   );
